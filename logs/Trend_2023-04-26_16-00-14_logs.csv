@@ -1,0 +1,1704 @@
+2023-04-26 16:00:17,244: root: INFO: Trend : Executing the initialize lifecycle method
+2023-04-26 16:00:17,247: root: INFO: Current backtesting datetime 2022-04-18 08:30:00-04:00
+2023-04-26 16:00:17,248: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:17,250: root: INFO: Current backtesting datetime 2022-04-18 09:30:00-04:00
+2023-04-26 16:00:17,250: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:17,253: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:17,253: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,418: root: ERROR: Error while downloading symbol info for GLD, setting info to None for now.
+2023-04-26 16:00:25,418: root: ERROR: yfinance failed to decrypt Yahoo data response
+2023-04-26 16:00:25,447: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,448: root: INFO: Current backtesting datetime 2022-04-19 09:30:00-04:00
+2023-04-26 16:00:25,448: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,448: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,457: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,458: root: INFO: Current backtesting datetime 2022-04-20 09:30:00-04:00
+2023-04-26 16:00:25,458: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,458: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,467: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,468: root: INFO: Current backtesting datetime 2022-04-21 09:30:00-04:00
+2023-04-26 16:00:25,468: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,468: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,480: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,481: root: INFO: Current backtesting datetime 2022-04-22 09:30:00-04:00
+2023-04-26 16:00:25,481: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,481: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,492: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,493: root: INFO: Current backtesting datetime 2022-04-23 09:30:00-04:00
+2023-04-26 16:00:25,493: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,493: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,502: root: INFO: Current backtesting datetime 2022-04-23 09:25:00-04:00
+2023-04-26 16:00:25,506: root: INFO: Current backtesting datetime 2022-04-23 09:25:00-04:00
+2023-04-26 16:00:25,506: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:25,508: root: INFO: Current backtesting datetime 2022-04-25 08:30:00-04:00
+2023-04-26 16:00:25,509: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:25,511: root: INFO: Current backtesting datetime 2022-04-25 09:30:00-04:00
+2023-04-26 16:00:25,511: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:25,512: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,512: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,522: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,523: root: INFO: Current backtesting datetime 2022-04-26 09:30:00-04:00
+2023-04-26 16:00:25,523: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,523: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,532: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,532: root: INFO: Current backtesting datetime 2022-04-27 09:30:00-04:00
+2023-04-26 16:00:25,533: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,533: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,545: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,546: root: INFO: Current backtesting datetime 2022-04-28 09:30:00-04:00
+2023-04-26 16:00:25,546: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,546: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,558: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:25,560: root: INFO: [32mFilled Transaction: sell 200 of GLD at 176.92999268 USD per share[0m
+2023-04-26 16:00:25,560: root: INFO: market order of | 200 GLD sell | with status unprocessed was filled
+2023-04-26 16:00:25,564: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,565: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:25,565: root: INFO: Current backtesting datetime 2022-04-29 09:30:00-04:00
+2023-04-26 16:00:25,566: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,567: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,579: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,580: root: INFO: Current backtesting datetime 2022-04-30 09:30:00-04:00
+2023-04-26 16:00:25,582: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,582: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,598: root: INFO: Current backtesting datetime 2022-04-30 09:25:00-04:00
+2023-04-26 16:00:25,601: root: INFO: Current backtesting datetime 2022-04-30 09:25:00-04:00
+2023-04-26 16:00:25,601: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:25,603: root: INFO: Current backtesting datetime 2022-05-02 08:30:00-04:00
+2023-04-26 16:00:25,605: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:25,607: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:25,609: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:25,612: root: INFO: Current backtesting datetime 2022-05-02 09:30:00-04:00
+2023-04-26 16:00:25,612: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:25,614: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,614: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,628: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,629: root: INFO: Current backtesting datetime 2022-05-03 09:30:00-04:00
+2023-04-26 16:00:25,630: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,630: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,640: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,641: root: INFO: Current backtesting datetime 2022-05-04 09:30:00-04:00
+2023-04-26 16:00:25,643: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,643: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,652: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,653: root: INFO: Current backtesting datetime 2022-05-05 09:30:00-04:00
+2023-04-26 16:00:25,655: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,655: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,665: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,665: root: INFO: Current backtesting datetime 2022-05-06 09:30:00-04:00
+2023-04-26 16:00:25,667: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,667: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,677: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,677: root: INFO: Current backtesting datetime 2022-05-07 09:30:00-04:00
+2023-04-26 16:00:25,679: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,679: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,693: root: INFO: Current backtesting datetime 2022-05-07 09:25:00-04:00
+2023-04-26 16:00:25,696: root: INFO: Current backtesting datetime 2022-05-07 09:25:00-04:00
+2023-04-26 16:00:25,696: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:25,697: root: INFO: Current backtesting datetime 2022-05-09 08:30:00-04:00
+2023-04-26 16:00:25,698: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:25,699: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:25,700: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:25,702: root: INFO: Current backtesting datetime 2022-05-09 09:30:00-04:00
+2023-04-26 16:00:25,702: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:25,704: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,705: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,715: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,715: root: INFO: Current backtesting datetime 2022-05-10 09:30:00-04:00
+2023-04-26 16:00:25,716: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,717: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,727: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,727: root: INFO: Current backtesting datetime 2022-05-11 09:30:00-04:00
+2023-04-26 16:00:25,729: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,730: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,740: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,741: root: INFO: Current backtesting datetime 2022-05-12 09:30:00-04:00
+2023-04-26 16:00:25,742: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,742: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,751: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,752: root: INFO: Current backtesting datetime 2022-05-13 09:30:00-04:00
+2023-04-26 16:00:25,753: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,753: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,762: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,763: root: INFO: Current backtesting datetime 2022-05-14 09:30:00-04:00
+2023-04-26 16:00:25,765: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,765: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,777: root: INFO: Current backtesting datetime 2022-05-14 09:25:00-04:00
+2023-04-26 16:00:25,779: root: INFO: Current backtesting datetime 2022-05-14 09:25:00-04:00
+2023-04-26 16:00:25,780: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:25,782: root: INFO: Current backtesting datetime 2022-05-16 08:30:00-04:00
+2023-04-26 16:00:25,782: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:25,783: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:25,784: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:25,786: root: INFO: Current backtesting datetime 2022-05-16 09:30:00-04:00
+2023-04-26 16:00:25,786: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:25,788: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,788: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,796: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,796: root: INFO: Current backtesting datetime 2022-05-17 09:30:00-04:00
+2023-04-26 16:00:25,798: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,799: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,810: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,811: root: INFO: Current backtesting datetime 2022-05-18 09:30:00-04:00
+2023-04-26 16:00:25,813: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,813: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,821: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,822: root: INFO: Current backtesting datetime 2022-05-19 09:30:00-04:00
+2023-04-26 16:00:25,823: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,824: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,833: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,834: root: INFO: Current backtesting datetime 2022-05-20 09:30:00-04:00
+2023-04-26 16:00:25,836: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,836: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,847: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,848: root: INFO: Current backtesting datetime 2022-05-21 09:30:00-04:00
+2023-04-26 16:00:25,849: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,849: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,861: root: INFO: Current backtesting datetime 2022-05-21 09:25:00-04:00
+2023-04-26 16:00:25,863: root: INFO: Current backtesting datetime 2022-05-21 09:25:00-04:00
+2023-04-26 16:00:25,864: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:25,865: root: INFO: Current backtesting datetime 2022-05-23 08:30:00-04:00
+2023-04-26 16:00:25,866: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:25,867: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:25,868: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:25,870: root: INFO: Current backtesting datetime 2022-05-23 09:30:00-04:00
+2023-04-26 16:00:25,870: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:25,874: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,874: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,884: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,884: root: INFO: Current backtesting datetime 2022-05-24 09:30:00-04:00
+2023-04-26 16:00:25,886: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,886: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,898: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,898: root: INFO: Current backtesting datetime 2022-05-25 09:30:00-04:00
+2023-04-26 16:00:25,900: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,900: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,914: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,928: root: INFO: Current backtesting datetime 2022-05-26 09:30:00-04:00
+2023-04-26 16:00:25,929: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,930: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,940: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,942: root: INFO: Current backtesting datetime 2022-05-27 09:30:00-04:00
+2023-04-26 16:00:25,944: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,944: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,955: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,956: root: INFO: Current backtesting datetime 2022-05-28 09:30:00-04:00
+2023-04-26 16:00:25,957: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,957: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,967: root: INFO: Current backtesting datetime 2022-05-28 09:25:00-04:00
+2023-04-26 16:00:25,970: root: INFO: Current backtesting datetime 2022-05-28 09:25:00-04:00
+2023-04-26 16:00:25,970: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:25,972: root: INFO: Current backtesting datetime 2022-05-31 08:30:00-04:00
+2023-04-26 16:00:25,974: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:25,974: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:25,976: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:25,977: root: INFO: Current backtesting datetime 2022-05-31 09:30:00-04:00
+2023-04-26 16:00:25,978: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:25,980: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,980: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:25,992: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:25,993: root: INFO: Current backtesting datetime 2022-06-01 09:30:00-04:00
+2023-04-26 16:00:25,994: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:25,994: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,005: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,006: root: INFO: Current backtesting datetime 2022-06-02 09:30:00-04:00
+2023-04-26 16:00:26,008: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,008: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,016: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:00:26,016: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:26,017: root: INFO: [32mFilled Transaction: buy 200 of GLD at 174.35000610 USD per share[0m
+2023-04-26 16:00:26,018: root: INFO: market order of | 200 GLD buy | with status unprocessed was filled
+2023-04-26 16:00:26,018: root: INFO: Position 0.000000 shares of GLD liquidated
+2023-04-26 16:00:26,020: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:26,021: root: INFO: [32mFilled Transaction: buy 200 of GLD at 174.35000610 USD per share[0m
+2023-04-26 16:00:26,022: root: INFO: market order of | 200 GLD buy | with status unprocessed was filled
+2023-04-26 16:00:26,026: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,026: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:26,026: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:26,026: root: INFO: Current backtesting datetime 2022-06-03 09:30:00-04:00
+2023-04-26 16:00:26,028: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,028: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,036: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,036: root: INFO: Current backtesting datetime 2022-06-04 09:30:00-04:00
+2023-04-26 16:00:26,038: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,038: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,050: root: INFO: Current backtesting datetime 2022-06-04 09:25:00-04:00
+2023-04-26 16:00:26,052: root: INFO: Current backtesting datetime 2022-06-04 09:25:00-04:00
+2023-04-26 16:00:26,052: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:26,053: root: INFO: Current backtesting datetime 2022-06-06 08:30:00-04:00
+2023-04-26 16:00:26,055: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:26,056: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,058: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,060: root: INFO: Current backtesting datetime 2022-06-06 09:30:00-04:00
+2023-04-26 16:00:26,060: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:26,062: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,062: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,075: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,075: root: INFO: Current backtesting datetime 2022-06-07 09:30:00-04:00
+2023-04-26 16:00:26,077: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,077: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,085: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,086: root: INFO: Current backtesting datetime 2022-06-08 09:30:00-04:00
+2023-04-26 16:00:26,087: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,087: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,097: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,098: root: INFO: Current backtesting datetime 2022-06-09 09:30:00-04:00
+2023-04-26 16:00:26,100: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,100: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,110: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,110: root: INFO: Current backtesting datetime 2022-06-10 09:30:00-04:00
+2023-04-26 16:00:26,113: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,113: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,123: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,124: root: INFO: Current backtesting datetime 2022-06-11 09:30:00-04:00
+2023-04-26 16:00:26,125: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,125: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,134: root: INFO: Current backtesting datetime 2022-06-11 09:25:00-04:00
+2023-04-26 16:00:26,136: root: INFO: Current backtesting datetime 2022-06-11 09:25:00-04:00
+2023-04-26 16:00:26,136: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:26,140: root: INFO: Current backtesting datetime 2022-06-13 08:30:00-04:00
+2023-04-26 16:00:26,141: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:26,142: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,143: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,145: root: INFO: Current backtesting datetime 2022-06-13 09:30:00-04:00
+2023-04-26 16:00:26,145: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:26,147: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,147: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,158: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,158: root: INFO: Current backtesting datetime 2022-06-14 09:30:00-04:00
+2023-04-26 16:00:26,160: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,160: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,169: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,176: root: INFO: Current backtesting datetime 2022-06-15 09:30:00-04:00
+2023-04-26 16:00:26,178: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,178: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,186: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,190: root: INFO: Current backtesting datetime 2022-06-16 09:30:00-04:00
+2023-04-26 16:00:26,192: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,192: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,201: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:00:26,201: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:26,203: root: INFO: [32mFilled Transaction: sell 200 of GLD at 172.69000244 USD per share[0m
+2023-04-26 16:00:26,203: root: INFO: market order of | 200 GLD sell | with status unprocessed was filled
+2023-04-26 16:00:26,203: root: INFO: Position 0.000000 shares of GLD liquidated
+2023-04-26 16:00:26,206: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:26,207: root: INFO: [32mFilled Transaction: sell 200 of GLD at 172.69000244 USD per share[0m
+2023-04-26 16:00:26,207: root: INFO: market order of | 200 GLD sell | with status unprocessed was filled
+2023-04-26 16:00:26,211: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,211: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:26,212: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:26,212: root: INFO: Current backtesting datetime 2022-06-17 09:30:00-04:00
+2023-04-26 16:00:26,213: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,213: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,224: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,225: root: INFO: Current backtesting datetime 2022-06-18 09:30:00-04:00
+2023-04-26 16:00:26,227: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,227: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,238: root: INFO: Current backtesting datetime 2022-06-18 09:25:00-04:00
+2023-04-26 16:00:26,242: root: INFO: Current backtesting datetime 2022-06-18 09:25:00-04:00
+2023-04-26 16:00:26,242: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:26,244: root: INFO: Current backtesting datetime 2022-06-21 08:30:00-04:00
+2023-04-26 16:00:26,245: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:26,245: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,246: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,248: root: INFO: Current backtesting datetime 2022-06-21 09:30:00-04:00
+2023-04-26 16:00:26,248: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:26,250: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,251: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,262: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,263: root: INFO: Current backtesting datetime 2022-06-22 09:30:00-04:00
+2023-04-26 16:00:26,264: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,264: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,276: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,276: root: INFO: Current backtesting datetime 2022-06-23 09:30:00-04:00
+2023-04-26 16:00:26,277: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,278: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,286: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,286: root: INFO: Current backtesting datetime 2022-06-24 09:30:00-04:00
+2023-04-26 16:00:26,288: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,288: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,298: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,298: root: INFO: Current backtesting datetime 2022-06-25 09:30:00-04:00
+2023-04-26 16:00:26,300: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,300: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,312: root: INFO: Current backtesting datetime 2022-06-25 09:25:00-04:00
+2023-04-26 16:00:26,315: root: INFO: Current backtesting datetime 2022-06-25 09:25:00-04:00
+2023-04-26 16:00:26,315: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:26,316: root: INFO: Current backtesting datetime 2022-06-27 08:30:00-04:00
+2023-04-26 16:00:26,317: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:26,318: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,319: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,321: root: INFO: Current backtesting datetime 2022-06-27 09:30:00-04:00
+2023-04-26 16:00:26,321: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:26,324: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,324: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,333: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,333: root: INFO: Current backtesting datetime 2022-06-28 09:30:00-04:00
+2023-04-26 16:00:26,335: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,335: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,344: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,344: root: INFO: Current backtesting datetime 2022-06-29 09:30:00-04:00
+2023-04-26 16:00:26,346: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,347: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,355: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,356: root: INFO: Current backtesting datetime 2022-06-30 09:30:00-04:00
+2023-04-26 16:00:26,357: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,357: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,366: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,367: root: INFO: Current backtesting datetime 2022-07-01 09:30:00-04:00
+2023-04-26 16:00:26,368: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,368: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,379: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,379: root: INFO: Current backtesting datetime 2022-07-02 09:30:00-04:00
+2023-04-26 16:00:26,381: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,381: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,393: root: INFO: Current backtesting datetime 2022-07-02 09:25:00-04:00
+2023-04-26 16:00:26,395: root: INFO: Current backtesting datetime 2022-07-02 09:25:00-04:00
+2023-04-26 16:00:26,396: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:26,398: root: INFO: Current backtesting datetime 2022-07-05 08:30:00-04:00
+2023-04-26 16:00:26,399: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:26,400: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,401: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,403: root: INFO: Current backtesting datetime 2022-07-05 09:30:00-04:00
+2023-04-26 16:00:26,403: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:26,405: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,406: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,416: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,416: root: INFO: Current backtesting datetime 2022-07-06 09:30:00-04:00
+2023-04-26 16:00:26,417: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,417: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,429: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,429: root: INFO: Current backtesting datetime 2022-07-07 09:30:00-04:00
+2023-04-26 16:00:26,431: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,431: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,444: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,466: root: INFO: Current backtesting datetime 2022-07-08 09:30:00-04:00
+2023-04-26 16:00:26,467: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,467: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,480: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,498: root: INFO: Current backtesting datetime 2022-07-09 09:30:00-04:00
+2023-04-26 16:00:26,500: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,500: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,514: root: INFO: Current backtesting datetime 2022-07-09 09:25:00-04:00
+2023-04-26 16:00:26,516: root: INFO: Current backtesting datetime 2022-07-09 09:25:00-04:00
+2023-04-26 16:00:26,517: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:26,518: root: INFO: Current backtesting datetime 2022-07-11 08:30:00-04:00
+2023-04-26 16:00:26,519: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:26,522: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,524: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,526: root: INFO: Current backtesting datetime 2022-07-11 09:30:00-04:00
+2023-04-26 16:00:26,526: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:26,528: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,528: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,539: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,540: root: INFO: Current backtesting datetime 2022-07-12 09:30:00-04:00
+2023-04-26 16:00:26,542: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,542: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,554: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,555: root: INFO: Current backtesting datetime 2022-07-13 09:30:00-04:00
+2023-04-26 16:00:26,557: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,557: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,565: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,566: root: INFO: Current backtesting datetime 2022-07-14 09:30:00-04:00
+2023-04-26 16:00:26,568: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,568: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,580: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,580: root: INFO: Current backtesting datetime 2022-07-15 09:30:00-04:00
+2023-04-26 16:00:26,583: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,583: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,593: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,593: root: INFO: Current backtesting datetime 2022-07-16 09:30:00-04:00
+2023-04-26 16:00:26,594: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,594: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,607: root: INFO: Current backtesting datetime 2022-07-16 09:25:00-04:00
+2023-04-26 16:00:26,609: root: INFO: Current backtesting datetime 2022-07-16 09:25:00-04:00
+2023-04-26 16:00:26,609: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:26,610: root: INFO: Current backtesting datetime 2022-07-18 08:30:00-04:00
+2023-04-26 16:00:26,611: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:26,612: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,613: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,615: root: INFO: Current backtesting datetime 2022-07-18 09:30:00-04:00
+2023-04-26 16:00:26,616: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:26,618: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,618: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,628: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,628: root: INFO: Current backtesting datetime 2022-07-19 09:30:00-04:00
+2023-04-26 16:00:26,630: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,630: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,640: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,640: root: INFO: Current backtesting datetime 2022-07-20 09:30:00-04:00
+2023-04-26 16:00:26,641: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,642: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,650: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,650: root: INFO: Current backtesting datetime 2022-07-21 09:30:00-04:00
+2023-04-26 16:00:26,652: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,652: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,663: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,664: root: INFO: Current backtesting datetime 2022-07-22 09:30:00-04:00
+2023-04-26 16:00:26,666: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,666: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,676: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,676: root: INFO: Current backtesting datetime 2022-07-23 09:30:00-04:00
+2023-04-26 16:00:26,677: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,678: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,687: root: INFO: Current backtesting datetime 2022-07-23 09:25:00-04:00
+2023-04-26 16:00:26,692: root: INFO: Current backtesting datetime 2022-07-23 09:25:00-04:00
+2023-04-26 16:00:26,692: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:26,694: root: INFO: Current backtesting datetime 2022-07-25 08:30:00-04:00
+2023-04-26 16:00:26,694: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:26,695: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,696: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,698: root: INFO: Current backtesting datetime 2022-07-25 09:30:00-04:00
+2023-04-26 16:00:26,698: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:26,700: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,701: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,711: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,712: root: INFO: Current backtesting datetime 2022-07-26 09:30:00-04:00
+2023-04-26 16:00:26,713: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,713: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,726: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,727: root: INFO: Current backtesting datetime 2022-07-27 09:30:00-04:00
+2023-04-26 16:00:26,728: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,728: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,738: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,741: root: INFO: Current backtesting datetime 2022-07-28 09:30:00-04:00
+2023-04-26 16:00:26,742: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,743: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,751: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,753: root: INFO: Current backtesting datetime 2022-07-29 09:30:00-04:00
+2023-04-26 16:00:26,755: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,756: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,766: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,766: root: INFO: Current backtesting datetime 2022-07-30 09:30:00-04:00
+2023-04-26 16:00:26,768: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,769: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,781: root: INFO: Current backtesting datetime 2022-07-30 09:25:00-04:00
+2023-04-26 16:00:26,784: root: INFO: Current backtesting datetime 2022-07-30 09:25:00-04:00
+2023-04-26 16:00:26,784: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:26,786: root: INFO: Current backtesting datetime 2022-08-01 08:30:00-04:00
+2023-04-26 16:00:26,790: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:26,791: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,792: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,794: root: INFO: Current backtesting datetime 2022-08-01 09:30:00-04:00
+2023-04-26 16:00:26,794: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:26,796: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,796: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,808: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,809: root: INFO: Current backtesting datetime 2022-08-02 09:30:00-04:00
+2023-04-26 16:00:26,810: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,810: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,821: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,821: root: INFO: Current backtesting datetime 2022-08-03 09:30:00-04:00
+2023-04-26 16:00:26,822: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,822: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,831: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:00:26,831: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:26,833: root: INFO: [32mFilled Transaction: buy 200 of GLD at 164.44999695 USD per share[0m
+2023-04-26 16:00:26,833: root: INFO: market order of | 200 GLD buy | with status unprocessed was filled
+2023-04-26 16:00:26,833: root: INFO: Position 0.000000 shares of GLD liquidated
+2023-04-26 16:00:26,836: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:26,838: root: INFO: [32mFilled Transaction: buy 200 of GLD at 164.44999695 USD per share[0m
+2023-04-26 16:00:26,838: root: INFO: market order of | 200 GLD buy | with status unprocessed was filled
+2023-04-26 16:00:26,842: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,842: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:26,842: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:26,843: root: INFO: Current backtesting datetime 2022-08-04 09:30:00-04:00
+2023-04-26 16:00:26,844: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,844: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,853: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,854: root: INFO: Current backtesting datetime 2022-08-05 09:30:00-04:00
+2023-04-26 16:00:26,856: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,856: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,865: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,866: root: INFO: Current backtesting datetime 2022-08-06 09:30:00-04:00
+2023-04-26 16:00:26,867: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,867: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,879: root: INFO: Current backtesting datetime 2022-08-06 09:25:00-04:00
+2023-04-26 16:00:26,881: root: INFO: Current backtesting datetime 2022-08-06 09:25:00-04:00
+2023-04-26 16:00:26,881: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:26,882: root: INFO: Current backtesting datetime 2022-08-08 08:30:00-04:00
+2023-04-26 16:00:26,883: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:26,884: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,886: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,888: root: INFO: Current backtesting datetime 2022-08-08 09:30:00-04:00
+2023-04-26 16:00:26,889: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:26,891: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,891: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,900: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,900: root: INFO: Current backtesting datetime 2022-08-09 09:30:00-04:00
+2023-04-26 16:00:26,902: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,902: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,912: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,913: root: INFO: Current backtesting datetime 2022-08-10 09:30:00-04:00
+2023-04-26 16:00:26,914: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,914: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,924: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,925: root: INFO: Current backtesting datetime 2022-08-11 09:30:00-04:00
+2023-04-26 16:00:26,926: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,926: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,934: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,935: root: INFO: Current backtesting datetime 2022-08-12 09:30:00-04:00
+2023-04-26 16:00:26,937: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,938: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,948: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,948: root: INFO: Current backtesting datetime 2022-08-13 09:30:00-04:00
+2023-04-26 16:00:26,950: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,950: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,964: root: INFO: Current backtesting datetime 2022-08-13 09:25:00-04:00
+2023-04-26 16:00:26,967: root: INFO: Current backtesting datetime 2022-08-13 09:25:00-04:00
+2023-04-26 16:00:26,967: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:26,969: root: INFO: Current backtesting datetime 2022-08-15 08:30:00-04:00
+2023-04-26 16:00:26,970: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:26,973: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,974: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:26,977: root: INFO: Current backtesting datetime 2022-08-15 09:30:00-04:00
+2023-04-26 16:00:26,977: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:26,979: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,980: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:26,991: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:26,993: root: INFO: Current backtesting datetime 2022-08-16 09:30:00-04:00
+2023-04-26 16:00:26,994: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:26,994: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,004: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,007: root: INFO: Current backtesting datetime 2022-08-17 09:30:00-04:00
+2023-04-26 16:00:27,008: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,009: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,032: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,033: root: INFO: Current backtesting datetime 2022-08-18 09:30:00-04:00
+2023-04-26 16:00:27,034: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,035: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,045: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,046: root: INFO: Current backtesting datetime 2022-08-19 09:30:00-04:00
+2023-04-26 16:00:27,047: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,047: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,057: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,057: root: INFO: Current backtesting datetime 2022-08-20 09:30:00-04:00
+2023-04-26 16:00:27,059: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,059: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,069: root: INFO: Current backtesting datetime 2022-08-20 09:25:00-04:00
+2023-04-26 16:00:27,074: root: INFO: Current backtesting datetime 2022-08-20 09:25:00-04:00
+2023-04-26 16:00:27,074: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:27,076: root: INFO: Current backtesting datetime 2022-08-22 08:30:00-04:00
+2023-04-26 16:00:27,077: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:27,078: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:27,079: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:27,081: root: INFO: Current backtesting datetime 2022-08-22 09:30:00-04:00
+2023-04-26 16:00:27,081: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:27,083: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,083: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,093: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,093: root: INFO: Current backtesting datetime 2022-08-23 09:30:00-04:00
+2023-04-26 16:00:27,095: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,095: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,107: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,109: root: INFO: Current backtesting datetime 2022-08-24 09:30:00-04:00
+2023-04-26 16:00:27,110: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,110: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,118: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:00:27,118: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:27,121: root: INFO: [32mFilled Transaction: sell 200 of GLD at 163.25000000 USD per share[0m
+2023-04-26 16:00:27,121: root: INFO: market order of | 200 GLD sell | with status unprocessed was filled
+2023-04-26 16:00:27,121: root: INFO: Position 0.000000 shares of GLD liquidated
+2023-04-26 16:00:27,124: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:27,125: root: INFO: [32mFilled Transaction: sell 200 of GLD at 163.25000000 USD per share[0m
+2023-04-26 16:00:27,125: root: INFO: market order of | 200 GLD sell | with status unprocessed was filled
+2023-04-26 16:00:27,128: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,129: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:27,129: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:27,129: root: INFO: Current backtesting datetime 2022-08-25 09:30:00-04:00
+2023-04-26 16:00:27,130: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,130: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,140: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,141: root: INFO: Current backtesting datetime 2022-08-26 09:30:00-04:00
+2023-04-26 16:00:27,142: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,142: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,151: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,152: root: INFO: Current backtesting datetime 2022-08-27 09:30:00-04:00
+2023-04-26 16:00:27,153: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,153: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,163: root: INFO: Current backtesting datetime 2022-08-27 09:25:00-04:00
+2023-04-26 16:00:27,166: root: INFO: Current backtesting datetime 2022-08-27 09:25:00-04:00
+2023-04-26 16:00:27,166: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:27,168: root: INFO: Current backtesting datetime 2022-08-29 08:30:00-04:00
+2023-04-26 16:00:27,168: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:27,169: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:27,170: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:27,172: root: INFO: Current backtesting datetime 2022-08-29 09:30:00-04:00
+2023-04-26 16:00:27,172: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:27,175: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,175: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,183: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,184: root: INFO: Current backtesting datetime 2022-08-30 09:30:00-04:00
+2023-04-26 16:00:27,185: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,185: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,195: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,196: root: INFO: Current backtesting datetime 2022-08-31 09:30:00-04:00
+2023-04-26 16:00:27,198: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,198: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,209: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,210: root: INFO: Current backtesting datetime 2022-09-01 09:30:00-04:00
+2023-04-26 16:00:27,211: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,212: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,224: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,225: root: INFO: Current backtesting datetime 2022-09-02 09:30:00-04:00
+2023-04-26 16:00:27,226: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,226: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,235: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,236: root: INFO: Current backtesting datetime 2022-09-03 09:30:00-04:00
+2023-04-26 16:00:27,238: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,239: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,250: root: INFO: Current backtesting datetime 2022-09-03 09:25:00-04:00
+2023-04-26 16:00:27,252: root: INFO: Current backtesting datetime 2022-09-03 09:25:00-04:00
+2023-04-26 16:00:27,252: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:27,263: root: INFO: Current backtesting datetime 2022-09-06 08:30:00-04:00
+2023-04-26 16:00:27,264: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:27,268: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:27,269: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:27,274: root: INFO: Current backtesting datetime 2022-09-06 09:30:00-04:00
+2023-04-26 16:00:27,274: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:27,277: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,277: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,286: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,286: root: INFO: Current backtesting datetime 2022-09-07 09:30:00-04:00
+2023-04-26 16:00:27,289: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,289: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,301: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,364: root: INFO: Current backtesting datetime 2022-09-08 09:30:00-04:00
+2023-04-26 16:00:27,365: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,366: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,376: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,381: root: INFO: Current backtesting datetime 2022-09-09 09:30:00-04:00
+2023-04-26 16:00:27,383: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,383: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,394: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,394: root: INFO: Current backtesting datetime 2022-09-10 09:30:00-04:00
+2023-04-26 16:00:27,398: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,398: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,409: root: INFO: Current backtesting datetime 2022-09-10 09:25:00-04:00
+2023-04-26 16:00:27,413: root: INFO: Current backtesting datetime 2022-09-10 09:25:00-04:00
+2023-04-26 16:00:27,413: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:27,414: root: INFO: Current backtesting datetime 2022-09-12 08:30:00-04:00
+2023-04-26 16:00:27,415: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:27,416: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:27,417: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:27,418: root: INFO: Current backtesting datetime 2022-09-12 09:30:00-04:00
+2023-04-26 16:00:27,419: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:27,421: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,421: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,431: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,432: root: INFO: Current backtesting datetime 2022-09-13 09:30:00-04:00
+2023-04-26 16:00:27,433: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,433: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,443: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,443: root: INFO: Current backtesting datetime 2022-09-14 09:30:00-04:00
+2023-04-26 16:00:27,444: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,444: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,453: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,453: root: INFO: Current backtesting datetime 2022-09-15 09:30:00-04:00
+2023-04-26 16:00:27,455: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,456: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,465: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,465: root: INFO: Current backtesting datetime 2022-09-16 09:30:00-04:00
+2023-04-26 16:00:27,467: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,467: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,479: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,480: root: INFO: Current backtesting datetime 2022-09-17 09:30:00-04:00
+2023-04-26 16:00:27,481: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,481: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,492: root: INFO: Current backtesting datetime 2022-09-17 09:25:00-04:00
+2023-04-26 16:00:27,494: root: INFO: Current backtesting datetime 2022-09-17 09:25:00-04:00
+2023-04-26 16:00:27,494: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:27,496: root: INFO: Current backtesting datetime 2022-09-19 08:30:00-04:00
+2023-04-26 16:00:27,497: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:27,498: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:27,499: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:27,500: root: INFO: Current backtesting datetime 2022-09-19 09:30:00-04:00
+2023-04-26 16:00:27,501: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:27,502: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,503: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,512: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,513: root: INFO: Current backtesting datetime 2022-09-20 09:30:00-04:00
+2023-04-26 16:00:27,514: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,514: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,523: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,524: root: INFO: Current backtesting datetime 2022-09-21 09:30:00-04:00
+2023-04-26 16:00:27,525: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,525: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,533: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,533: root: INFO: Current backtesting datetime 2022-09-22 09:30:00-04:00
+2023-04-26 16:00:27,535: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,536: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,545: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,545: root: INFO: Current backtesting datetime 2022-09-23 09:30:00-04:00
+2023-04-26 16:00:27,547: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,547: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,559: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,560: root: INFO: Current backtesting datetime 2022-09-24 09:30:00-04:00
+2023-04-26 16:00:27,561: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,561: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,572: root: INFO: Current backtesting datetime 2022-09-24 09:25:00-04:00
+2023-04-26 16:00:27,575: root: INFO: Current backtesting datetime 2022-09-24 09:25:00-04:00
+2023-04-26 16:00:27,575: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:27,576: root: INFO: Current backtesting datetime 2022-09-26 08:30:00-04:00
+2023-04-26 16:00:27,577: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:27,578: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:27,579: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:27,581: root: INFO: Current backtesting datetime 2022-09-26 09:30:00-04:00
+2023-04-26 16:00:27,581: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:27,584: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,584: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,594: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,595: root: INFO: Current backtesting datetime 2022-09-27 09:30:00-04:00
+2023-04-26 16:00:27,596: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,596: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,607: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,608: root: INFO: Current backtesting datetime 2022-09-28 09:30:00-04:00
+2023-04-26 16:00:27,609: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,609: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,619: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,620: root: INFO: Current backtesting datetime 2022-09-29 09:30:00-04:00
+2023-04-26 16:00:27,622: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,622: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,632: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,633: root: INFO: Current backtesting datetime 2022-09-30 09:30:00-04:00
+2023-04-26 16:00:27,634: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,634: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,644: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,645: root: INFO: Current backtesting datetime 2022-10-01 09:30:00-04:00
+2023-04-26 16:00:27,646: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,647: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,659: root: INFO: Current backtesting datetime 2022-10-01 09:25:00-04:00
+2023-04-26 16:00:27,661: root: INFO: Current backtesting datetime 2022-10-01 09:25:00-04:00
+2023-04-26 16:00:27,661: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:27,663: root: INFO: Current backtesting datetime 2022-10-03 08:30:00-04:00
+2023-04-26 16:00:27,663: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:27,664: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:27,665: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:27,667: root: INFO: Current backtesting datetime 2022-10-03 09:30:00-04:00
+2023-04-26 16:00:27,667: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:27,669: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,669: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,679: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,681: root: INFO: Current backtesting datetime 2022-10-04 09:30:00-04:00
+2023-04-26 16:00:27,682: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,682: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,692: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,693: root: INFO: Current backtesting datetime 2022-10-05 09:30:00-04:00
+2023-04-26 16:00:27,694: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,695: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,705: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,706: root: INFO: Current backtesting datetime 2022-10-06 09:30:00-04:00
+2023-04-26 16:00:27,708: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,708: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,718: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,718: root: INFO: Current backtesting datetime 2022-10-07 09:30:00-04:00
+2023-04-26 16:00:27,721: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,721: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,732: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,732: root: INFO: Current backtesting datetime 2022-10-08 09:30:00-04:00
+2023-04-26 16:00:27,734: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,734: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,745: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:00:27,745: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:27,747: root: INFO: [32mFilled Transaction: buy 200 of GLD at 157.88000488 USD per share[0m
+2023-04-26 16:00:27,747: root: INFO: market order of | 200 GLD buy | with status unprocessed was filled
+2023-04-26 16:00:27,747: root: INFO: Position 0.000000 shares of GLD liquidated
+2023-04-26 16:00:27,750: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:27,752: root: INFO: [32mFilled Transaction: buy 200 of GLD at 157.88000488 USD per share[0m
+2023-04-26 16:00:27,752: root: INFO: market order of | 200 GLD buy | with status unprocessed was filled
+2023-04-26 16:00:27,758: root: INFO: Current backtesting datetime 2022-10-08 09:25:00-04:00
+2023-04-26 16:00:27,760: root: INFO: Current backtesting datetime 2022-10-08 09:25:00-04:00
+2023-04-26 16:00:27,760: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:27,760: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:27,760: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:27,762: root: INFO: Current backtesting datetime 2022-10-10 08:30:00-04:00
+2023-04-26 16:00:27,763: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:27,764: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:27,765: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:27,767: root: INFO: Current backtesting datetime 2022-10-10 09:30:00-04:00
+2023-04-26 16:00:27,767: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:27,769: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,769: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,777: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:00:27,778: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:27,779: root: INFO: [32mFilled Transaction: sell 200 of GLD at 155.47999573 USD per share[0m
+2023-04-26 16:00:27,779: root: INFO: market order of | 200 GLD sell | with status unprocessed was filled
+2023-04-26 16:00:27,780: root: INFO: Position 0.000000 shares of GLD liquidated
+2023-04-26 16:00:27,782: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:27,784: root: INFO: [32mFilled Transaction: buy 200 of GLD at 155.47999573 USD per share[0m
+2023-04-26 16:00:27,784: root: INFO: market order of | 200 GLD buy | with status unprocessed was filled
+2023-04-26 16:00:27,787: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,788: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:27,788: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:27,788: root: INFO: Current backtesting datetime 2022-10-11 09:30:00-04:00
+2023-04-26 16:00:27,790: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,790: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,799: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,800: root: INFO: Current backtesting datetime 2022-10-12 09:30:00-04:00
+2023-04-26 16:00:27,802: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,802: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,812: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,812: root: INFO: Current backtesting datetime 2022-10-13 09:30:00-04:00
+2023-04-26 16:00:27,814: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,814: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,822: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,823: root: INFO: Current backtesting datetime 2022-10-14 09:30:00-04:00
+2023-04-26 16:00:27,824: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,824: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,834: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,835: root: INFO: Current backtesting datetime 2022-10-15 09:30:00-04:00
+2023-04-26 16:00:27,837: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,837: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,848: root: INFO: Current backtesting datetime 2022-10-15 09:25:00-04:00
+2023-04-26 16:00:27,850: root: INFO: Current backtesting datetime 2022-10-15 09:25:00-04:00
+2023-04-26 16:00:27,850: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:27,852: root: INFO: Current backtesting datetime 2022-10-17 08:30:00-04:00
+2023-04-26 16:00:27,852: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:27,854: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:27,855: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:27,858: root: INFO: Current backtesting datetime 2022-10-17 09:30:00-04:00
+2023-04-26 16:00:27,858: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:27,860: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,860: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,868: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,868: root: INFO: Current backtesting datetime 2022-10-18 09:30:00-04:00
+2023-04-26 16:00:27,871: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,871: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,881: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,882: root: INFO: Current backtesting datetime 2022-10-19 09:30:00-04:00
+2023-04-26 16:00:27,883: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,883: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,893: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,894: root: INFO: Current backtesting datetime 2022-10-20 09:30:00-04:00
+2023-04-26 16:00:27,895: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,895: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,903: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:00:27,907: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:27,908: root: INFO: [32mFilled Transaction: sell 200 of GLD at 151.44999695 USD per share[0m
+2023-04-26 16:00:27,909: root: INFO: market order of | 200 GLD sell | with status unprocessed was filled
+2023-04-26 16:00:27,909: root: INFO: Position 0.000000 shares of GLD liquidated
+2023-04-26 16:00:27,911: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:27,912: root: INFO: [32mFilled Transaction: sell 200 of GLD at 151.44999695 USD per share[0m
+2023-04-26 16:00:27,912: root: INFO: market order of | 200 GLD sell | with status unprocessed was filled
+2023-04-26 16:00:27,916: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,916: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:27,916: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:27,916: root: INFO: Current backtesting datetime 2022-10-21 09:30:00-04:00
+2023-04-26 16:00:27,917: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,917: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,928: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,928: root: INFO: Current backtesting datetime 2022-10-22 09:30:00-04:00
+2023-04-26 16:00:27,930: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,930: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,944: root: INFO: Current backtesting datetime 2022-10-22 09:25:00-04:00
+2023-04-26 16:00:27,946: root: INFO: Current backtesting datetime 2022-10-22 09:25:00-04:00
+2023-04-26 16:00:27,946: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:27,948: root: INFO: Current backtesting datetime 2022-10-24 08:30:00-04:00
+2023-04-26 16:00:27,949: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:27,949: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:27,952: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:27,956: root: INFO: Current backtesting datetime 2022-10-24 09:30:00-04:00
+2023-04-26 16:00:27,956: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:27,959: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,959: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,968: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,969: root: INFO: Current backtesting datetime 2022-10-25 09:30:00-04:00
+2023-04-26 16:00:27,970: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,971: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,981: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,981: root: INFO: Current backtesting datetime 2022-10-26 09:30:00-04:00
+2023-04-26 16:00:27,982: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,982: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:27,996: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:27,996: root: INFO: Current backtesting datetime 2022-10-27 09:30:00-04:00
+2023-04-26 16:00:27,998: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:27,999: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,010: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,010: root: INFO: Current backtesting datetime 2022-10-28 09:30:00-04:00
+2023-04-26 16:00:28,012: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,013: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,024: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,024: root: INFO: Current backtesting datetime 2022-10-29 09:30:00-04:00
+2023-04-26 16:00:28,025: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,025: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,036: root: INFO: Current backtesting datetime 2022-10-29 09:25:00-04:00
+2023-04-26 16:00:28,039: root: INFO: Current backtesting datetime 2022-10-29 09:25:00-04:00
+2023-04-26 16:00:28,039: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:28,041: root: INFO: Current backtesting datetime 2022-10-31 08:30:00-04:00
+2023-04-26 16:00:28,042: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:28,043: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,044: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,046: root: INFO: Current backtesting datetime 2022-10-31 09:30:00-04:00
+2023-04-26 16:00:28,047: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:28,049: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,049: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,059: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,059: root: INFO: Current backtesting datetime 2022-11-01 09:30:00-04:00
+2023-04-26 16:00:28,061: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,061: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,069: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,069: root: INFO: Current backtesting datetime 2022-11-02 09:30:00-04:00
+2023-04-26 16:00:28,072: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,072: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,082: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,082: root: INFO: Current backtesting datetime 2022-11-03 09:30:00-04:00
+2023-04-26 16:00:28,084: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,085: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,095: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,096: root: INFO: Current backtesting datetime 2022-11-04 09:30:00-04:00
+2023-04-26 16:00:28,098: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,098: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,109: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,109: root: INFO: Current backtesting datetime 2022-11-05 09:30:00-04:00
+2023-04-26 16:00:28,111: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,111: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,120: root: INFO: Current backtesting datetime 2022-11-05 09:25:00-04:00
+2023-04-26 16:00:28,124: root: INFO: Current backtesting datetime 2022-11-05 09:25:00-04:00
+2023-04-26 16:00:28,124: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:28,126: root: INFO: Current backtesting datetime 2022-11-07 09:30:00-04:00
+2023-04-26 16:00:28,126: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:28,127: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,128: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,130: root: INFO: Current backtesting datetime 2022-11-07 10:30:00-04:00
+2023-04-26 16:00:28,130: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:28,132: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,132: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,142: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,142: root: INFO: Current backtesting datetime 2022-11-08 10:30:00-04:00
+2023-04-26 16:00:28,143: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,143: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,151: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,152: root: INFO: Current backtesting datetime 2022-11-09 10:30:00-04:00
+2023-04-26 16:00:28,153: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,154: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,164: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:00:28,165: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:28,166: root: INFO: [32mFilled Transaction: buy 200 of GLD at 158.64999390 USD per share[0m
+2023-04-26 16:00:28,166: root: INFO: market order of | 200 GLD buy | with status unprocessed was filled
+2023-04-26 16:00:28,166: root: INFO: Position 0.000000 shares of GLD liquidated
+2023-04-26 16:00:28,169: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:28,171: root: INFO: [32mFilled Transaction: buy 200 of GLD at 158.64999390 USD per share[0m
+2023-04-26 16:00:28,171: root: INFO: market order of | 200 GLD buy | with status unprocessed was filled
+2023-04-26 16:00:28,175: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,175: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:28,175: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:28,175: root: INFO: Current backtesting datetime 2022-11-10 10:30:00-04:00
+2023-04-26 16:00:28,177: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,177: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,186: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,187: root: INFO: Current backtesting datetime 2022-11-11 10:30:00-04:00
+2023-04-26 16:00:28,188: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,189: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,199: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,200: root: INFO: Current backtesting datetime 2022-11-12 10:30:00-04:00
+2023-04-26 16:00:28,201: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,202: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,215: root: INFO: Current backtesting datetime 2022-11-12 10:25:00-04:00
+2023-04-26 16:00:28,217: root: INFO: Current backtesting datetime 2022-11-12 10:25:00-04:00
+2023-04-26 16:00:28,217: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:28,219: root: INFO: Current backtesting datetime 2022-11-14 09:30:00-04:00
+2023-04-26 16:00:28,219: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:28,223: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,225: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,227: root: INFO: Current backtesting datetime 2022-11-14 10:30:00-04:00
+2023-04-26 16:00:28,227: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:28,230: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,230: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,243: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,243: root: INFO: Current backtesting datetime 2022-11-15 10:30:00-04:00
+2023-04-26 16:00:28,245: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,245: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,256: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,257: root: INFO: Current backtesting datetime 2022-11-16 10:30:00-04:00
+2023-04-26 16:00:28,258: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,258: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,268: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,269: root: INFO: Current backtesting datetime 2022-11-17 10:30:00-04:00
+2023-04-26 16:00:28,271: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,271: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,281: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,282: root: INFO: Current backtesting datetime 2022-11-18 10:30:00-04:00
+2023-04-26 16:00:28,283: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,283: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,293: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,294: root: INFO: Current backtesting datetime 2022-11-19 10:30:00-04:00
+2023-04-26 16:00:28,295: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,295: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,306: root: INFO: Current backtesting datetime 2022-11-19 10:25:00-04:00
+2023-04-26 16:00:28,309: root: INFO: Current backtesting datetime 2022-11-19 10:25:00-04:00
+2023-04-26 16:00:28,309: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:28,311: root: INFO: Current backtesting datetime 2022-11-21 09:30:00-04:00
+2023-04-26 16:00:28,312: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:28,313: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,314: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,316: root: INFO: Current backtesting datetime 2022-11-21 10:30:00-04:00
+2023-04-26 16:00:28,316: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:28,318: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,318: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,328: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,329: root: INFO: Current backtesting datetime 2022-11-22 10:30:00-04:00
+2023-04-26 16:00:28,331: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,331: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,341: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,341: root: INFO: Current backtesting datetime 2022-11-23 10:30:00-04:00
+2023-04-26 16:00:28,343: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,343: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,351: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,352: root: INFO: Current backtesting datetime 2022-11-24 10:30:00-04:00
+2023-04-26 16:00:28,354: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,354: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,366: root: INFO: Current backtesting datetime 2022-11-24 10:25:00-04:00
+2023-04-26 16:00:28,367: root: INFO: Current backtesting datetime 2022-11-24 10:25:00-04:00
+2023-04-26 16:00:28,368: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:28,370: root: INFO: Current backtesting datetime 2022-11-25 09:30:00-04:00
+2023-04-26 16:00:28,371: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:28,372: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,373: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,375: root: INFO: Current backtesting datetime 2022-11-25 10:30:00-04:00
+2023-04-26 16:00:28,375: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:28,377: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,377: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,386: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,386: root: INFO: Current backtesting datetime 2022-11-26 10:30:00-04:00
+2023-04-26 16:00:28,389: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,389: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,400: root: INFO: Current backtesting datetime 2022-11-26 10:25:00-04:00
+2023-04-26 16:00:28,402: root: INFO: Current backtesting datetime 2022-11-26 10:25:00-04:00
+2023-04-26 16:00:28,402: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:28,403: root: INFO: Current backtesting datetime 2022-11-28 09:30:00-04:00
+2023-04-26 16:00:28,405: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:28,406: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,408: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,409: root: INFO: Current backtesting datetime 2022-11-28 10:30:00-04:00
+2023-04-26 16:00:28,410: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:28,412: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,412: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,421: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,422: root: INFO: Current backtesting datetime 2022-11-29 10:30:00-04:00
+2023-04-26 16:00:28,424: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,424: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,433: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,433: root: INFO: Current backtesting datetime 2022-11-30 10:30:00-04:00
+2023-04-26 16:00:28,435: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,435: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,447: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,447: root: INFO: Current backtesting datetime 2022-12-01 10:30:00-04:00
+2023-04-26 16:00:28,449: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,449: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,459: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,459: root: INFO: Current backtesting datetime 2022-12-02 10:30:00-04:00
+2023-04-26 16:00:28,461: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,461: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,470: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,473: root: INFO: Current backtesting datetime 2022-12-03 10:30:00-04:00
+2023-04-26 16:00:28,475: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,475: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,487: root: INFO: Current backtesting datetime 2022-12-03 10:25:00-04:00
+2023-04-26 16:00:28,492: root: INFO: Current backtesting datetime 2022-12-03 10:25:00-04:00
+2023-04-26 16:00:28,492: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:28,494: root: INFO: Current backtesting datetime 2022-12-05 09:30:00-04:00
+2023-04-26 16:00:28,495: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:28,496: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,497: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,499: root: INFO: Current backtesting datetime 2022-12-05 10:30:00-04:00
+2023-04-26 16:00:28,499: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:28,501: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,501: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,511: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,511: root: INFO: Current backtesting datetime 2022-12-06 10:30:00-04:00
+2023-04-26 16:00:28,513: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,513: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,524: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,525: root: INFO: Current backtesting datetime 2022-12-07 10:30:00-04:00
+2023-04-26 16:00:28,526: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,526: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,535: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,536: root: INFO: Current backtesting datetime 2022-12-08 10:30:00-04:00
+2023-04-26 16:00:28,541: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,541: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,550: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,550: root: INFO: Current backtesting datetime 2022-12-09 10:30:00-04:00
+2023-04-26 16:00:28,551: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,551: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,564: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,564: root: INFO: Current backtesting datetime 2022-12-10 10:30:00-04:00
+2023-04-26 16:00:28,565: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,565: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,577: root: INFO: Current backtesting datetime 2022-12-10 10:25:00-04:00
+2023-04-26 16:00:28,579: root: INFO: Current backtesting datetime 2022-12-10 10:25:00-04:00
+2023-04-26 16:00:28,580: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:28,581: root: INFO: Current backtesting datetime 2022-12-12 09:30:00-04:00
+2023-04-26 16:00:28,582: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:28,583: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,585: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,587: root: INFO: Current backtesting datetime 2022-12-12 10:30:00-04:00
+2023-04-26 16:00:28,587: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:28,590: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,590: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,599: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,599: root: INFO: Current backtesting datetime 2022-12-13 10:30:00-04:00
+2023-04-26 16:00:28,602: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,602: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,613: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,613: root: INFO: Current backtesting datetime 2022-12-14 10:30:00-04:00
+2023-04-26 16:00:28,615: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,615: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,625: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,626: root: INFO: Current backtesting datetime 2022-12-15 10:30:00-04:00
+2023-04-26 16:00:28,627: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,627: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,636: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,637: root: INFO: Current backtesting datetime 2022-12-16 10:30:00-04:00
+2023-04-26 16:00:28,639: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,639: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,649: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,650: root: INFO: Current backtesting datetime 2022-12-17 10:30:00-04:00
+2023-04-26 16:00:28,652: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,652: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,665: root: INFO: Current backtesting datetime 2022-12-17 10:25:00-04:00
+2023-04-26 16:00:28,667: root: INFO: Current backtesting datetime 2022-12-17 10:25:00-04:00
+2023-04-26 16:00:28,667: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:28,668: root: INFO: Current backtesting datetime 2022-12-19 09:30:00-04:00
+2023-04-26 16:00:28,669: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:28,670: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,671: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,673: root: INFO: Current backtesting datetime 2022-12-19 10:30:00-04:00
+2023-04-26 16:00:28,673: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:28,675: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,676: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,685: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,685: root: INFO: Current backtesting datetime 2022-12-20 10:30:00-04:00
+2023-04-26 16:00:28,687: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,688: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,697: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,697: root: INFO: Current backtesting datetime 2022-12-21 10:30:00-04:00
+2023-04-26 16:00:28,699: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,699: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,710: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,710: root: INFO: Current backtesting datetime 2022-12-22 10:30:00-04:00
+2023-04-26 16:00:28,712: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,712: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,721: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,723: root: INFO: Current backtesting datetime 2022-12-23 10:30:00-04:00
+2023-04-26 16:00:28,725: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,725: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,734: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,734: root: INFO: Current backtesting datetime 2022-12-24 10:30:00-04:00
+2023-04-26 16:00:28,735: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,735: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,751: root: INFO: Current backtesting datetime 2022-12-24 10:25:00-04:00
+2023-04-26 16:00:28,753: root: INFO: Current backtesting datetime 2022-12-24 10:25:00-04:00
+2023-04-26 16:00:28,754: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:28,757: root: INFO: Current backtesting datetime 2022-12-27 09:30:00-04:00
+2023-04-26 16:00:28,758: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:28,759: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,760: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,762: root: INFO: Current backtesting datetime 2022-12-27 10:30:00-04:00
+2023-04-26 16:00:28,762: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:28,764: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,765: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,775: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,776: root: INFO: Current backtesting datetime 2022-12-28 10:30:00-04:00
+2023-04-26 16:00:28,777: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,778: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,789: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,791: root: INFO: Current backtesting datetime 2022-12-29 10:30:00-04:00
+2023-04-26 16:00:28,793: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,793: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,802: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,803: root: INFO: Current backtesting datetime 2022-12-30 10:30:00-04:00
+2023-04-26 16:00:28,807: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,808: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,818: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,827: root: INFO: Current backtesting datetime 2022-12-31 10:30:00-04:00
+2023-04-26 16:00:28,829: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,829: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,843: root: INFO: Current backtesting datetime 2022-12-31 10:25:00-04:00
+2023-04-26 16:00:28,846: root: INFO: Current backtesting datetime 2022-12-31 10:25:00-04:00
+2023-04-26 16:00:28,846: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:28,848: root: INFO: Current backtesting datetime 2023-01-03 09:30:00-04:00
+2023-04-26 16:00:28,849: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:28,850: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,851: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,853: root: INFO: Current backtesting datetime 2023-01-03 10:30:00-04:00
+2023-04-26 16:00:28,853: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:28,855: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,855: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,865: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,865: root: INFO: Current backtesting datetime 2023-01-04 10:30:00-04:00
+2023-04-26 16:00:28,866: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,867: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,876: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,876: root: INFO: Current backtesting datetime 2023-01-05 10:30:00-04:00
+2023-04-26 16:00:28,878: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,879: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,888: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,889: root: INFO: Current backtesting datetime 2023-01-06 10:30:00-04:00
+2023-04-26 16:00:28,890: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,891: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,901: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,901: root: INFO: Current backtesting datetime 2023-01-07 10:30:00-04:00
+2023-04-26 16:00:28,903: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,904: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,915: root: INFO: Current backtesting datetime 2023-01-07 10:25:00-04:00
+2023-04-26 16:00:28,916: root: INFO: Current backtesting datetime 2023-01-07 10:25:00-04:00
+2023-04-26 16:00:28,917: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:28,918: root: INFO: Current backtesting datetime 2023-01-09 09:30:00-04:00
+2023-04-26 16:00:28,919: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:28,919: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,921: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:28,924: root: INFO: Current backtesting datetime 2023-01-09 10:30:00-04:00
+2023-04-26 16:00:28,924: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:28,926: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,927: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,934: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,935: root: INFO: Current backtesting datetime 2023-01-10 10:30:00-04:00
+2023-04-26 16:00:28,936: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,936: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,946: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,946: root: INFO: Current backtesting datetime 2023-01-11 10:30:00-04:00
+2023-04-26 16:00:28,948: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,949: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,958: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,958: root: INFO: Current backtesting datetime 2023-01-12 10:30:00-04:00
+2023-04-26 16:00:28,960: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,960: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,968: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,969: root: INFO: Current backtesting datetime 2023-01-13 10:30:00-04:00
+2023-04-26 16:00:28,975: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,975: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,984: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:28,984: root: INFO: Current backtesting datetime 2023-01-14 10:30:00-04:00
+2023-04-26 16:00:28,987: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:28,987: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:28,999: root: INFO: Current backtesting datetime 2023-01-14 10:25:00-04:00
+2023-04-26 16:00:29,002: root: INFO: Current backtesting datetime 2023-01-14 10:25:00-04:00
+2023-04-26 16:00:29,003: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:29,004: root: INFO: Current backtesting datetime 2023-01-17 09:30:00-04:00
+2023-04-26 16:00:29,006: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:29,007: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:29,008: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:29,010: root: INFO: Current backtesting datetime 2023-01-17 10:30:00-04:00
+2023-04-26 16:00:29,010: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:29,012: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,013: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,023: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,024: root: INFO: Current backtesting datetime 2023-01-18 10:30:00-04:00
+2023-04-26 16:00:29,026: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,026: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,035: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,035: root: INFO: Current backtesting datetime 2023-01-19 10:30:00-04:00
+2023-04-26 16:00:29,036: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,036: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,049: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,050: root: INFO: Current backtesting datetime 2023-01-20 10:30:00-04:00
+2023-04-26 16:00:29,052: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,052: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,064: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,065: root: INFO: Current backtesting datetime 2023-01-21 10:30:00-04:00
+2023-04-26 16:00:29,066: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,066: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,106: root: INFO: Current backtesting datetime 2023-01-21 10:25:00-04:00
+2023-04-26 16:00:29,130: root: INFO: Current backtesting datetime 2023-01-21 10:25:00-04:00
+2023-04-26 16:00:29,130: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:29,132: root: INFO: Current backtesting datetime 2023-01-23 09:30:00-04:00
+2023-04-26 16:00:29,133: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:29,133: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:29,135: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:29,140: root: INFO: Current backtesting datetime 2023-01-23 10:30:00-04:00
+2023-04-26 16:00:29,140: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:29,143: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,143: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,152: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,152: root: INFO: Current backtesting datetime 2023-01-24 10:30:00-04:00
+2023-04-26 16:00:29,155: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,155: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,165: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,165: root: INFO: Current backtesting datetime 2023-01-25 10:30:00-04:00
+2023-04-26 16:00:29,167: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,167: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,178: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,178: root: INFO: Current backtesting datetime 2023-01-26 10:30:00-04:00
+2023-04-26 16:00:29,180: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,180: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,190: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,191: root: INFO: Current backtesting datetime 2023-01-27 10:30:00-04:00
+2023-04-26 16:00:29,192: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,192: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,200: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,200: root: INFO: Current backtesting datetime 2023-01-28 10:30:00-04:00
+2023-04-26 16:00:29,202: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,202: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,213: root: INFO: Current backtesting datetime 2023-01-28 10:25:00-04:00
+2023-04-26 16:00:29,216: root: INFO: Current backtesting datetime 2023-01-28 10:25:00-04:00
+2023-04-26 16:00:29,216: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:29,217: root: INFO: Current backtesting datetime 2023-01-30 09:30:00-04:00
+2023-04-26 16:00:29,219: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:29,219: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:29,221: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:29,223: root: INFO: Current backtesting datetime 2023-01-30 10:30:00-04:00
+2023-04-26 16:00:29,223: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:29,225: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,226: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,234: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,235: root: INFO: Current backtesting datetime 2023-01-31 10:30:00-04:00
+2023-04-26 16:00:29,236: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,236: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,246: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,246: root: INFO: Current backtesting datetime 2023-02-01 10:30:00-04:00
+2023-04-26 16:00:29,248: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,248: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,257: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,257: root: INFO: Current backtesting datetime 2023-02-02 10:30:00-04:00
+2023-04-26 16:00:29,259: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,259: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,268: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,269: root: INFO: Current backtesting datetime 2023-02-03 10:30:00-04:00
+2023-04-26 16:00:29,271: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,271: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,281: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,282: root: INFO: Current backtesting datetime 2023-02-04 10:30:00-04:00
+2023-04-26 16:00:29,283: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,283: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,296: root: INFO: Current backtesting datetime 2023-02-04 10:25:00-04:00
+2023-04-26 16:00:29,298: root: INFO: Current backtesting datetime 2023-02-04 10:25:00-04:00
+2023-04-26 16:00:29,298: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:29,299: root: INFO: Current backtesting datetime 2023-02-06 09:30:00-04:00
+2023-04-26 16:00:29,300: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:29,301: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:29,302: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:29,306: root: INFO: Current backtesting datetime 2023-02-06 10:30:00-04:00
+2023-04-26 16:00:29,306: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:29,310: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,310: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,319: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,321: root: INFO: Current backtesting datetime 2023-02-07 10:30:00-04:00
+2023-04-26 16:00:29,323: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,323: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,333: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,334: root: INFO: Current backtesting datetime 2023-02-08 10:30:00-04:00
+2023-04-26 16:00:29,335: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,335: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,347: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:00:29,347: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:29,349: root: INFO: [32mFilled Transaction: sell 200 of GLD at 174.41000366 USD per share[0m
+2023-04-26 16:00:29,349: root: INFO: market order of | 200 GLD sell | with status unprocessed was filled
+2023-04-26 16:00:29,349: root: INFO: Position 0.000000 shares of GLD liquidated
+2023-04-26 16:00:29,352: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:29,354: root: INFO: [32mFilled Transaction: sell 200 of GLD at 174.41000366 USD per share[0m
+2023-04-26 16:00:29,355: root: INFO: market order of | 200 GLD sell | with status unprocessed was filled
+2023-04-26 16:00:29,358: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,359: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:29,359: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:29,383: root: INFO: Current backtesting datetime 2023-02-09 10:30:00-04:00
+2023-04-26 16:00:29,384: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,385: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,394: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,417: root: INFO: Current backtesting datetime 2023-02-10 10:30:00-04:00
+2023-04-26 16:00:29,418: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,419: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,429: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,429: root: INFO: Current backtesting datetime 2023-02-11 10:30:00-04:00
+2023-04-26 16:00:29,430: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,431: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,442: root: INFO: Current backtesting datetime 2023-02-11 10:25:00-04:00
+2023-04-26 16:00:29,444: root: INFO: Current backtesting datetime 2023-02-11 10:25:00-04:00
+2023-04-26 16:00:29,445: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:29,446: root: INFO: Current backtesting datetime 2023-02-13 09:30:00-04:00
+2023-04-26 16:00:29,447: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:29,448: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:29,449: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:29,451: root: INFO: Current backtesting datetime 2023-02-13 10:30:00-04:00
+2023-04-26 16:00:29,451: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:29,453: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,453: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,463: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,463: root: INFO: Current backtesting datetime 2023-02-14 10:30:00-04:00
+2023-04-26 16:00:29,465: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,466: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,475: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,476: root: INFO: Current backtesting datetime 2023-02-15 10:30:00-04:00
+2023-04-26 16:00:29,478: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,478: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,488: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,489: root: INFO: Current backtesting datetime 2023-02-16 10:30:00-04:00
+2023-04-26 16:00:29,490: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,490: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,499: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,499: root: INFO: Current backtesting datetime 2023-02-17 10:30:00-04:00
+2023-04-26 16:00:29,502: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,502: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,512: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,512: root: INFO: Current backtesting datetime 2023-02-18 10:30:00-04:00
+2023-04-26 16:00:29,513: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,513: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,523: root: INFO: Current backtesting datetime 2023-02-18 10:25:00-04:00
+2023-04-26 16:00:29,525: root: INFO: Current backtesting datetime 2023-02-18 10:25:00-04:00
+2023-04-26 16:00:29,526: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:29,527: root: INFO: Current backtesting datetime 2023-02-21 09:30:00-04:00
+2023-04-26 16:00:29,528: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:29,528: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:29,529: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:29,531: root: INFO: Current backtesting datetime 2023-02-21 10:30:00-04:00
+2023-04-26 16:00:29,531: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:29,533: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,533: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,542: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,543: root: INFO: Current backtesting datetime 2023-02-22 10:30:00-04:00
+2023-04-26 16:00:29,544: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,544: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,551: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,551: root: INFO: Current backtesting datetime 2023-02-23 10:30:00-04:00
+2023-04-26 16:00:29,553: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,553: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,562: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,562: root: INFO: Current backtesting datetime 2023-02-24 10:30:00-04:00
+2023-04-26 16:00:29,564: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,564: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,573: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,573: root: INFO: Current backtesting datetime 2023-02-25 10:30:00-04:00
+2023-04-26 16:00:29,575: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,575: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,584: root: INFO: Current backtesting datetime 2023-02-25 10:25:00-04:00
+2023-04-26 16:00:29,586: root: INFO: Current backtesting datetime 2023-02-25 10:25:00-04:00
+2023-04-26 16:00:29,586: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:29,589: root: INFO: Current backtesting datetime 2023-02-27 09:30:00-04:00
+2023-04-26 16:00:29,591: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:29,591: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:29,593: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:29,595: root: INFO: Current backtesting datetime 2023-02-27 10:30:00-04:00
+2023-04-26 16:00:29,595: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:29,597: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,597: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,609: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,609: root: INFO: Current backtesting datetime 2023-02-28 10:30:00-04:00
+2023-04-26 16:00:29,611: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,611: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,625: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,693: root: INFO: Current backtesting datetime 2023-03-01 10:30:00-04:00
+2023-04-26 16:00:29,695: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,695: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,703: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,704: root: INFO: Current backtesting datetime 2023-03-02 10:30:00-04:00
+2023-04-26 16:00:29,706: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,706: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,715: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,716: root: INFO: Current backtesting datetime 2023-03-03 10:30:00-04:00
+2023-04-26 16:00:29,718: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,718: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,729: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,729: root: INFO: Current backtesting datetime 2023-03-04 10:30:00-04:00
+2023-04-26 16:00:29,730: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,731: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,742: root: INFO: Current backtesting datetime 2023-03-04 10:25:00-04:00
+2023-04-26 16:00:29,744: root: INFO: Current backtesting datetime 2023-03-04 10:25:00-04:00
+2023-04-26 16:00:29,744: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:29,745: root: INFO: Current backtesting datetime 2023-03-06 09:30:00-04:00
+2023-04-26 16:00:29,746: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:29,747: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:29,748: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:29,750: root: INFO: Current backtesting datetime 2023-03-06 10:30:00-04:00
+2023-04-26 16:00:29,750: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:29,752: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,752: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,761: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,762: root: INFO: Current backtesting datetime 2023-03-07 10:30:00-04:00
+2023-04-26 16:00:29,763: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,763: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,772: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,772: root: INFO: Current backtesting datetime 2023-03-08 10:30:00-04:00
+2023-04-26 16:00:29,773: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,774: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,781: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,782: root: INFO: Current backtesting datetime 2023-03-09 10:30:00-04:00
+2023-04-26 16:00:29,784: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,784: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,793: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,793: root: INFO: Current backtesting datetime 2023-03-10 10:30:00-04:00
+2023-04-26 16:00:29,795: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,795: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,803: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,804: root: INFO: Current backtesting datetime 2023-03-11 10:30:00-04:00
+2023-04-26 16:00:29,806: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,806: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,815: root: INFO: Current backtesting datetime 2023-03-11 10:25:00-04:00
+2023-04-26 16:00:29,818: root: INFO: Current backtesting datetime 2023-03-11 10:25:00-04:00
+2023-04-26 16:00:29,818: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:29,819: root: INFO: Current backtesting datetime 2023-03-13 08:30:00-04:00
+2023-04-26 16:00:29,820: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:29,821: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:29,823: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:29,824: root: INFO: Current backtesting datetime 2023-03-13 09:30:00-04:00
+2023-04-26 16:00:29,825: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:29,826: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,826: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,835: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,835: root: INFO: Current backtesting datetime 2023-03-14 09:30:00-04:00
+2023-04-26 16:00:29,836: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,837: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,849: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:00:29,850: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:29,851: root: INFO: [32mFilled Transaction: buy 200 of GLD at 176.83000183 USD per share[0m
+2023-04-26 16:00:29,851: root: INFO: market order of | 200 GLD buy | with status unprocessed was filled
+2023-04-26 16:00:29,851: root: INFO: Position 0.000000 shares of GLD liquidated
+2023-04-26 16:00:29,853: root: INFO: Getting historical prices for GLD, 1 bars, 
+2023-04-26 16:00:29,855: root: INFO: [32mFilled Transaction: buy 200 of GLD at 176.83000183 USD per share[0m
+2023-04-26 16:00:29,855: root: INFO: market order of | 200 GLD buy | with status unprocessed was filled
+2023-04-26 16:00:29,859: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,860: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:29,860: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:00:29,919: root: INFO: Current backtesting datetime 2023-03-15 09:30:00-04:00
+2023-04-26 16:00:29,921: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,921: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,934: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,962: root: INFO: Current backtesting datetime 2023-03-16 09:30:00-04:00
+2023-04-26 16:00:29,963: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,963: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,975: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,975: root: INFO: Current backtesting datetime 2023-03-17 09:30:00-04:00
+2023-04-26 16:00:29,977: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,977: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,986: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:29,986: root: INFO: Current backtesting datetime 2023-03-18 09:30:00-04:00
+2023-04-26 16:00:29,988: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:29,989: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:29,999: root: INFO: Current backtesting datetime 2023-03-18 09:25:00-04:00
+2023-04-26 16:00:30,002: root: INFO: Current backtesting datetime 2023-03-18 09:25:00-04:00
+2023-04-26 16:00:30,003: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:30,005: root: INFO: Current backtesting datetime 2023-03-20 08:30:00-04:00
+2023-04-26 16:00:30,006: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:30,006: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:30,008: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:30,010: root: INFO: Current backtesting datetime 2023-03-20 09:30:00-04:00
+2023-04-26 16:00:30,010: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:30,012: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,012: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,021: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:30,021: root: INFO: Current backtesting datetime 2023-03-21 09:30:00-04:00
+2023-04-26 16:00:30,024: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,024: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,033: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:30,033: root: INFO: Current backtesting datetime 2023-03-22 09:30:00-04:00
+2023-04-26 16:00:30,035: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,035: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,044: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:30,044: root: INFO: Current backtesting datetime 2023-03-23 09:30:00-04:00
+2023-04-26 16:00:30,046: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,046: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,055: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:30,055: root: INFO: Current backtesting datetime 2023-03-24 09:30:00-04:00
+2023-04-26 16:00:30,057: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,057: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,065: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:30,066: root: INFO: Current backtesting datetime 2023-03-25 09:30:00-04:00
+2023-04-26 16:00:30,067: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,067: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,076: root: INFO: Current backtesting datetime 2023-03-25 09:25:00-04:00
+2023-04-26 16:00:30,078: root: INFO: Current backtesting datetime 2023-03-25 09:25:00-04:00
+2023-04-26 16:00:30,079: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:30,080: root: INFO: Current backtesting datetime 2023-03-27 08:30:00-04:00
+2023-04-26 16:00:30,080: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:30,081: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:30,082: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:30,084: root: INFO: Current backtesting datetime 2023-03-27 09:30:00-04:00
+2023-04-26 16:00:30,084: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:30,086: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,086: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,095: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:30,095: root: INFO: Current backtesting datetime 2023-03-28 09:30:00-04:00
+2023-04-26 16:00:30,096: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,097: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,104: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:30,106: root: INFO: Current backtesting datetime 2023-03-29 09:30:00-04:00
+2023-04-26 16:00:30,108: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,108: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,116: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:30,116: root: INFO: Current backtesting datetime 2023-03-30 09:30:00-04:00
+2023-04-26 16:00:30,117: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,118: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,130: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:30,131: root: INFO: Current backtesting datetime 2023-03-31 09:30:00-04:00
+2023-04-26 16:00:30,132: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,132: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,145: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:30,203: root: INFO: Current backtesting datetime 2023-04-01 09:30:00-04:00
+2023-04-26 16:00:30,206: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,206: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,228: root: INFO: Current backtesting datetime 2023-04-01 09:25:00-04:00
+2023-04-26 16:00:30,231: root: INFO: Current backtesting datetime 2023-04-01 09:25:00-04:00
+2023-04-26 16:00:30,231: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:30,233: root: INFO: Current backtesting datetime 2023-04-03 08:30:00-04:00
+2023-04-26 16:00:30,233: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:30,234: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:30,236: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:30,238: root: INFO: Current backtesting datetime 2023-04-03 09:30:00-04:00
+2023-04-26 16:00:30,238: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:30,241: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,241: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,250: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:30,250: root: INFO: Current backtesting datetime 2023-04-04 09:30:00-04:00
+2023-04-26 16:00:30,252: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,253: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,263: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:30,264: root: INFO: Current backtesting datetime 2023-04-05 09:30:00-04:00
+2023-04-26 16:00:30,265: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,265: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,275: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:30,275: root: INFO: Current backtesting datetime 2023-04-06 09:30:00-04:00
+2023-04-26 16:00:30,277: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,277: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,285: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:30,285: root: INFO: Current backtesting datetime 2023-04-07 09:30:00-04:00
+2023-04-26 16:00:30,288: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,288: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,298: root: INFO: Current backtesting datetime 2023-04-07 09:25:00-04:00
+2023-04-26 16:00:30,301: root: INFO: Current backtesting datetime 2023-04-07 09:25:00-04:00
+2023-04-26 16:00:30,301: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:30,303: root: INFO: Current backtesting datetime 2023-04-10 08:30:00-04:00
+2023-04-26 16:00:30,304: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:00:30,304: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:30,306: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:00:30,308: root: INFO: Current backtesting datetime 2023-04-10 09:30:00-04:00
+2023-04-26 16:00:30,308: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:00:30,310: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,310: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,318: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:30,318: root: INFO: Current backtesting datetime 2023-04-11 09:30:00-04:00
+2023-04-26 16:00:30,319: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,319: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,329: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:30,329: root: INFO: Current backtesting datetime 2023-04-12 09:30:00-04:00
+2023-04-26 16:00:30,330: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,330: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,339: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:30,339: root: INFO: Current backtesting datetime 2023-04-13 09:30:00-04:00
+2023-04-26 16:00:30,340: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,341: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,348: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:30,348: root: INFO: Current backtesting datetime 2023-04-14 09:30:00-04:00
+2023-04-26 16:00:30,350: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,350: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,360: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:00:30,361: root: INFO: Current backtesting datetime 2023-04-15 09:30:00-04:00
+2023-04-26 16:00:30,363: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:00:30,363: root: INFO: Getting historical prices for GLD, 22 bars, day
+2023-04-26 16:00:30,375: root: INFO: Current backtesting datetime 2023-04-15 09:25:00-04:00
+2023-04-26 16:00:30,377: root: INFO: Current backtesting datetime 2023-04-15 09:25:00-04:00
+2023-04-26 16:00:30,377: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:00:30,377: root: INFO: Trend : Executing the on_strategy_end lifecycle method
+2023-04-26 16:00:30,397: root: INFO: Trend : --- Trend Strategy Performance  ---
+2023-04-26 16:00:30,415: root: INFO: Trend : Total Return: 4.86%
+2023-04-26 16:00:30,415: root: INFO: Trend : CAGR 4.90%
+2023-04-26 16:00:30,416: root: INFO: Trend : Volatility 4.72%
+2023-04-26 16:00:30,416: root: INFO: Trend : Sharpe -0.01
+2023-04-26 16:00:30,416: root: INFO: Trend : Max Drawdown 3.57% on 2022-11-10
+2023-04-26 16:00:30,417: root: INFO: Trend : RoMaD 137.16%
+2023-04-26 16:00:30,417: root: INFO: Trend : --- SPY Benchmark Performance ---
+2023-04-26 16:00:37,710: root: ERROR: Error while downloading symbol info for SPY, setting info to None for now.
+2023-04-26 16:00:37,710: root: ERROR: yfinance failed to decrypt Yahoo data response
+2023-04-26 16:00:37,744: root: INFO: Trend : Total Return: -4.20%
+2023-04-26 16:00:37,745: root: INFO: Trend : SPY CAGR -4.25%
+2023-04-26 16:00:37,745: root: INFO: Trend : SPY Volatility 23.30%
+2023-04-26 16:00:37,745: root: INFO: Trend : SPY Sharpe -0.40
+2023-04-26 16:00:37,746: root: INFO: Trend : SPY Max Drawdown 19.20% on 2022-10-12
+2023-04-26 16:00:37,746: root: INFO: Trend : SPY RoMaD -22.12%
+2023-04-26 16:00:37,747: backtest_stats: INFO: Backtest took 0:00:20.513494 for a speed of 0.000

@@ -1,0 +1,2206 @@
+2023-04-28 16:13:11,420: root: INFO: Trend : Executing the initialize lifecycle method
+2023-04-28 16:13:11,422: root: INFO: Current backtesting datetime 2023-01-03 08:30:00-05:00
+2023-04-28 16:13:11,423: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,424: root: INFO: Current backtesting datetime 2023-01-03 09:30:00-05:00
+2023-04-28 16:13:11,424: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,425: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,427: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,442: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,463: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,463: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,465: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,465: root: INFO: Current backtesting datetime 2023-01-04 09:30:00-05:00
+2023-04-28 16:13:11,467: root: INFO: Current backtesting datetime 2023-01-04 08:30:00-05:00
+2023-04-28 16:13:11,467: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,469: root: INFO: Current backtesting datetime 2023-01-04 09:30:00-05:00
+2023-04-28 16:13:11,469: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,471: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,471: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,472: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,473: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,473: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,475: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,475: root: INFO: Current backtesting datetime 2023-01-05 09:30:00-05:00
+2023-04-28 16:13:11,477: root: INFO: Current backtesting datetime 2023-01-05 08:30:00-05:00
+2023-04-28 16:13:11,478: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,479: root: INFO: Current backtesting datetime 2023-01-05 09:30:00-05:00
+2023-04-28 16:13:11,480: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,481: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,481: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,483: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,484: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,484: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,485: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,485: root: INFO: Current backtesting datetime 2023-01-06 09:30:00-05:00
+2023-04-28 16:13:11,487: root: INFO: Current backtesting datetime 2023-01-06 08:30:00-05:00
+2023-04-28 16:13:11,488: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,489: root: INFO: Current backtesting datetime 2023-01-06 09:30:00-05:00
+2023-04-28 16:13:11,490: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,491: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,491: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,493: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,494: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,494: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,495: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,495: root: INFO: Current backtesting datetime 2023-01-07 09:30:00-05:00
+2023-04-28 16:13:11,497: root: INFO: Current backtesting datetime 2023-01-09 08:30:00-05:00
+2023-04-28 16:13:11,498: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,499: root: INFO: Current backtesting datetime 2023-01-09 09:30:00-05:00
+2023-04-28 16:13:11,499: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,501: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,501: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,502: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,503: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,503: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,505: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,505: root: INFO: Current backtesting datetime 2023-01-10 09:30:00-05:00
+2023-04-28 16:13:11,506: root: INFO: Current backtesting datetime 2023-01-10 08:30:00-05:00
+2023-04-28 16:13:11,508: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,511: root: INFO: Current backtesting datetime 2023-01-10 09:30:00-05:00
+2023-04-28 16:13:11,511: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,512: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,513: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,514: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,515: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,515: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,516: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,517: root: INFO: Current backtesting datetime 2023-01-11 09:30:00-05:00
+2023-04-28 16:13:11,518: root: INFO: Current backtesting datetime 2023-01-11 08:30:00-05:00
+2023-04-28 16:13:11,519: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,520: root: INFO: Current backtesting datetime 2023-01-11 09:30:00-05:00
+2023-04-28 16:13:11,520: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,521: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,522: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,524: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,524: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,524: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,526: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,526: root: INFO: Current backtesting datetime 2023-01-12 09:30:00-05:00
+2023-04-28 16:13:11,528: root: INFO: Current backtesting datetime 2023-01-12 08:30:00-05:00
+2023-04-28 16:13:11,529: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,530: root: INFO: Current backtesting datetime 2023-01-12 09:30:00-05:00
+2023-04-28 16:13:11,530: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,532: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,532: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,534: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,534: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,534: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,536: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,536: root: INFO: Current backtesting datetime 2023-01-13 09:30:00-05:00
+2023-04-28 16:13:11,538: root: INFO: Current backtesting datetime 2023-01-13 08:30:00-05:00
+2023-04-28 16:13:11,539: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,540: root: INFO: Current backtesting datetime 2023-01-13 09:30:00-05:00
+2023-04-28 16:13:11,541: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,547: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,547: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,549: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,549: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,550: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,551: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,551: root: INFO: Current backtesting datetime 2023-01-14 09:30:00-05:00
+2023-04-28 16:13:11,552: root: INFO: Current backtesting datetime 2023-01-17 08:30:00-05:00
+2023-04-28 16:13:11,555: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,558: root: INFO: Current backtesting datetime 2023-01-17 09:30:00-05:00
+2023-04-28 16:13:11,558: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,559: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,560: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,561: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,562: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,562: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,564: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,564: root: INFO: Current backtesting datetime 2023-01-18 09:30:00-05:00
+2023-04-28 16:13:11,566: root: INFO: Current backtesting datetime 2023-01-18 08:30:00-05:00
+2023-04-28 16:13:11,567: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,568: root: INFO: Current backtesting datetime 2023-01-18 09:30:00-05:00
+2023-04-28 16:13:11,568: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,571: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,571: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,573: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,574: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,574: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,575: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,576: root: INFO: Current backtesting datetime 2023-01-19 09:30:00-05:00
+2023-04-28 16:13:11,577: root: INFO: Current backtesting datetime 2023-01-19 08:30:00-05:00
+2023-04-28 16:13:11,578: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,579: root: INFO: Current backtesting datetime 2023-01-19 09:30:00-05:00
+2023-04-28 16:13:11,579: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,581: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,581: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,583: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,585: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,585: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,587: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,587: root: INFO: Current backtesting datetime 2023-01-20 09:30:00-05:00
+2023-04-28 16:13:11,588: root: INFO: Current backtesting datetime 2023-01-20 08:30:00-05:00
+2023-04-28 16:13:11,589: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,591: root: INFO: Current backtesting datetime 2023-01-20 09:30:00-05:00
+2023-04-28 16:13:11,591: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,592: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,593: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,594: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,595: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,595: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,596: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,596: root: INFO: Current backtesting datetime 2023-01-21 09:30:00-05:00
+2023-04-28 16:13:11,598: root: INFO: Current backtesting datetime 2023-01-23 08:30:00-05:00
+2023-04-28 16:13:11,599: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,600: root: INFO: Current backtesting datetime 2023-01-23 09:30:00-05:00
+2023-04-28 16:13:11,600: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,602: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,602: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,604: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,604: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,604: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,606: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,607: root: INFO: Current backtesting datetime 2023-01-24 09:30:00-05:00
+2023-04-28 16:13:11,608: root: INFO: Current backtesting datetime 2023-01-24 08:30:00-05:00
+2023-04-28 16:13:11,609: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,610: root: INFO: Current backtesting datetime 2023-01-24 09:30:00-05:00
+2023-04-28 16:13:11,610: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,611: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,612: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,613: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,614: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,614: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,617: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,618: root: INFO: Current backtesting datetime 2023-01-25 09:30:00-05:00
+2023-04-28 16:13:11,620: root: INFO: Current backtesting datetime 2023-01-25 08:30:00-05:00
+2023-04-28 16:13:11,621: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,623: root: INFO: Current backtesting datetime 2023-01-25 09:30:00-05:00
+2023-04-28 16:13:11,623: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,624: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,624: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,626: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,627: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,627: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,629: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,629: root: INFO: Current backtesting datetime 2023-01-26 09:30:00-05:00
+2023-04-28 16:13:11,631: root: INFO: Current backtesting datetime 2023-01-26 08:30:00-05:00
+2023-04-28 16:13:11,632: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,634: root: INFO: Current backtesting datetime 2023-01-26 09:30:00-05:00
+2023-04-28 16:13:11,634: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,636: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,636: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,640: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,640: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,640: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,642: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,643: root: INFO: Current backtesting datetime 2023-01-27 09:30:00-05:00
+2023-04-28 16:13:11,645: root: INFO: Current backtesting datetime 2023-01-27 08:30:00-05:00
+2023-04-28 16:13:11,646: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,650: root: INFO: Current backtesting datetime 2023-01-27 09:30:00-05:00
+2023-04-28 16:13:11,650: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,652: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,652: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,654: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,655: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,655: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,656: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,662: root: INFO: Current backtesting datetime 2023-01-28 09:30:00-05:00
+2023-04-28 16:13:11,665: root: INFO: Current backtesting datetime 2023-01-30 08:30:00-05:00
+2023-04-28 16:13:11,666: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,668: root: INFO: Current backtesting datetime 2023-01-30 09:30:00-05:00
+2023-04-28 16:13:11,669: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,670: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,670: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,672: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,673: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,673: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,675: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,676: root: INFO: Current backtesting datetime 2023-01-31 09:30:00-05:00
+2023-04-28 16:13:11,678: root: INFO: Current backtesting datetime 2023-01-31 08:30:00-05:00
+2023-04-28 16:13:11,679: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,682: root: INFO: Current backtesting datetime 2023-01-31 09:30:00-05:00
+2023-04-28 16:13:11,682: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,684: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,684: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,686: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,687: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,687: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,689: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,689: root: INFO: Current backtesting datetime 2023-02-01 09:30:00-05:00
+2023-04-28 16:13:11,690: root: INFO: Current backtesting datetime 2023-02-01 08:30:00-05:00
+2023-04-28 16:13:11,693: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,696: root: INFO: Current backtesting datetime 2023-02-01 09:30:00-05:00
+2023-04-28 16:13:11,696: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,698: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,698: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,700: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,701: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,701: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,703: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,703: root: INFO: Current backtesting datetime 2023-02-02 09:30:00-05:00
+2023-04-28 16:13:11,705: root: INFO: Current backtesting datetime 2023-02-02 08:30:00-05:00
+2023-04-28 16:13:11,706: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,709: root: INFO: Current backtesting datetime 2023-02-02 09:30:00-05:00
+2023-04-28 16:13:11,710: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,712: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,712: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,715: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,716: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,716: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,718: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,718: root: INFO: Current backtesting datetime 2023-02-03 09:30:00-05:00
+2023-04-28 16:13:11,719: root: INFO: Current backtesting datetime 2023-02-03 08:30:00-05:00
+2023-04-28 16:13:11,720: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,722: root: INFO: Current backtesting datetime 2023-02-03 09:30:00-05:00
+2023-04-28 16:13:11,722: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,724: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,725: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,727: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,728: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,728: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,730: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,731: root: INFO: Current backtesting datetime 2023-02-04 09:30:00-05:00
+2023-04-28 16:13:11,732: root: INFO: Current backtesting datetime 2023-02-06 08:30:00-05:00
+2023-04-28 16:13:11,733: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,735: root: INFO: Current backtesting datetime 2023-02-06 09:30:00-05:00
+2023-04-28 16:13:11,735: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,737: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,737: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,740: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,741: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,741: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,743: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,743: root: INFO: Current backtesting datetime 2023-02-07 09:30:00-05:00
+2023-04-28 16:13:11,745: root: INFO: Current backtesting datetime 2023-02-07 08:30:00-05:00
+2023-04-28 16:13:11,746: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,748: root: INFO: Current backtesting datetime 2023-02-07 09:30:00-05:00
+2023-04-28 16:13:11,749: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,750: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,750: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,752: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,752: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,752: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,754: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,754: root: INFO: Current backtesting datetime 2023-02-08 09:30:00-05:00
+2023-04-28 16:13:11,756: root: INFO: Current backtesting datetime 2023-02-08 08:30:00-05:00
+2023-04-28 16:13:11,757: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,759: root: INFO: Current backtesting datetime 2023-02-08 09:30:00-05:00
+2023-04-28 16:13:11,759: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,760: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,760: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,763: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,764: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,764: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,766: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,766: root: INFO: Current backtesting datetime 2023-02-09 09:30:00-05:00
+2023-04-28 16:13:11,768: root: INFO: Current backtesting datetime 2023-02-09 08:30:00-05:00
+2023-04-28 16:13:11,768: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,770: root: INFO: Current backtesting datetime 2023-02-09 09:30:00-05:00
+2023-04-28 16:13:11,771: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,772: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,772: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,774: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,774: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,774: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,776: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,776: root: INFO: Current backtesting datetime 2023-02-10 09:30:00-05:00
+2023-04-28 16:13:11,777: root: INFO: Current backtesting datetime 2023-02-10 08:30:00-05:00
+2023-04-28 16:13:11,778: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,780: root: INFO: Current backtesting datetime 2023-02-10 09:30:00-05:00
+2023-04-28 16:13:11,780: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,781: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,782: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,783: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,784: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,784: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,786: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,786: root: INFO: Current backtesting datetime 2023-02-11 09:30:00-05:00
+2023-04-28 16:13:11,788: root: INFO: Current backtesting datetime 2023-02-13 08:30:00-05:00
+2023-04-28 16:13:11,789: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,791: root: INFO: Current backtesting datetime 2023-02-13 09:30:00-05:00
+2023-04-28 16:13:11,791: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,792: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,793: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,794: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,795: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,795: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,797: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,797: root: INFO: Current backtesting datetime 2023-02-14 09:30:00-05:00
+2023-04-28 16:13:11,799: root: INFO: Current backtesting datetime 2023-02-14 08:30:00-05:00
+2023-04-28 16:13:11,800: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,802: root: INFO: Current backtesting datetime 2023-02-14 09:30:00-05:00
+2023-04-28 16:13:11,802: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,804: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,805: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,806: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,807: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,807: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,809: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,809: root: INFO: Current backtesting datetime 2023-02-15 09:30:00-05:00
+2023-04-28 16:13:11,810: root: INFO: Current backtesting datetime 2023-02-15 08:30:00-05:00
+2023-04-28 16:13:11,811: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,812: root: INFO: Current backtesting datetime 2023-02-15 09:30:00-05:00
+2023-04-28 16:13:11,812: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,814: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,814: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,816: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,816: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,816: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,818: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,819: root: INFO: Current backtesting datetime 2023-02-16 09:30:00-05:00
+2023-04-28 16:13:11,820: root: INFO: Current backtesting datetime 2023-02-16 08:30:00-05:00
+2023-04-28 16:13:11,820: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,822: root: INFO: Current backtesting datetime 2023-02-16 09:30:00-05:00
+2023-04-28 16:13:11,822: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,823: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,823: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,828: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,828: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,828: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,837: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,837: root: INFO: Current backtesting datetime 2023-02-17 09:30:00-05:00
+2023-04-28 16:13:11,844: root: INFO: Current backtesting datetime 2023-02-17 08:30:00-05:00
+2023-04-28 16:13:11,845: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,852: root: INFO: Current backtesting datetime 2023-02-17 09:30:00-05:00
+2023-04-28 16:13:11,852: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,854: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,854: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,856: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,860: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,860: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,862: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,863: root: INFO: Current backtesting datetime 2023-02-18 09:30:00-05:00
+2023-04-28 16:13:11,871: root: INFO: Current backtesting datetime 2023-02-21 08:30:00-05:00
+2023-04-28 16:13:11,873: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,877: root: INFO: Current backtesting datetime 2023-02-21 09:30:00-05:00
+2023-04-28 16:13:11,877: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,879: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,880: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,883: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,883: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,883: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,885: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,886: root: INFO: Current backtesting datetime 2023-02-22 09:30:00-05:00
+2023-04-28 16:13:11,888: root: INFO: Current backtesting datetime 2023-02-22 08:30:00-05:00
+2023-04-28 16:13:11,895: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,898: root: INFO: Current backtesting datetime 2023-02-22 09:30:00-05:00
+2023-04-28 16:13:11,899: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,900: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,901: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,903: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,903: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,915: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,921: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,921: root: INFO: Current backtesting datetime 2023-02-23 09:30:00-05:00
+2023-04-28 16:13:11,924: root: INFO: Current backtesting datetime 2023-02-23 08:30:00-05:00
+2023-04-28 16:13:11,925: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,928: root: INFO: Current backtesting datetime 2023-02-23 09:30:00-05:00
+2023-04-28 16:13:11,928: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,934: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,935: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,937: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,937: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,937: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,939: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,940: root: INFO: Current backtesting datetime 2023-02-24 09:30:00-05:00
+2023-04-28 16:13:11,942: root: INFO: Current backtesting datetime 2023-02-24 08:30:00-05:00
+2023-04-28 16:13:11,943: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,945: root: INFO: Current backtesting datetime 2023-02-24 09:30:00-05:00
+2023-04-28 16:13:11,945: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,946: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,946: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,949: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,949: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,950: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,951: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,951: root: INFO: Current backtesting datetime 2023-02-25 09:30:00-05:00
+2023-04-28 16:13:11,953: root: INFO: Current backtesting datetime 2023-02-27 08:30:00-05:00
+2023-04-28 16:13:11,954: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,956: root: INFO: Current backtesting datetime 2023-02-27 09:30:00-05:00
+2023-04-28 16:13:11,956: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,967: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,967: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,969: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,969: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,970: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,971: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,972: root: INFO: Current backtesting datetime 2023-02-28 09:30:00-05:00
+2023-04-28 16:13:11,973: root: INFO: Current backtesting datetime 2023-02-28 08:30:00-05:00
+2023-04-28 16:13:11,974: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,976: root: INFO: Current backtesting datetime 2023-02-28 09:30:00-05:00
+2023-04-28 16:13:11,976: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,978: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,978: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,980: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,981: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,981: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,983: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,983: root: INFO: Current backtesting datetime 2023-03-01 09:30:00-05:00
+2023-04-28 16:13:11,985: root: INFO: Current backtesting datetime 2023-03-01 08:30:00-05:00
+2023-04-28 16:13:11,985: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:11,988: root: INFO: Current backtesting datetime 2023-03-01 09:30:00-05:00
+2023-04-28 16:13:11,988: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:11,990: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:11,990: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:11,992: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:11,993: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:11,993: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:11,996: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:11,996: root: INFO: Current backtesting datetime 2023-03-02 09:30:00-05:00
+2023-04-28 16:13:11,998: root: INFO: Current backtesting datetime 2023-03-02 08:30:00-05:00
+2023-04-28 16:13:11,999: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,001: root: INFO: Current backtesting datetime 2023-03-02 09:30:00-05:00
+2023-04-28 16:13:12,001: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,003: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,003: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,005: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,006: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,006: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,008: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,008: root: INFO: Current backtesting datetime 2023-03-03 09:30:00-05:00
+2023-04-28 16:13:12,010: root: INFO: Current backtesting datetime 2023-03-03 08:30:00-05:00
+2023-04-28 16:13:12,010: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,012: root: INFO: Current backtesting datetime 2023-03-03 09:30:00-05:00
+2023-04-28 16:13:12,012: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,014: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,014: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,016: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,018: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,018: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,020: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,020: root: INFO: Current backtesting datetime 2023-03-04 09:30:00-05:00
+2023-04-28 16:13:12,023: root: INFO: Current backtesting datetime 2023-03-06 08:30:00-05:00
+2023-04-28 16:13:12,024: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,025: root: INFO: Current backtesting datetime 2023-03-06 09:30:00-05:00
+2023-04-28 16:13:12,025: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,027: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,027: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,029: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,029: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,029: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,031: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,032: root: INFO: Current backtesting datetime 2023-03-07 09:30:00-05:00
+2023-04-28 16:13:12,033: root: INFO: Current backtesting datetime 2023-03-07 08:30:00-05:00
+2023-04-28 16:13:12,034: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,036: root: INFO: Current backtesting datetime 2023-03-07 09:30:00-05:00
+2023-04-28 16:13:12,036: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,038: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,038: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,040: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,040: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,040: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,042: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,042: root: INFO: Current backtesting datetime 2023-03-08 09:30:00-05:00
+2023-04-28 16:13:12,044: root: INFO: Current backtesting datetime 2023-03-08 08:30:00-05:00
+2023-04-28 16:13:12,045: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,046: root: INFO: Current backtesting datetime 2023-03-08 09:30:00-05:00
+2023-04-28 16:13:12,047: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,049: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,050: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,052: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,054: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,054: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,057: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,057: root: INFO: Current backtesting datetime 2023-03-09 09:30:00-05:00
+2023-04-28 16:13:12,061: root: INFO: Current backtesting datetime 2023-03-09 08:30:00-05:00
+2023-04-28 16:13:12,063: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,066: root: INFO: Current backtesting datetime 2023-03-09 09:30:00-05:00
+2023-04-28 16:13:12,066: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,070: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,070: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,073: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,074: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,074: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,081: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,081: root: INFO: Current backtesting datetime 2023-03-10 09:30:00-05:00
+2023-04-28 16:13:12,084: root: INFO: Current backtesting datetime 2023-03-10 08:30:00-05:00
+2023-04-28 16:13:12,085: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,088: root: INFO: Current backtesting datetime 2023-03-10 09:30:00-05:00
+2023-04-28 16:13:12,088: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,090: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,090: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,092: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,092: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,093: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,094: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,095: root: INFO: Current backtesting datetime 2023-03-11 09:30:00-05:00
+2023-04-28 16:13:12,096: root: INFO: Current backtesting datetime 2023-03-13 07:30:00-05:00
+2023-04-28 16:13:12,097: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,100: root: INFO: Current backtesting datetime 2023-03-13 08:30:00-05:00
+2023-04-28 16:13:12,100: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,103: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,103: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,105: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,106: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,106: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,108: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,108: root: INFO: Current backtesting datetime 2023-03-14 08:30:00-05:00
+2023-04-28 16:13:12,110: root: INFO: Current backtesting datetime 2023-03-14 07:30:00-05:00
+2023-04-28 16:13:12,111: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,113: root: INFO: Current backtesting datetime 2023-03-14 08:30:00-05:00
+2023-04-28 16:13:12,113: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,116: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,116: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,120: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,121: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,121: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,123: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,124: root: INFO: Current backtesting datetime 2023-03-15 08:30:00-05:00
+2023-04-28 16:13:12,126: root: INFO: Current backtesting datetime 2023-03-15 07:30:00-05:00
+2023-04-28 16:13:12,127: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,129: root: INFO: Current backtesting datetime 2023-03-15 08:30:00-05:00
+2023-04-28 16:13:12,129: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,132: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,133: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,135: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,136: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,136: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,138: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,138: root: INFO: Current backtesting datetime 2023-03-16 08:30:00-05:00
+2023-04-28 16:13:12,141: root: INFO: Current backtesting datetime 2023-03-16 07:30:00-05:00
+2023-04-28 16:13:12,142: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,144: root: INFO: Current backtesting datetime 2023-03-16 08:30:00-05:00
+2023-04-28 16:13:12,144: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,149: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,149: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,151: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,151: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,152: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,153: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,153: root: INFO: Current backtesting datetime 2023-03-17 08:30:00-05:00
+2023-04-28 16:13:12,155: root: INFO: Current backtesting datetime 2023-03-17 07:30:00-05:00
+2023-04-28 16:13:12,156: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,158: root: INFO: Current backtesting datetime 2023-03-17 08:30:00-05:00
+2023-04-28 16:13:12,158: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,159: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,160: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,162: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,162: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,162: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,165: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,165: root: INFO: Current backtesting datetime 2023-03-18 08:30:00-05:00
+2023-04-28 16:13:12,167: root: INFO: Current backtesting datetime 2023-03-20 07:30:00-05:00
+2023-04-28 16:13:12,167: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,169: root: INFO: Current backtesting datetime 2023-03-20 08:30:00-05:00
+2023-04-28 16:13:12,169: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,170: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,171: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,172: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,173: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,174: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,175: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,175: root: INFO: Current backtesting datetime 2023-03-21 08:30:00-05:00
+2023-04-28 16:13:12,177: root: INFO: Current backtesting datetime 2023-03-21 07:30:00-05:00
+2023-04-28 16:13:12,179: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,182: root: INFO: Current backtesting datetime 2023-03-21 08:30:00-05:00
+2023-04-28 16:13:12,183: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,184: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,184: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,186: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,186: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,186: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,189: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,190: root: INFO: Current backtesting datetime 2023-03-22 08:30:00-05:00
+2023-04-28 16:13:12,191: root: INFO: Current backtesting datetime 2023-03-22 07:30:00-05:00
+2023-04-28 16:13:12,192: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,194: root: INFO: Current backtesting datetime 2023-03-22 08:30:00-05:00
+2023-04-28 16:13:12,195: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,196: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,196: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,198: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,199: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,199: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,201: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,201: root: INFO: Current backtesting datetime 2023-03-23 08:30:00-05:00
+2023-04-28 16:13:12,203: root: INFO: Current backtesting datetime 2023-03-23 07:30:00-05:00
+2023-04-28 16:13:12,204: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,206: root: INFO: Current backtesting datetime 2023-03-23 08:30:00-05:00
+2023-04-28 16:13:12,206: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,208: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,208: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,210: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,211: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,211: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,213: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,213: root: INFO: Current backtesting datetime 2023-03-24 08:30:00-05:00
+2023-04-28 16:13:12,215: root: INFO: Current backtesting datetime 2023-03-24 07:30:00-05:00
+2023-04-28 16:13:12,216: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,217: root: INFO: Current backtesting datetime 2023-03-24 08:30:00-05:00
+2023-04-28 16:13:12,218: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,219: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,219: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,221: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,221: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,221: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,222: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,223: root: INFO: Current backtesting datetime 2023-03-25 08:30:00-05:00
+2023-04-28 16:13:12,224: root: INFO: Current backtesting datetime 2023-03-27 07:30:00-05:00
+2023-04-28 16:13:12,226: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,228: root: INFO: Current backtesting datetime 2023-03-27 08:30:00-05:00
+2023-04-28 16:13:12,228: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,229: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,229: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,232: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,232: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,232: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,234: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,234: root: INFO: Current backtesting datetime 2023-03-28 08:30:00-05:00
+2023-04-28 16:13:12,235: root: INFO: Current backtesting datetime 2023-03-28 07:30:00-05:00
+2023-04-28 16:13:12,236: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,238: root: INFO: Current backtesting datetime 2023-03-28 08:30:00-05:00
+2023-04-28 16:13:12,238: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,240: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,241: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,243: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,244: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,244: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,245: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,246: root: INFO: Current backtesting datetime 2023-03-29 08:30:00-05:00
+2023-04-28 16:13:12,247: root: INFO: Current backtesting datetime 2023-03-29 07:30:00-05:00
+2023-04-28 16:13:12,259: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,262: root: INFO: Current backtesting datetime 2023-03-29 08:30:00-05:00
+2023-04-28 16:13:12,262: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,264: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,265: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,267: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,268: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,268: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,272: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,272: root: INFO: Current backtesting datetime 2023-03-30 08:30:00-05:00
+2023-04-28 16:13:12,274: root: INFO: Current backtesting datetime 2023-03-30 07:30:00-05:00
+2023-04-28 16:13:12,275: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,277: root: INFO: Current backtesting datetime 2023-03-30 08:30:00-05:00
+2023-04-28 16:13:12,277: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,279: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,279: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,281: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,282: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,282: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,294: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,295: root: INFO: Current backtesting datetime 2023-03-31 08:30:00-05:00
+2023-04-28 16:13:12,298: root: INFO: Current backtesting datetime 2023-03-31 07:30:00-05:00
+2023-04-28 16:13:12,299: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,301: root: INFO: Current backtesting datetime 2023-03-31 08:30:00-05:00
+2023-04-28 16:13:12,302: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,303: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,304: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,306: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,306: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,306: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,308: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,308: root: INFO: Current backtesting datetime 2023-04-01 08:30:00-05:00
+2023-04-28 16:13:12,310: root: INFO: Current backtesting datetime 2023-04-03 07:30:00-05:00
+2023-04-28 16:13:12,311: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,312: root: INFO: Current backtesting datetime 2023-04-03 08:30:00-05:00
+2023-04-28 16:13:12,313: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,315: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,315: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,317: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,318: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,318: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,320: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,320: root: INFO: Current backtesting datetime 2023-04-04 08:30:00-05:00
+2023-04-28 16:13:12,322: root: INFO: Current backtesting datetime 2023-04-04 07:30:00-05:00
+2023-04-28 16:13:12,323: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,325: root: INFO: Current backtesting datetime 2023-04-04 08:30:00-05:00
+2023-04-28 16:13:12,325: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,326: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,326: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,328: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,329: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,329: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,332: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,333: root: INFO: Current backtesting datetime 2023-04-05 08:30:00-05:00
+2023-04-28 16:13:12,334: root: INFO: Current backtesting datetime 2023-04-05 07:30:00-05:00
+2023-04-28 16:13:12,335: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,337: root: INFO: Current backtesting datetime 2023-04-05 08:30:00-05:00
+2023-04-28 16:13:12,337: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,339: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,339: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,341: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,342: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,342: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,343: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,343: root: INFO: Current backtesting datetime 2023-04-06 08:30:00-05:00
+2023-04-28 16:13:12,345: root: INFO: Current backtesting datetime 2023-04-06 07:30:00-05:00
+2023-04-28 16:13:12,346: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,348: root: INFO: Current backtesting datetime 2023-04-06 08:30:00-05:00
+2023-04-28 16:13:12,348: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,354: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,354: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,356: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,356: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,356: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,359: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,359: root: INFO: Current backtesting datetime 2023-04-07 08:30:00-05:00
+2023-04-28 16:13:12,360: root: INFO: Current backtesting datetime 2023-04-10 07:30:00-05:00
+2023-04-28 16:13:12,361: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,363: root: INFO: Current backtesting datetime 2023-04-10 08:30:00-05:00
+2023-04-28 16:13:12,363: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,365: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,365: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,366: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,367: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,367: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,368: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,369: root: INFO: Current backtesting datetime 2023-04-11 08:30:00-05:00
+2023-04-28 16:13:12,370: root: INFO: Current backtesting datetime 2023-04-11 07:30:00-05:00
+2023-04-28 16:13:12,371: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,372: root: INFO: Current backtesting datetime 2023-04-11 08:30:00-05:00
+2023-04-28 16:13:12,372: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,374: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,374: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,375: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,376: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,376: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,380: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,380: root: INFO: Current backtesting datetime 2023-04-12 08:30:00-05:00
+2023-04-28 16:13:12,382: root: INFO: Current backtesting datetime 2023-04-12 07:30:00-05:00
+2023-04-28 16:13:12,382: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,384: root: INFO: Current backtesting datetime 2023-04-12 08:30:00-05:00
+2023-04-28 16:13:12,384: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,385: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,385: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,386: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,387: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,387: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,388: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,389: root: INFO: Current backtesting datetime 2023-04-13 08:30:00-05:00
+2023-04-28 16:13:12,390: root: INFO: Current backtesting datetime 2023-04-13 07:30:00-05:00
+2023-04-28 16:13:12,390: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,392: root: INFO: Current backtesting datetime 2023-04-13 08:30:00-05:00
+2023-04-28 16:13:12,392: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,393: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,393: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,395: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,396: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,396: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,397: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,397: root: INFO: Current backtesting datetime 2023-04-14 08:30:00-05:00
+2023-04-28 16:13:12,398: root: INFO: Current backtesting datetime 2023-04-14 07:30:00-05:00
+2023-04-28 16:13:12,399: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-28 16:13:12,401: root: INFO: Current backtesting datetime 2023-04-14 08:30:00-05:00
+2023-04-28 16:13:12,401: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-28 16:13:12,402: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-28 16:13:12,402: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-28 16:13:12,404: root: ERROR: name 'df' is not defined
+2023-04-28 16:13:12,404: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 566, in run
+    self._run_trading_session()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 538, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 261, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 285, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 69, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\strategies\strategy_executor.py", line 339, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\pelec\AppData\Roaming\Python\Python38\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:/Users/pelec/Desktop/STOCK MARKET/Live data/Lumibot_trend.py", line 26, in on_trading_iteration
+    df.to_csv('alltickers.csv')
+NameError: name 'df' is not defined
+
+2023-04-28 16:13:12,404: root: INFO: Trend : Executing the on_bot_crash event method
+2023-04-28 16:13:12,406: root: INFO: Trend : Sleeping for 86400 seconds
+2023-04-28 16:13:12,406: root: INFO: Current backtesting datetime 2023-04-15 08:30:00-05:00
+2023-04-28 16:13:12,406: root: INFO: Trend : Executing the on_strategy_end lifecycle method
+2023-04-28 16:13:12,406: backtest_stats: INFO: Backtest took 0:00:00.988868 for a speed of 0.000
+2023-04-28 16:13:12,406: root: WARNING: Cannot plot returns because the strategy returns are missing
+2023-04-28 16:13:12,406: root: WARNING: Cannot create a tearsheet because the strategy returns are missing

@@ -1,0 +1,1776 @@
+2023-04-26 16:09:47,375: root: INFO: Trend : Executing the initialize lifecycle method
+2023-04-26 16:09:47,394: root: INFO: Current backtesting datetime 2022-04-18 08:30:00-04:00
+2023-04-26 16:09:47,395: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:47,396: root: INFO: Current backtesting datetime 2022-04-18 09:30:00-04:00
+2023-04-26 16:09:47,397: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:47,400: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:47,401: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,556: root: ERROR: Error while downloading symbol info for TSLA, setting info to None for now.
+2023-04-26 16:09:55,557: root: ERROR: yfinance failed to decrypt Yahoo data response
+2023-04-26 16:09:55,588: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:55,590: root: INFO: Current backtesting datetime 2022-04-19 09:30:00-04:00
+2023-04-26 16:09:55,591: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,591: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,604: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:55,605: root: INFO: [32mFilled Transaction: sell 200 of TSLA at 342.71667480 USD per share[0m
+2023-04-26 16:09:55,605: root: INFO: market order of | 200 TSLA sell | with status unprocessed was filled
+2023-04-26 16:09:55,610: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:55,610: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:55,611: root: INFO: Current backtesting datetime 2022-04-20 09:30:00-04:00
+2023-04-26 16:09:55,613: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,613: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,625: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:55,626: root: INFO: Current backtesting datetime 2022-04-21 09:30:00-04:00
+2023-04-26 16:09:55,627: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,628: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,639: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:55,640: root: INFO: Current backtesting datetime 2022-04-22 09:30:00-04:00
+2023-04-26 16:09:55,642: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,642: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,662: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:55,671: root: INFO: Current backtesting datetime 2022-04-23 09:30:00-04:00
+2023-04-26 16:09:55,673: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,673: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,687: root: INFO: Current backtesting datetime 2022-04-23 09:25:00-04:00
+2023-04-26 16:09:55,691: root: INFO: Current backtesting datetime 2022-04-23 09:25:00-04:00
+2023-04-26 16:09:55,691: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:55,693: root: INFO: Current backtesting datetime 2022-04-25 08:30:00-04:00
+2023-04-26 16:09:55,693: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:55,694: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:55,695: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:55,701: root: INFO: Current backtesting datetime 2022-04-25 09:30:00-04:00
+2023-04-26 16:09:55,701: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:55,704: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,704: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,715: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:55,718: root: INFO: Current backtesting datetime 2022-04-26 09:30:00-04:00
+2023-04-26 16:09:55,719: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,720: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,729: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:55,730: root: INFO: Current backtesting datetime 2022-04-27 09:30:00-04:00
+2023-04-26 16:09:55,732: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,733: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,744: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:55,744: root: INFO: Current backtesting datetime 2022-04-28 09:30:00-04:00
+2023-04-26 16:09:55,745: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,745: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,760: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:55,760: root: INFO: Current backtesting datetime 2022-04-29 09:30:00-04:00
+2023-04-26 16:09:55,762: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,762: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,773: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:55,774: root: INFO: Current backtesting datetime 2022-04-30 09:30:00-04:00
+2023-04-26 16:09:55,775: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,775: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,789: root: INFO: Current backtesting datetime 2022-04-30 09:25:00-04:00
+2023-04-26 16:09:55,791: root: INFO: Current backtesting datetime 2022-04-30 09:25:00-04:00
+2023-04-26 16:09:55,791: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:55,793: root: INFO: Current backtesting datetime 2022-05-02 08:30:00-04:00
+2023-04-26 16:09:55,793: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:55,794: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:55,796: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:55,800: root: INFO: Current backtesting datetime 2022-05-02 09:30:00-04:00
+2023-04-26 16:09:55,800: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:55,803: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,803: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,812: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:55,814: root: INFO: Current backtesting datetime 2022-05-03 09:30:00-04:00
+2023-04-26 16:09:55,816: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,817: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,825: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:55,825: root: INFO: Current backtesting datetime 2022-05-04 09:30:00-04:00
+2023-04-26 16:09:55,826: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,827: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,837: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:55,837: root: INFO: Current backtesting datetime 2022-05-05 09:30:00-04:00
+2023-04-26 16:09:55,839: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,839: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,849: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:55,849: root: INFO: Current backtesting datetime 2022-05-06 09:30:00-04:00
+2023-04-26 16:09:55,851: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,851: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,861: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:55,861: root: INFO: Current backtesting datetime 2022-05-07 09:30:00-04:00
+2023-04-26 16:09:55,862: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,862: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,874: root: INFO: Current backtesting datetime 2022-05-07 09:25:00-04:00
+2023-04-26 16:09:55,876: root: INFO: Current backtesting datetime 2022-05-07 09:25:00-04:00
+2023-04-26 16:09:55,877: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:55,878: root: INFO: Current backtesting datetime 2022-05-09 08:30:00-04:00
+2023-04-26 16:09:55,879: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:55,879: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:55,881: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:55,884: root: INFO: Current backtesting datetime 2022-05-09 09:30:00-04:00
+2023-04-26 16:09:55,884: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:55,886: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,886: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,895: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:55,896: root: INFO: Current backtesting datetime 2022-05-10 09:30:00-04:00
+2023-04-26 16:09:55,899: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,899: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,911: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:55,911: root: INFO: Current backtesting datetime 2022-05-11 09:30:00-04:00
+2023-04-26 16:09:55,912: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,913: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,927: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:55,927: root: INFO: Current backtesting datetime 2022-05-12 09:30:00-04:00
+2023-04-26 16:09:55,928: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,928: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,940: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:55,941: root: INFO: Current backtesting datetime 2022-05-13 09:30:00-04:00
+2023-04-26 16:09:55,942: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,942: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,955: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:55,955: root: INFO: Current backtesting datetime 2022-05-14 09:30:00-04:00
+2023-04-26 16:09:55,956: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,956: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:55,972: root: INFO: Current backtesting datetime 2022-05-14 09:25:00-04:00
+2023-04-26 16:09:55,974: root: INFO: Current backtesting datetime 2022-05-14 09:25:00-04:00
+2023-04-26 16:09:55,974: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:55,977: root: INFO: Current backtesting datetime 2022-05-16 08:30:00-04:00
+2023-04-26 16:09:55,978: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:55,978: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:55,980: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:55,987: root: INFO: Current backtesting datetime 2022-05-16 09:30:00-04:00
+2023-04-26 16:09:55,987: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:55,989: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:55,990: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,000: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,004: root: INFO: Current backtesting datetime 2022-05-17 09:30:00-04:00
+2023-04-26 16:09:56,006: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,006: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,020: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,020: root: INFO: Current backtesting datetime 2022-05-18 09:30:00-04:00
+2023-04-26 16:09:56,022: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,022: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,036: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,036: root: INFO: Current backtesting datetime 2022-05-19 09:30:00-04:00
+2023-04-26 16:09:56,038: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,038: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,053: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,054: root: INFO: Current backtesting datetime 2022-05-20 09:30:00-04:00
+2023-04-26 16:09:56,056: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,056: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,069: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,069: root: INFO: Current backtesting datetime 2022-05-21 09:30:00-04:00
+2023-04-26 16:09:56,070: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,071: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,086: root: INFO: Current backtesting datetime 2022-05-21 09:25:00-04:00
+2023-04-26 16:09:56,088: root: INFO: Current backtesting datetime 2022-05-21 09:25:00-04:00
+2023-04-26 16:09:56,088: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:56,090: root: INFO: Current backtesting datetime 2022-05-23 08:30:00-04:00
+2023-04-26 16:09:56,091: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:56,092: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:56,093: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:56,095: root: INFO: Current backtesting datetime 2022-05-23 09:30:00-04:00
+2023-04-26 16:09:56,095: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:56,098: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,099: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,109: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,110: root: INFO: Current backtesting datetime 2022-05-24 09:30:00-04:00
+2023-04-26 16:09:56,111: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,111: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,124: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,124: root: INFO: Current backtesting datetime 2022-05-25 09:30:00-04:00
+2023-04-26 16:09:56,125: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,126: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,139: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,139: root: INFO: Current backtesting datetime 2022-05-26 09:30:00-04:00
+2023-04-26 16:09:56,140: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,140: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,152: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,152: root: INFO: Current backtesting datetime 2022-05-27 09:30:00-04:00
+2023-04-26 16:09:56,153: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,154: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,162: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,162: root: INFO: Current backtesting datetime 2022-05-28 09:30:00-04:00
+2023-04-26 16:09:56,164: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,164: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,176: root: INFO: Current backtesting datetime 2022-05-28 09:25:00-04:00
+2023-04-26 16:09:56,179: root: INFO: Current backtesting datetime 2022-05-28 09:25:00-04:00
+2023-04-26 16:09:56,179: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:56,183: root: INFO: Current backtesting datetime 2022-05-31 08:30:00-04:00
+2023-04-26 16:09:56,184: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:56,185: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:56,186: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:56,188: root: INFO: Current backtesting datetime 2022-05-31 09:30:00-04:00
+2023-04-26 16:09:56,188: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:56,190: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,190: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,202: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,202: root: INFO: Current backtesting datetime 2022-06-01 09:30:00-04:00
+2023-04-26 16:09:56,204: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,204: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,212: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,212: root: INFO: Current backtesting datetime 2022-06-02 09:30:00-04:00
+2023-04-26 16:09:56,214: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,214: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,223: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,224: root: INFO: Current backtesting datetime 2022-06-03 09:30:00-04:00
+2023-04-26 16:09:56,225: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,225: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,237: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,238: root: INFO: Current backtesting datetime 2022-06-04 09:30:00-04:00
+2023-04-26 16:09:56,239: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,239: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,253: root: INFO: Current backtesting datetime 2022-06-04 09:25:00-04:00
+2023-04-26 16:09:56,255: root: INFO: Current backtesting datetime 2022-06-04 09:25:00-04:00
+2023-04-26 16:09:56,255: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:56,257: root: INFO: Current backtesting datetime 2022-06-06 08:30:00-04:00
+2023-04-26 16:09:56,258: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:56,259: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:56,261: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:56,262: root: INFO: Current backtesting datetime 2022-06-06 09:30:00-04:00
+2023-04-26 16:09:56,263: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:56,267: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,267: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,277: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,278: root: INFO: Current backtesting datetime 2022-06-07 09:30:00-04:00
+2023-04-26 16:09:56,279: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,279: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,290: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,291: root: INFO: Current backtesting datetime 2022-06-08 09:30:00-04:00
+2023-04-26 16:09:56,292: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,292: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,302: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:09:56,302: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:56,304: root: INFO: [32mFilled Transaction: buy 200 of TSLA at 241.86666870 USD per share[0m
+2023-04-26 16:09:56,304: root: INFO: market order of | 200 TSLA buy | with status unprocessed was filled
+2023-04-26 16:09:56,304: root: INFO: Position 0.000000 shares of TSLA liquidated
+2023-04-26 16:09:56,307: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:56,308: root: INFO: [32mFilled Transaction: buy 200 of TSLA at 241.86666870 USD per share[0m
+2023-04-26 16:09:56,309: root: INFO: market order of | 200 TSLA buy | with status unprocessed was filled
+2023-04-26 16:09:56,312: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,312: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:56,312: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:56,312: root: INFO: Current backtesting datetime 2022-06-09 09:30:00-04:00
+2023-04-26 16:09:56,314: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,314: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,326: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,326: root: INFO: Current backtesting datetime 2022-06-10 09:30:00-04:00
+2023-04-26 16:09:56,327: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,328: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,344: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,344: root: INFO: Current backtesting datetime 2022-06-11 09:30:00-04:00
+2023-04-26 16:09:56,345: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,346: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,359: root: INFO: Current backtesting datetime 2022-06-11 09:25:00-04:00
+2023-04-26 16:09:56,361: root: INFO: Current backtesting datetime 2022-06-11 09:25:00-04:00
+2023-04-26 16:09:56,361: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:56,363: root: INFO: Current backtesting datetime 2022-06-13 08:30:00-04:00
+2023-04-26 16:09:56,364: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:56,408: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:56,410: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:56,418: root: INFO: Current backtesting datetime 2022-06-13 09:30:00-04:00
+2023-04-26 16:09:56,418: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:56,421: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,421: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,431: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,433: root: INFO: Current backtesting datetime 2022-06-14 09:30:00-04:00
+2023-04-26 16:09:56,435: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,435: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,443: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,444: root: INFO: Current backtesting datetime 2022-06-15 09:30:00-04:00
+2023-04-26 16:09:56,445: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,445: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,455: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:09:56,456: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:56,458: root: INFO: [32mFilled Transaction: sell 200 of TSLA at 233.00000000 USD per share[0m
+2023-04-26 16:09:56,459: root: INFO: market order of | 200 TSLA sell | with status unprocessed was filled
+2023-04-26 16:09:56,459: root: INFO: Position 0.000000 shares of TSLA liquidated
+2023-04-26 16:09:56,461: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:56,462: root: INFO: [32mFilled Transaction: sell 200 of TSLA at 233.00000000 USD per share[0m
+2023-04-26 16:09:56,462: root: INFO: market order of | 200 TSLA sell | with status unprocessed was filled
+2023-04-26 16:09:56,468: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,468: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:56,468: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:56,468: root: INFO: Current backtesting datetime 2022-06-16 09:30:00-04:00
+2023-04-26 16:09:56,469: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,470: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,479: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,480: root: INFO: Current backtesting datetime 2022-06-17 09:30:00-04:00
+2023-04-26 16:09:56,482: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,482: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,492: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,492: root: INFO: Current backtesting datetime 2022-06-18 09:30:00-04:00
+2023-04-26 16:09:56,493: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,493: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,507: root: INFO: Current backtesting datetime 2022-06-18 09:25:00-04:00
+2023-04-26 16:09:56,509: root: INFO: Current backtesting datetime 2022-06-18 09:25:00-04:00
+2023-04-26 16:09:56,509: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:56,510: root: INFO: Current backtesting datetime 2022-06-21 08:30:00-04:00
+2023-04-26 16:09:56,511: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:56,512: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:56,514: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:56,516: root: INFO: Current backtesting datetime 2022-06-21 09:30:00-04:00
+2023-04-26 16:09:56,517: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:56,519: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,519: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,528: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,528: root: INFO: Current backtesting datetime 2022-06-22 09:30:00-04:00
+2023-04-26 16:09:56,529: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,529: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,540: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,541: root: INFO: Current backtesting datetime 2022-06-23 09:30:00-04:00
+2023-04-26 16:09:56,542: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,542: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,552: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,553: root: INFO: Current backtesting datetime 2022-06-24 09:30:00-04:00
+2023-04-26 16:09:56,554: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,554: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,562: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,563: root: INFO: Current backtesting datetime 2022-06-25 09:30:00-04:00
+2023-04-26 16:09:56,564: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,565: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,576: root: INFO: Current backtesting datetime 2022-06-25 09:25:00-04:00
+2023-04-26 16:09:56,578: root: INFO: Current backtesting datetime 2022-06-25 09:25:00-04:00
+2023-04-26 16:09:56,578: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:56,579: root: INFO: Current backtesting datetime 2022-06-27 08:30:00-04:00
+2023-04-26 16:09:56,583: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:56,584: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:56,586: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:56,588: root: INFO: Current backtesting datetime 2022-06-27 09:30:00-04:00
+2023-04-26 16:09:56,588: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:56,589: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,590: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,600: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,600: root: INFO: Current backtesting datetime 2022-06-28 09:30:00-04:00
+2023-04-26 16:09:56,601: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,602: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,611: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,611: root: INFO: Current backtesting datetime 2022-06-29 09:30:00-04:00
+2023-04-26 16:09:56,612: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,612: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,624: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,624: root: INFO: Current backtesting datetime 2022-06-30 09:30:00-04:00
+2023-04-26 16:09:56,626: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,626: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,637: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,637: root: INFO: Current backtesting datetime 2022-07-01 09:30:00-04:00
+2023-04-26 16:09:56,638: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,638: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,650: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,650: root: INFO: Current backtesting datetime 2022-07-02 09:30:00-04:00
+2023-04-26 16:09:56,657: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,658: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,667: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:09:56,667: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:56,669: root: INFO: [32mFilled Transaction: buy 200 of TSLA at 227.26333618 USD per share[0m
+2023-04-26 16:09:56,669: root: INFO: market order of | 200 TSLA buy | with status unprocessed was filled
+2023-04-26 16:09:56,669: root: INFO: Position 0.000000 shares of TSLA liquidated
+2023-04-26 16:09:56,671: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:56,673: root: INFO: [32mFilled Transaction: buy 200 of TSLA at 227.26333618 USD per share[0m
+2023-04-26 16:09:56,673: root: INFO: market order of | 200 TSLA buy | with status unprocessed was filled
+2023-04-26 16:09:56,679: root: INFO: Current backtesting datetime 2022-07-02 09:25:00-04:00
+2023-04-26 16:09:56,684: root: INFO: Current backtesting datetime 2022-07-02 09:25:00-04:00
+2023-04-26 16:09:56,685: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:56,685: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:56,685: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:56,687: root: INFO: Current backtesting datetime 2022-07-05 08:30:00-04:00
+2023-04-26 16:09:56,688: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:56,689: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:56,690: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:56,700: root: INFO: Current backtesting datetime 2022-07-05 09:30:00-04:00
+2023-04-26 16:09:56,701: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:56,704: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,704: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,712: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:09:56,714: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:56,716: root: INFO: [32mFilled Transaction: sell 200 of TSLA at 233.06666565 USD per share[0m
+2023-04-26 16:09:56,716: root: INFO: market order of | 200 TSLA sell | with status unprocessed was filled
+2023-04-26 16:09:56,716: root: INFO: Position 0.000000 shares of TSLA liquidated
+2023-04-26 16:09:56,719: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:56,720: root: INFO: [32mFilled Transaction: buy 200 of TSLA at 233.06666565 USD per share[0m
+2023-04-26 16:09:56,720: root: INFO: market order of | 200 TSLA buy | with status unprocessed was filled
+2023-04-26 16:09:56,724: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,724: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:56,724: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:56,734: root: INFO: Current backtesting datetime 2022-07-06 09:30:00-04:00
+2023-04-26 16:09:56,738: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,739: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,750: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,788: root: INFO: Current backtesting datetime 2022-07-07 09:30:00-04:00
+2023-04-26 16:09:56,790: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,790: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,801: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,802: root: INFO: Current backtesting datetime 2022-07-08 09:30:00-04:00
+2023-04-26 16:09:56,803: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,804: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,816: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,817: root: INFO: Current backtesting datetime 2022-07-09 09:30:00-04:00
+2023-04-26 16:09:56,818: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,818: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,831: root: INFO: Current backtesting datetime 2022-07-09 09:25:00-04:00
+2023-04-26 16:09:56,834: root: INFO: Current backtesting datetime 2022-07-09 09:25:00-04:00
+2023-04-26 16:09:56,834: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:56,835: root: INFO: Current backtesting datetime 2022-07-11 08:30:00-04:00
+2023-04-26 16:09:56,836: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:56,837: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:56,838: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:56,840: root: INFO: Current backtesting datetime 2022-07-11 09:30:00-04:00
+2023-04-26 16:09:56,840: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:56,842: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,843: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,853: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,854: root: INFO: Current backtesting datetime 2022-07-12 09:30:00-04:00
+2023-04-26 16:09:56,855: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,855: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,867: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,867: root: INFO: Current backtesting datetime 2022-07-13 09:30:00-04:00
+2023-04-26 16:09:56,868: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,868: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,877: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,877: root: INFO: Current backtesting datetime 2022-07-14 09:30:00-04:00
+2023-04-26 16:09:56,878: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,878: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,890: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,891: root: INFO: Current backtesting datetime 2022-07-15 09:30:00-04:00
+2023-04-26 16:09:56,892: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,892: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,902: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,902: root: INFO: Current backtesting datetime 2022-07-16 09:30:00-04:00
+2023-04-26 16:09:56,904: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,904: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,912: root: INFO: Current backtesting datetime 2022-07-16 09:25:00-04:00
+2023-04-26 16:09:56,916: root: INFO: Current backtesting datetime 2022-07-16 09:25:00-04:00
+2023-04-26 16:09:56,917: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:56,919: root: INFO: Current backtesting datetime 2022-07-18 08:30:00-04:00
+2023-04-26 16:09:56,919: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:56,920: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:56,921: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:56,923: root: INFO: Current backtesting datetime 2022-07-18 09:30:00-04:00
+2023-04-26 16:09:56,923: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:56,925: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,925: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,935: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,936: root: INFO: Current backtesting datetime 2022-07-19 09:30:00-04:00
+2023-04-26 16:09:56,937: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,937: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,944: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,945: root: INFO: Current backtesting datetime 2022-07-20 09:30:00-04:00
+2023-04-26 16:09:56,946: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,946: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,956: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,956: root: INFO: Current backtesting datetime 2022-07-21 09:30:00-04:00
+2023-04-26 16:09:56,958: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,958: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,968: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,968: root: INFO: Current backtesting datetime 2022-07-22 09:30:00-04:00
+2023-04-26 16:09:56,969: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,970: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,977: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:56,977: root: INFO: Current backtesting datetime 2022-07-23 09:30:00-04:00
+2023-04-26 16:09:56,979: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:56,979: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:56,990: root: INFO: Current backtesting datetime 2022-07-23 09:25:00-04:00
+2023-04-26 16:09:56,992: root: INFO: Current backtesting datetime 2022-07-23 09:25:00-04:00
+2023-04-26 16:09:56,992: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:56,993: root: INFO: Current backtesting datetime 2022-07-25 08:30:00-04:00
+2023-04-26 16:09:56,994: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:57,054: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:57,056: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:57,085: root: INFO: Current backtesting datetime 2022-07-25 09:30:00-04:00
+2023-04-26 16:09:57,085: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:57,088: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,088: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,098: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,115: root: INFO: Current backtesting datetime 2022-07-26 09:30:00-04:00
+2023-04-26 16:09:57,117: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,117: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,126: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,137: root: INFO: Current backtesting datetime 2022-07-27 09:30:00-04:00
+2023-04-26 16:09:57,138: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,139: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,155: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,155: root: INFO: Current backtesting datetime 2022-07-28 09:30:00-04:00
+2023-04-26 16:09:57,157: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,157: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,169: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,169: root: INFO: Current backtesting datetime 2022-07-29 09:30:00-04:00
+2023-04-26 16:09:57,171: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,171: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,181: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,182: root: INFO: Current backtesting datetime 2022-07-30 09:30:00-04:00
+2023-04-26 16:09:57,184: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,184: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,194: root: INFO: Current backtesting datetime 2022-07-30 09:25:00-04:00
+2023-04-26 16:09:57,199: root: INFO: Current backtesting datetime 2022-07-30 09:25:00-04:00
+2023-04-26 16:09:57,199: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:57,201: root: INFO: Current backtesting datetime 2022-08-01 08:30:00-04:00
+2023-04-26 16:09:57,202: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:57,203: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:57,204: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:57,206: root: INFO: Current backtesting datetime 2022-08-01 09:30:00-04:00
+2023-04-26 16:09:57,206: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:57,208: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,208: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,219: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,219: root: INFO: Current backtesting datetime 2022-08-02 09:30:00-04:00
+2023-04-26 16:09:57,221: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,221: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,232: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,233: root: INFO: Current backtesting datetime 2022-08-03 09:30:00-04:00
+2023-04-26 16:09:57,234: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,235: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,243: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,243: root: INFO: Current backtesting datetime 2022-08-04 09:30:00-04:00
+2023-04-26 16:09:57,245: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,245: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,254: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,255: root: INFO: Current backtesting datetime 2022-08-05 09:30:00-04:00
+2023-04-26 16:09:57,256: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,257: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,267: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,268: root: INFO: Current backtesting datetime 2022-08-06 09:30:00-04:00
+2023-04-26 16:09:57,269: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,269: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,278: root: INFO: Current backtesting datetime 2022-08-06 09:25:00-04:00
+2023-04-26 16:09:57,280: root: INFO: Current backtesting datetime 2022-08-06 09:25:00-04:00
+2023-04-26 16:09:57,281: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:57,283: root: INFO: Current backtesting datetime 2022-08-08 08:30:00-04:00
+2023-04-26 16:09:57,284: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:57,284: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:57,285: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:57,287: root: INFO: Current backtesting datetime 2022-08-08 09:30:00-04:00
+2023-04-26 16:09:57,287: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:57,290: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,290: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,300: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,301: root: INFO: Current backtesting datetime 2022-08-09 09:30:00-04:00
+2023-04-26 16:09:57,302: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,302: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,310: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,311: root: INFO: Current backtesting datetime 2022-08-10 09:30:00-04:00
+2023-04-26 16:09:57,312: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,312: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,323: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,324: root: INFO: Current backtesting datetime 2022-08-11 09:30:00-04:00
+2023-04-26 16:09:57,325: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,325: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,337: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,337: root: INFO: Current backtesting datetime 2022-08-12 09:30:00-04:00
+2023-04-26 16:09:57,338: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,339: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,353: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,357: root: INFO: Current backtesting datetime 2022-08-13 09:30:00-04:00
+2023-04-26 16:09:57,358: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,359: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,374: root: INFO: Current backtesting datetime 2022-08-13 09:25:00-04:00
+2023-04-26 16:09:57,376: root: INFO: Current backtesting datetime 2022-08-13 09:25:00-04:00
+2023-04-26 16:09:57,376: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:57,378: root: INFO: Current backtesting datetime 2022-08-15 08:30:00-04:00
+2023-04-26 16:09:57,378: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:57,380: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:57,383: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:57,386: root: INFO: Current backtesting datetime 2022-08-15 09:30:00-04:00
+2023-04-26 16:09:57,386: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:57,388: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,389: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,399: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,402: root: INFO: Current backtesting datetime 2022-08-16 09:30:00-04:00
+2023-04-26 16:09:57,404: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,404: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,418: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,419: root: INFO: Current backtesting datetime 2022-08-17 09:30:00-04:00
+2023-04-26 16:09:57,420: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,421: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,434: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,435: root: INFO: Current backtesting datetime 2022-08-18 09:30:00-04:00
+2023-04-26 16:09:57,436: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,436: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,445: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,449: root: INFO: Current backtesting datetime 2022-08-19 09:30:00-04:00
+2023-04-26 16:09:57,451: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,451: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,461: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,461: root: INFO: Current backtesting datetime 2022-08-20 09:30:00-04:00
+2023-04-26 16:09:57,462: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,462: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,474: root: INFO: Current backtesting datetime 2022-08-20 09:25:00-04:00
+2023-04-26 16:09:57,476: root: INFO: Current backtesting datetime 2022-08-20 09:25:00-04:00
+2023-04-26 16:09:57,476: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:57,478: root: INFO: Current backtesting datetime 2022-08-22 08:30:00-04:00
+2023-04-26 16:09:57,479: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:57,483: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:57,485: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:57,487: root: INFO: Current backtesting datetime 2022-08-22 09:30:00-04:00
+2023-04-26 16:09:57,487: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:57,489: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,489: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,503: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,503: root: INFO: Current backtesting datetime 2022-08-23 09:30:00-04:00
+2023-04-26 16:09:57,504: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,504: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,516: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,517: root: INFO: Current backtesting datetime 2022-08-24 09:30:00-04:00
+2023-04-26 16:09:57,518: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,519: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,529: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,532: root: INFO: Current backtesting datetime 2022-08-25 09:30:00-04:00
+2023-04-26 16:09:57,534: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,534: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,543: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,544: root: INFO: Current backtesting datetime 2022-08-26 09:30:00-04:00
+2023-04-26 16:09:57,545: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,545: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,558: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,558: root: INFO: Current backtesting datetime 2022-08-27 09:30:00-04:00
+2023-04-26 16:09:57,559: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,560: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,573: root: INFO: Current backtesting datetime 2022-08-27 09:25:00-04:00
+2023-04-26 16:09:57,576: root: INFO: Current backtesting datetime 2022-08-27 09:25:00-04:00
+2023-04-26 16:09:57,576: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:57,578: root: INFO: Current backtesting datetime 2022-08-29 08:30:00-04:00
+2023-04-26 16:09:57,579: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:57,579: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:57,584: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:57,586: root: INFO: Current backtesting datetime 2022-08-29 09:30:00-04:00
+2023-04-26 16:09:57,586: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:57,588: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,588: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,596: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,599: root: INFO: Current backtesting datetime 2022-08-30 09:30:00-04:00
+2023-04-26 16:09:57,601: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,601: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,609: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:09:57,609: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:57,610: root: INFO: [32mFilled Transaction: sell 200 of TSLA at 277.70001221 USD per share[0m
+2023-04-26 16:09:57,611: root: INFO: market order of | 200 TSLA sell | with status unprocessed was filled
+2023-04-26 16:09:57,611: root: INFO: Position 0.000000 shares of TSLA liquidated
+2023-04-26 16:09:57,613: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:57,617: root: INFO: [32mFilled Transaction: sell 200 of TSLA at 277.70001221 USD per share[0m
+2023-04-26 16:09:57,617: root: INFO: market order of | 200 TSLA sell | with status unprocessed was filled
+2023-04-26 16:09:57,621: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,621: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:57,621: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:57,622: root: INFO: Current backtesting datetime 2022-08-31 09:30:00-04:00
+2023-04-26 16:09:57,623: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,623: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,633: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,633: root: INFO: Current backtesting datetime 2022-09-01 09:30:00-04:00
+2023-04-26 16:09:57,634: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,634: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,642: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,642: root: INFO: Current backtesting datetime 2022-09-02 09:30:00-04:00
+2023-04-26 16:09:57,643: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,644: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,654: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,654: root: INFO: Current backtesting datetime 2022-09-03 09:30:00-04:00
+2023-04-26 16:09:57,656: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,656: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,670: root: INFO: Current backtesting datetime 2022-09-03 09:25:00-04:00
+2023-04-26 16:09:57,672: root: INFO: Current backtesting datetime 2022-09-03 09:25:00-04:00
+2023-04-26 16:09:57,672: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:57,674: root: INFO: Current backtesting datetime 2022-09-06 08:30:00-04:00
+2023-04-26 16:09:57,674: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:57,675: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:57,676: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:57,678: root: INFO: Current backtesting datetime 2022-09-06 09:30:00-04:00
+2023-04-26 16:09:57,678: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:57,680: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,680: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,692: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,693: root: INFO: Current backtesting datetime 2022-09-07 09:30:00-04:00
+2023-04-26 16:09:57,694: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,694: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,704: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,705: root: INFO: Current backtesting datetime 2022-09-08 09:30:00-04:00
+2023-04-26 16:09:57,707: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,707: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,719: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,719: root: INFO: Current backtesting datetime 2022-09-09 09:30:00-04:00
+2023-04-26 16:09:57,721: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,722: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,736: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,736: root: INFO: Current backtesting datetime 2022-09-10 09:30:00-04:00
+2023-04-26 16:09:57,738: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,738: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,751: root: INFO: Current backtesting datetime 2022-09-10 09:25:00-04:00
+2023-04-26 16:09:57,755: root: INFO: Current backtesting datetime 2022-09-10 09:25:00-04:00
+2023-04-26 16:09:57,756: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:57,758: root: INFO: Current backtesting datetime 2022-09-12 08:30:00-04:00
+2023-04-26 16:09:57,759: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:57,777: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:57,778: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:57,781: root: INFO: Current backtesting datetime 2022-09-12 09:30:00-04:00
+2023-04-26 16:09:57,782: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:57,785: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,786: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,796: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,796: root: INFO: Current backtesting datetime 2022-09-13 09:30:00-04:00
+2023-04-26 16:09:57,802: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,803: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,813: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,817: root: INFO: Current backtesting datetime 2022-09-14 09:30:00-04:00
+2023-04-26 16:09:57,819: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,819: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,834: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,834: root: INFO: Current backtesting datetime 2022-09-15 09:30:00-04:00
+2023-04-26 16:09:57,836: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,836: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,846: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,851: root: INFO: Current backtesting datetime 2022-09-16 09:30:00-04:00
+2023-04-26 16:09:57,852: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,853: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,861: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:09:57,862: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:57,863: root: INFO: [32mFilled Transaction: buy 200 of TSLA at 303.35000610 USD per share[0m
+2023-04-26 16:09:57,863: root: INFO: market order of | 200 TSLA buy | with status unprocessed was filled
+2023-04-26 16:09:57,863: root: INFO: Position 0.000000 shares of TSLA liquidated
+2023-04-26 16:09:57,867: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:57,868: root: INFO: [32mFilled Transaction: buy 200 of TSLA at 303.35000610 USD per share[0m
+2023-04-26 16:09:57,868: root: INFO: market order of | 200 TSLA buy | with status unprocessed was filled
+2023-04-26 16:09:57,872: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,872: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:57,872: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:57,873: root: INFO: Current backtesting datetime 2022-09-17 09:30:00-04:00
+2023-04-26 16:09:57,874: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,874: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,888: root: INFO: Current backtesting datetime 2022-09-17 09:25:00-04:00
+2023-04-26 16:09:57,890: root: INFO: Current backtesting datetime 2022-09-17 09:25:00-04:00
+2023-04-26 16:09:57,890: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:57,892: root: INFO: Current backtesting datetime 2022-09-19 08:30:00-04:00
+2023-04-26 16:09:57,893: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:57,894: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:57,894: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:57,896: root: INFO: Current backtesting datetime 2022-09-19 09:30:00-04:00
+2023-04-26 16:09:57,897: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:57,901: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,901: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,912: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,912: root: INFO: Current backtesting datetime 2022-09-20 09:30:00-04:00
+2023-04-26 16:09:57,916: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,916: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,926: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,927: root: INFO: Current backtesting datetime 2022-09-21 09:30:00-04:00
+2023-04-26 16:09:57,928: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,928: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,940: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,940: root: INFO: Current backtesting datetime 2022-09-22 09:30:00-04:00
+2023-04-26 16:09:57,941: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,942: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,954: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,954: root: INFO: Current backtesting datetime 2022-09-23 09:30:00-04:00
+2023-04-26 16:09:57,956: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,956: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,966: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:57,967: root: INFO: Current backtesting datetime 2022-09-24 09:30:00-04:00
+2023-04-26 16:09:57,968: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,968: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:57,979: root: INFO: Current backtesting datetime 2022-09-24 09:25:00-04:00
+2023-04-26 16:09:57,985: root: INFO: Current backtesting datetime 2022-09-24 09:25:00-04:00
+2023-04-26 16:09:57,985: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:57,986: root: INFO: Current backtesting datetime 2022-09-26 08:30:00-04:00
+2023-04-26 16:09:57,987: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:57,988: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:57,989: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:57,991: root: INFO: Current backtesting datetime 2022-09-26 09:30:00-04:00
+2023-04-26 16:09:57,991: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:57,993: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:57,993: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,006: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,007: root: INFO: Current backtesting datetime 2022-09-27 09:30:00-04:00
+2023-04-26 16:09:58,008: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,008: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,020: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,020: root: INFO: Current backtesting datetime 2022-09-28 09:30:00-04:00
+2023-04-26 16:09:58,021: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,022: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,029: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,029: root: INFO: Current backtesting datetime 2022-09-29 09:30:00-04:00
+2023-04-26 16:09:58,033: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,033: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,042: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,042: root: INFO: Current backtesting datetime 2022-09-30 09:30:00-04:00
+2023-04-26 16:09:58,043: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,043: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,053: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:09:58,054: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:58,055: root: INFO: [32mFilled Transaction: sell 200 of TSLA at 265.25000000 USD per share[0m
+2023-04-26 16:09:58,055: root: INFO: market order of | 200 TSLA sell | with status unprocessed was filled
+2023-04-26 16:09:58,055: root: INFO: Position 0.000000 shares of TSLA liquidated
+2023-04-26 16:09:58,058: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:58,059: root: INFO: [32mFilled Transaction: sell 200 of TSLA at 265.25000000 USD per share[0m
+2023-04-26 16:09:58,059: root: INFO: market order of | 200 TSLA sell | with status unprocessed was filled
+2023-04-26 16:09:58,062: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,062: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:58,063: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:58,065: root: INFO: Current backtesting datetime 2022-10-01 09:30:00-04:00
+2023-04-26 16:09:58,067: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,067: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,076: root: INFO: Current backtesting datetime 2022-10-01 09:25:00-04:00
+2023-04-26 16:09:58,079: root: INFO: Current backtesting datetime 2022-10-01 09:25:00-04:00
+2023-04-26 16:09:58,079: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:58,084: root: INFO: Current backtesting datetime 2022-10-03 08:30:00-04:00
+2023-04-26 16:09:58,085: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:58,085: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:58,086: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:58,089: root: INFO: Current backtesting datetime 2022-10-03 09:30:00-04:00
+2023-04-26 16:09:58,089: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:58,092: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,092: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,104: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,104: root: INFO: Current backtesting datetime 2022-10-04 09:30:00-04:00
+2023-04-26 16:09:58,106: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,106: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,119: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,120: root: INFO: Current backtesting datetime 2022-10-05 09:30:00-04:00
+2023-04-26 16:09:58,122: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,122: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,136: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,140: root: INFO: Current backtesting datetime 2022-10-06 09:30:00-04:00
+2023-04-26 16:09:58,142: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,142: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,155: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,156: root: INFO: Current backtesting datetime 2022-10-07 09:30:00-04:00
+2023-04-26 16:09:58,157: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,157: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,171: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,172: root: INFO: Current backtesting datetime 2022-10-08 09:30:00-04:00
+2023-04-26 16:09:58,174: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,174: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,188: root: INFO: Current backtesting datetime 2022-10-08 09:25:00-04:00
+2023-04-26 16:09:58,190: root: INFO: Current backtesting datetime 2022-10-08 09:25:00-04:00
+2023-04-26 16:09:58,190: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:58,192: root: INFO: Current backtesting datetime 2022-10-10 08:30:00-04:00
+2023-04-26 16:09:58,193: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:58,226: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:58,228: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:58,233: root: INFO: Current backtesting datetime 2022-10-10 09:30:00-04:00
+2023-04-26 16:09:58,233: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:58,235: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,236: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,244: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,245: root: INFO: Current backtesting datetime 2022-10-11 09:30:00-04:00
+2023-04-26 16:09:58,246: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,246: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,257: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,258: root: INFO: Current backtesting datetime 2022-10-12 09:30:00-04:00
+2023-04-26 16:09:58,259: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,259: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,272: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,273: root: INFO: Current backtesting datetime 2022-10-13 09:30:00-04:00
+2023-04-26 16:09:58,274: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,274: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,287: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,288: root: INFO: Current backtesting datetime 2022-10-14 09:30:00-04:00
+2023-04-26 16:09:58,290: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,290: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,302: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,302: root: INFO: Current backtesting datetime 2022-10-15 09:30:00-04:00
+2023-04-26 16:09:58,304: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,304: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,317: root: INFO: Current backtesting datetime 2022-10-15 09:25:00-04:00
+2023-04-26 16:09:58,319: root: INFO: Current backtesting datetime 2022-10-15 09:25:00-04:00
+2023-04-26 16:09:58,319: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:58,320: root: INFO: Current backtesting datetime 2022-10-17 08:30:00-04:00
+2023-04-26 16:09:58,322: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:58,323: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:58,325: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:58,327: root: INFO: Current backtesting datetime 2022-10-17 09:30:00-04:00
+2023-04-26 16:09:58,327: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:58,329: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,329: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,340: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,340: root: INFO: Current backtesting datetime 2022-10-18 09:30:00-04:00
+2023-04-26 16:09:58,341: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,341: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,352: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,352: root: INFO: Current backtesting datetime 2022-10-19 09:30:00-04:00
+2023-04-26 16:09:58,355: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,355: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,363: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,364: root: INFO: Current backtesting datetime 2022-10-20 09:30:00-04:00
+2023-04-26 16:09:58,367: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,368: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,376: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,377: root: INFO: Current backtesting datetime 2022-10-21 09:30:00-04:00
+2023-04-26 16:09:58,378: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,378: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,390: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,391: root: INFO: Current backtesting datetime 2022-10-22 09:30:00-04:00
+2023-04-26 16:09:58,392: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,392: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,405: root: INFO: Current backtesting datetime 2022-10-22 09:25:00-04:00
+2023-04-26 16:09:58,407: root: INFO: Current backtesting datetime 2022-10-22 09:25:00-04:00
+2023-04-26 16:09:58,407: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:58,409: root: INFO: Current backtesting datetime 2022-10-24 08:30:00-04:00
+2023-04-26 16:09:58,409: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:58,410: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:58,411: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:58,412: root: INFO: Current backtesting datetime 2022-10-24 09:30:00-04:00
+2023-04-26 16:09:58,413: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:58,418: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,418: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,425: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,426: root: INFO: Current backtesting datetime 2022-10-25 09:30:00-04:00
+2023-04-26 16:09:58,427: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,427: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,439: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,440: root: INFO: Current backtesting datetime 2022-10-26 09:30:00-04:00
+2023-04-26 16:09:58,442: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,442: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,458: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,458: root: INFO: Current backtesting datetime 2022-10-27 09:30:00-04:00
+2023-04-26 16:09:58,459: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,459: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,472: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,472: root: INFO: Current backtesting datetime 2022-10-28 09:30:00-04:00
+2023-04-26 16:09:58,474: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,474: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,487: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,488: root: INFO: Current backtesting datetime 2022-10-29 09:30:00-04:00
+2023-04-26 16:09:58,490: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,490: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,505: root: INFO: Current backtesting datetime 2022-10-29 09:25:00-04:00
+2023-04-26 16:09:58,508: root: INFO: Current backtesting datetime 2022-10-29 09:25:00-04:00
+2023-04-26 16:09:58,508: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:58,510: root: INFO: Current backtesting datetime 2022-10-31 08:30:00-04:00
+2023-04-26 16:09:58,510: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:58,511: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:58,512: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:58,517: root: INFO: Current backtesting datetime 2022-10-31 09:30:00-04:00
+2023-04-26 16:09:58,517: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:58,519: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,520: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,529: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,530: root: INFO: Current backtesting datetime 2022-11-01 09:30:00-04:00
+2023-04-26 16:09:58,533: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,533: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,545: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,545: root: INFO: Current backtesting datetime 2022-11-02 09:30:00-04:00
+2023-04-26 16:09:58,550: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,550: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,560: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,561: root: INFO: Current backtesting datetime 2022-11-03 09:30:00-04:00
+2023-04-26 16:09:58,562: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,562: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,575: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:09:58,576: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:58,577: root: INFO: [32mFilled Transaction: buy 200 of TSLA at 215.30999756 USD per share[0m
+2023-04-26 16:09:58,578: root: INFO: market order of | 200 TSLA buy | with status unprocessed was filled
+2023-04-26 16:09:58,578: root: INFO: Position 0.000000 shares of TSLA liquidated
+2023-04-26 16:09:58,581: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:58,583: root: INFO: [32mFilled Transaction: buy 200 of TSLA at 215.30999756 USD per share[0m
+2023-04-26 16:09:58,583: root: INFO: market order of | 200 TSLA buy | with status unprocessed was filled
+2023-04-26 16:09:58,586: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,587: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:58,587: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:58,588: root: INFO: Current backtesting datetime 2022-11-04 09:30:00-04:00
+2023-04-26 16:09:58,589: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,589: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,601: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,601: root: INFO: Current backtesting datetime 2022-11-05 09:30:00-04:00
+2023-04-26 16:09:58,603: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,603: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,612: root: INFO: Current backtesting datetime 2022-11-05 09:25:00-04:00
+2023-04-26 16:09:58,618: root: INFO: Current backtesting datetime 2022-11-05 09:25:00-04:00
+2023-04-26 16:09:58,618: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:58,620: root: INFO: Current backtesting datetime 2022-11-07 09:30:00-04:00
+2023-04-26 16:09:58,621: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:58,622: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:58,623: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:58,625: root: INFO: Current backtesting datetime 2022-11-07 10:30:00-04:00
+2023-04-26 16:09:58,625: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:58,627: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,628: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,640: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,640: root: INFO: Current backtesting datetime 2022-11-08 10:30:00-04:00
+2023-04-26 16:09:58,641: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,641: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,653: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,653: root: INFO: Current backtesting datetime 2022-11-09 10:30:00-04:00
+2023-04-26 16:09:58,654: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,655: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,662: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:09:58,665: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:58,666: root: INFO: [32mFilled Transaction: sell 200 of TSLA at 177.58999634 USD per share[0m
+2023-04-26 16:09:58,667: root: INFO: market order of | 200 TSLA sell | with status unprocessed was filled
+2023-04-26 16:09:58,667: root: INFO: Position 0.000000 shares of TSLA liquidated
+2023-04-26 16:09:58,669: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:58,670: root: INFO: [32mFilled Transaction: sell 200 of TSLA at 177.58999634 USD per share[0m
+2023-04-26 16:09:58,670: root: INFO: market order of | 200 TSLA sell | with status unprocessed was filled
+2023-04-26 16:09:58,674: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,674: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:58,674: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:58,674: root: INFO: Current backtesting datetime 2022-11-10 10:30:00-04:00
+2023-04-26 16:09:58,675: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,676: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,687: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,688: root: INFO: Current backtesting datetime 2022-11-11 10:30:00-04:00
+2023-04-26 16:09:58,689: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,689: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,702: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,702: root: INFO: Current backtesting datetime 2022-11-12 10:30:00-04:00
+2023-04-26 16:09:58,704: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,704: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,718: root: INFO: Current backtesting datetime 2022-11-12 10:25:00-04:00
+2023-04-26 16:09:58,720: root: INFO: Current backtesting datetime 2022-11-12 10:25:00-04:00
+2023-04-26 16:09:58,720: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:58,722: root: INFO: Current backtesting datetime 2022-11-14 09:30:00-04:00
+2023-04-26 16:09:58,723: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:58,724: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:58,725: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:58,727: root: INFO: Current backtesting datetime 2022-11-14 10:30:00-04:00
+2023-04-26 16:09:58,727: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:58,729: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,729: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,741: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,742: root: INFO: Current backtesting datetime 2022-11-15 10:30:00-04:00
+2023-04-26 16:09:58,743: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,743: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,756: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,756: root: INFO: Current backtesting datetime 2022-11-16 10:30:00-04:00
+2023-04-26 16:09:58,758: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,758: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,769: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,769: root: INFO: Current backtesting datetime 2022-11-17 10:30:00-04:00
+2023-04-26 16:09:58,771: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,771: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,779: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,779: root: INFO: Current backtesting datetime 2022-11-18 10:30:00-04:00
+2023-04-26 16:09:58,783: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,783: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,792: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,792: root: INFO: Current backtesting datetime 2022-11-19 10:30:00-04:00
+2023-04-26 16:09:58,793: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,793: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,805: root: INFO: Current backtesting datetime 2022-11-19 10:25:00-04:00
+2023-04-26 16:09:58,807: root: INFO: Current backtesting datetime 2022-11-19 10:25:00-04:00
+2023-04-26 16:09:58,807: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:58,808: root: INFO: Current backtesting datetime 2022-11-21 09:30:00-04:00
+2023-04-26 16:09:58,809: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:58,810: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:58,811: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:58,815: root: INFO: Current backtesting datetime 2022-11-21 10:30:00-04:00
+2023-04-26 16:09:58,815: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:58,818: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,818: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,825: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,826: root: INFO: Current backtesting datetime 2022-11-22 10:30:00-04:00
+2023-04-26 16:09:58,827: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,827: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,838: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,838: root: INFO: Current backtesting datetime 2022-11-23 10:30:00-04:00
+2023-04-26 16:09:58,840: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,840: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,852: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,852: root: INFO: Current backtesting datetime 2022-11-24 10:30:00-04:00
+2023-04-26 16:09:58,854: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,854: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,867: root: INFO: Current backtesting datetime 2022-11-24 10:25:00-04:00
+2023-04-26 16:09:58,869: root: INFO: Current backtesting datetime 2022-11-24 10:25:00-04:00
+2023-04-26 16:09:58,869: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:58,871: root: INFO: Current backtesting datetime 2022-11-25 09:30:00-04:00
+2023-04-26 16:09:58,872: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:58,873: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:58,874: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:58,877: root: INFO: Current backtesting datetime 2022-11-25 10:30:00-04:00
+2023-04-26 16:09:58,877: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:58,879: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,879: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,894: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,895: root: INFO: Current backtesting datetime 2022-11-26 10:30:00-04:00
+2023-04-26 16:09:58,900: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,900: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,912: root: INFO: Current backtesting datetime 2022-11-26 10:25:00-04:00
+2023-04-26 16:09:58,918: root: INFO: Current backtesting datetime 2022-11-26 10:25:00-04:00
+2023-04-26 16:09:58,918: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:58,920: root: INFO: Current backtesting datetime 2022-11-28 09:30:00-04:00
+2023-04-26 16:09:58,921: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:58,941: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:58,942: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:58,944: root: INFO: Current backtesting datetime 2022-11-28 10:30:00-04:00
+2023-04-26 16:09:58,944: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:58,948: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,948: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,958: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,958: root: INFO: Current backtesting datetime 2022-11-29 10:30:00-04:00
+2023-04-26 16:09:58,959: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,960: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,971: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,971: root: INFO: Current backtesting datetime 2022-11-30 10:30:00-04:00
+2023-04-26 16:09:58,973: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,973: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:58,991: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:58,991: root: INFO: Current backtesting datetime 2022-12-01 10:30:00-04:00
+2023-04-26 16:09:58,992: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:58,992: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,006: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,008: root: INFO: Current backtesting datetime 2022-12-02 10:30:00-04:00
+2023-04-26 16:09:59,009: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,009: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,021: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,024: root: INFO: Current backtesting datetime 2022-12-03 10:30:00-04:00
+2023-04-26 16:09:59,025: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,025: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,041: root: INFO: Current backtesting datetime 2022-12-03 10:25:00-04:00
+2023-04-26 16:09:59,043: root: INFO: Current backtesting datetime 2022-12-03 10:25:00-04:00
+2023-04-26 16:09:59,043: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:59,045: root: INFO: Current backtesting datetime 2022-12-05 09:30:00-04:00
+2023-04-26 16:09:59,045: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:59,046: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:59,049: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:59,052: root: INFO: Current backtesting datetime 2022-12-05 10:30:00-04:00
+2023-04-26 16:09:59,053: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:59,055: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,055: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,065: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,066: root: INFO: Current backtesting datetime 2022-12-06 10:30:00-04:00
+2023-04-26 16:09:59,068: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,068: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,077: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,077: root: INFO: Current backtesting datetime 2022-12-07 10:30:00-04:00
+2023-04-26 16:09:59,079: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,079: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,090: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:09:59,091: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:59,092: root: INFO: [32mFilled Transaction: buy 200 of TSLA at 174.03999329 USD per share[0m
+2023-04-26 16:09:59,092: root: INFO: market order of | 200 TSLA buy | with status unprocessed was filled
+2023-04-26 16:09:59,092: root: INFO: Position 0.000000 shares of TSLA liquidated
+2023-04-26 16:09:59,094: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:59,096: root: INFO: [32mFilled Transaction: buy 200 of TSLA at 174.03999329 USD per share[0m
+2023-04-26 16:09:59,096: root: INFO: market order of | 200 TSLA buy | with status unprocessed was filled
+2023-04-26 16:09:59,102: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,102: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:59,102: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:59,102: root: INFO: Current backtesting datetime 2022-12-08 10:30:00-04:00
+2023-04-26 16:09:59,104: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,104: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,114: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,114: root: INFO: Current backtesting datetime 2022-12-09 10:30:00-04:00
+2023-04-26 16:09:59,117: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,117: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,127: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,127: root: INFO: Current backtesting datetime 2022-12-10 10:30:00-04:00
+2023-04-26 16:09:59,128: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,128: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,138: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:09:59,138: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:59,139: root: INFO: [32mFilled Transaction: sell 200 of TSLA at 179.05000305 USD per share[0m
+2023-04-26 16:09:59,140: root: INFO: market order of | 200 TSLA sell | with status unprocessed was filled
+2023-04-26 16:09:59,140: root: INFO: Position 0.000000 shares of TSLA liquidated
+2023-04-26 16:09:59,142: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:59,144: root: INFO: [32mFilled Transaction: sell 200 of TSLA at 179.05000305 USD per share[0m
+2023-04-26 16:09:59,144: root: INFO: market order of | 200 TSLA sell | with status unprocessed was filled
+2023-04-26 16:09:59,151: root: INFO: Current backtesting datetime 2022-12-10 10:25:00-04:00
+2023-04-26 16:09:59,153: root: INFO: Current backtesting datetime 2022-12-10 10:25:00-04:00
+2023-04-26 16:09:59,153: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:59,153: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:59,153: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:59,155: root: INFO: Current backtesting datetime 2022-12-12 09:30:00-04:00
+2023-04-26 16:09:59,156: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:59,157: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:59,158: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:59,160: root: INFO: Current backtesting datetime 2022-12-12 10:30:00-04:00
+2023-04-26 16:09:59,160: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:59,161: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,161: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,171: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:09:59,172: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:59,173: root: INFO: [32mFilled Transaction: buy 200 of TSLA at 167.82000732 USD per share[0m
+2023-04-26 16:09:59,173: root: INFO: market order of | 200 TSLA buy | with status unprocessed was filled
+2023-04-26 16:09:59,173: root: INFO: Position 0.000000 shares of TSLA liquidated
+2023-04-26 16:09:59,175: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:59,176: root: INFO: [32mFilled Transaction: sell 200 of TSLA at 167.82000732 USD per share[0m
+2023-04-26 16:09:59,176: root: INFO: market order of | 200 TSLA sell | with status unprocessed was filled
+2023-04-26 16:09:59,183: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,183: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:59,183: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:59,183: root: INFO: Current backtesting datetime 2022-12-13 10:30:00-04:00
+2023-04-26 16:09:59,185: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,185: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,193: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,193: root: INFO: Current backtesting datetime 2022-12-14 10:30:00-04:00
+2023-04-26 16:09:59,194: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,194: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,205: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,206: root: INFO: Current backtesting datetime 2022-12-15 10:30:00-04:00
+2023-04-26 16:09:59,207: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,208: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,220: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,220: root: INFO: Current backtesting datetime 2022-12-16 10:30:00-04:00
+2023-04-26 16:09:59,221: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,221: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,228: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,229: root: INFO: Current backtesting datetime 2022-12-17 10:30:00-04:00
+2023-04-26 16:09:59,233: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,233: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,245: root: INFO: Current backtesting datetime 2022-12-17 10:25:00-04:00
+2023-04-26 16:09:59,255: root: INFO: Current backtesting datetime 2022-12-17 10:25:00-04:00
+2023-04-26 16:09:59,255: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:59,257: root: INFO: Current backtesting datetime 2022-12-19 09:30:00-04:00
+2023-04-26 16:09:59,257: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:59,258: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:59,259: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:59,261: root: INFO: Current backtesting datetime 2022-12-19 10:30:00-04:00
+2023-04-26 16:09:59,262: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:59,267: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,267: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,277: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,278: root: INFO: Current backtesting datetime 2022-12-20 10:30:00-04:00
+2023-04-26 16:09:59,282: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,282: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,292: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,306: root: INFO: Current backtesting datetime 2022-12-21 10:30:00-04:00
+2023-04-26 16:09:59,309: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,309: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,321: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,322: root: INFO: Current backtesting datetime 2022-12-22 10:30:00-04:00
+2023-04-26 16:09:59,323: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,323: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,338: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,339: root: INFO: Current backtesting datetime 2022-12-23 10:30:00-04:00
+2023-04-26 16:09:59,341: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,341: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,354: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,354: root: INFO: Current backtesting datetime 2022-12-24 10:30:00-04:00
+2023-04-26 16:09:59,357: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,357: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,371: root: INFO: Current backtesting datetime 2022-12-24 10:25:00-04:00
+2023-04-26 16:09:59,374: root: INFO: Current backtesting datetime 2022-12-24 10:25:00-04:00
+2023-04-26 16:09:59,374: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:59,375: root: INFO: Current backtesting datetime 2022-12-27 09:30:00-04:00
+2023-04-26 16:09:59,376: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:59,378: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:59,382: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:59,384: root: INFO: Current backtesting datetime 2022-12-27 10:30:00-04:00
+2023-04-26 16:09:59,384: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:59,387: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,387: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,396: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,399: root: INFO: Current backtesting datetime 2022-12-28 10:30:00-04:00
+2023-04-26 16:09:59,401: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,401: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,410: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,411: root: INFO: Current backtesting datetime 2022-12-29 10:30:00-04:00
+2023-04-26 16:09:59,412: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,412: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,427: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,428: root: INFO: Current backtesting datetime 2022-12-30 10:30:00-04:00
+2023-04-26 16:09:59,428: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,429: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,440: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,441: root: INFO: Current backtesting datetime 2022-12-31 10:30:00-04:00
+2023-04-26 16:09:59,443: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,443: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,456: root: INFO: Current backtesting datetime 2022-12-31 10:25:00-04:00
+2023-04-26 16:09:59,458: root: INFO: Current backtesting datetime 2022-12-31 10:25:00-04:00
+2023-04-26 16:09:59,459: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:59,460: root: INFO: Current backtesting datetime 2023-01-03 09:30:00-04:00
+2023-04-26 16:09:59,461: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:59,462: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:59,465: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:59,467: root: INFO: Current backtesting datetime 2023-01-03 10:30:00-04:00
+2023-04-26 16:09:59,468: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:59,469: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,470: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,479: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,480: root: INFO: Current backtesting datetime 2023-01-04 10:30:00-04:00
+2023-04-26 16:09:59,482: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,482: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,491: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,492: root: INFO: Current backtesting datetime 2023-01-05 10:30:00-04:00
+2023-04-26 16:09:59,494: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,494: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,505: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,505: root: INFO: Current backtesting datetime 2023-01-06 10:30:00-04:00
+2023-04-26 16:09:59,507: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,507: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,519: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,519: root: INFO: Current backtesting datetime 2023-01-07 10:30:00-04:00
+2023-04-26 16:09:59,522: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,522: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,535: root: INFO: Current backtesting datetime 2023-01-07 10:25:00-04:00
+2023-04-26 16:09:59,537: root: INFO: Current backtesting datetime 2023-01-07 10:25:00-04:00
+2023-04-26 16:09:59,537: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:59,538: root: INFO: Current backtesting datetime 2023-01-09 09:30:00-04:00
+2023-04-26 16:09:59,539: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:59,541: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:59,542: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:59,544: root: INFO: Current backtesting datetime 2023-01-09 10:30:00-04:00
+2023-04-26 16:09:59,544: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:59,545: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,545: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,556: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,556: root: INFO: Current backtesting datetime 2023-01-10 10:30:00-04:00
+2023-04-26 16:09:59,558: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,558: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,568: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,569: root: INFO: Current backtesting datetime 2023-01-11 10:30:00-04:00
+2023-04-26 16:09:59,570: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,570: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,583: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,584: root: INFO: Current backtesting datetime 2023-01-12 10:30:00-04:00
+2023-04-26 16:09:59,585: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,585: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,594: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,594: root: INFO: Current backtesting datetime 2023-01-13 10:30:00-04:00
+2023-04-26 16:09:59,597: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,598: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,609: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,609: root: INFO: Current backtesting datetime 2023-01-14 10:30:00-04:00
+2023-04-26 16:09:59,610: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,610: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,627: root: INFO: Current backtesting datetime 2023-01-14 10:25:00-04:00
+2023-04-26 16:09:59,629: root: INFO: Current backtesting datetime 2023-01-14 10:25:00-04:00
+2023-04-26 16:09:59,633: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:59,636: root: INFO: Current backtesting datetime 2023-01-17 09:30:00-04:00
+2023-04-26 16:09:59,637: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:59,638: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:59,639: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:59,642: root: INFO: Current backtesting datetime 2023-01-17 10:30:00-04:00
+2023-04-26 16:09:59,642: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:59,644: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,644: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,658: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,659: root: INFO: Current backtesting datetime 2023-01-18 10:30:00-04:00
+2023-04-26 16:09:59,660: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,661: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,675: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,675: root: INFO: Current backtesting datetime 2023-01-19 10:30:00-04:00
+2023-04-26 16:09:59,677: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,677: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,691: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,692: root: INFO: Current backtesting datetime 2023-01-20 10:30:00-04:00
+2023-04-26 16:09:59,693: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,693: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,704: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:09:59,705: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:59,706: root: INFO: [32mFilled Transaction: buy 200 of TSLA at 133.41999817 USD per share[0m
+2023-04-26 16:09:59,706: root: INFO: market order of | 200 TSLA buy | with status unprocessed was filled
+2023-04-26 16:09:59,706: root: INFO: Position 0.000000 shares of TSLA liquidated
+2023-04-26 16:09:59,709: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:09:59,710: root: INFO: [32mFilled Transaction: buy 200 of TSLA at 133.41999817 USD per share[0m
+2023-04-26 16:09:59,710: root: INFO: market order of | 200 TSLA buy | with status unprocessed was filled
+2023-04-26 16:09:59,716: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,716: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:59,716: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:09:59,717: root: INFO: Current backtesting datetime 2023-01-21 10:30:00-04:00
+2023-04-26 16:09:59,719: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,719: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,733: root: INFO: Current backtesting datetime 2023-01-21 10:25:00-04:00
+2023-04-26 16:09:59,735: root: INFO: Current backtesting datetime 2023-01-21 10:25:00-04:00
+2023-04-26 16:09:59,735: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:59,737: root: INFO: Current backtesting datetime 2023-01-23 09:30:00-04:00
+2023-04-26 16:09:59,738: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:59,739: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:59,741: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:59,744: root: INFO: Current backtesting datetime 2023-01-23 10:30:00-04:00
+2023-04-26 16:09:59,744: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:59,747: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,747: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,757: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,758: root: INFO: Current backtesting datetime 2023-01-24 10:30:00-04:00
+2023-04-26 16:09:59,759: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,760: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,770: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,771: root: INFO: Current backtesting datetime 2023-01-25 10:30:00-04:00
+2023-04-26 16:09:59,772: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,772: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,786: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,786: root: INFO: Current backtesting datetime 2023-01-26 10:30:00-04:00
+2023-04-26 16:09:59,787: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,787: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,798: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,799: root: INFO: Current backtesting datetime 2023-01-27 10:30:00-04:00
+2023-04-26 16:09:59,801: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,801: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,811: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,811: root: INFO: Current backtesting datetime 2023-01-28 10:30:00-04:00
+2023-04-26 16:09:59,815: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,816: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,828: root: INFO: Current backtesting datetime 2023-01-28 10:25:00-04:00
+2023-04-26 16:09:59,833: root: INFO: Current backtesting datetime 2023-01-28 10:25:00-04:00
+2023-04-26 16:09:59,833: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:59,835: root: INFO: Current backtesting datetime 2023-01-30 09:30:00-04:00
+2023-04-26 16:09:59,836: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:59,837: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:59,838: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:59,840: root: INFO: Current backtesting datetime 2023-01-30 10:30:00-04:00
+2023-04-26 16:09:59,840: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:59,842: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,842: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,855: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,856: root: INFO: Current backtesting datetime 2023-01-31 10:30:00-04:00
+2023-04-26 16:09:59,857: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,857: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,869: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,870: root: INFO: Current backtesting datetime 2023-02-01 10:30:00-04:00
+2023-04-26 16:09:59,871: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,871: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,879: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,882: root: INFO: Current backtesting datetime 2023-02-02 10:30:00-04:00
+2023-04-26 16:09:59,885: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,885: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,893: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,894: root: INFO: Current backtesting datetime 2023-02-03 10:30:00-04:00
+2023-04-26 16:09:59,896: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,896: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,908: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,908: root: INFO: Current backtesting datetime 2023-02-04 10:30:00-04:00
+2023-04-26 16:09:59,910: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,910: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,923: root: INFO: Current backtesting datetime 2023-02-04 10:25:00-04:00
+2023-04-26 16:09:59,925: root: INFO: Current backtesting datetime 2023-02-04 10:25:00-04:00
+2023-04-26 16:09:59,925: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:09:59,926: root: INFO: Current backtesting datetime 2023-02-06 09:30:00-04:00
+2023-04-26 16:09:59,927: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:09:59,928: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:59,931: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:09:59,934: root: INFO: Current backtesting datetime 2023-02-06 10:30:00-04:00
+2023-04-26 16:09:59,934: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:09:59,936: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,936: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,943: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,945: root: INFO: Current backtesting datetime 2023-02-07 10:30:00-04:00
+2023-04-26 16:09:59,948: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,948: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,956: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,957: root: INFO: Current backtesting datetime 2023-02-08 10:30:00-04:00
+2023-04-26 16:09:59,959: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,959: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,970: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,971: root: INFO: Current backtesting datetime 2023-02-09 10:30:00-04:00
+2023-04-26 16:09:59,973: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,973: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:09:59,986: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:09:59,987: root: INFO: Current backtesting datetime 2023-02-10 10:30:00-04:00
+2023-04-26 16:09:59,988: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:09:59,988: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,003: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,003: root: INFO: Current backtesting datetime 2023-02-11 10:30:00-04:00
+2023-04-26 16:10:00,004: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,005: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,101: root: INFO: Current backtesting datetime 2023-02-11 10:25:00-04:00
+2023-04-26 16:10:00,133: root: INFO: Current backtesting datetime 2023-02-11 10:25:00-04:00
+2023-04-26 16:10:00,133: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:10:00,136: root: INFO: Current backtesting datetime 2023-02-13 09:30:00-04:00
+2023-04-26 16:10:00,137: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:10:00,138: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:10:00,140: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:10:00,142: root: INFO: Current backtesting datetime 2023-02-13 10:30:00-04:00
+2023-04-26 16:10:00,142: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:10:00,145: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,145: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,156: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,156: root: INFO: Current backtesting datetime 2023-02-14 10:30:00-04:00
+2023-04-26 16:10:00,158: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,158: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,170: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,170: root: INFO: Current backtesting datetime 2023-02-15 10:30:00-04:00
+2023-04-26 16:10:00,171: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,171: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,185: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,186: root: INFO: Current backtesting datetime 2023-02-16 10:30:00-04:00
+2023-04-26 16:10:00,187: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,187: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,197: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,198: root: INFO: Current backtesting datetime 2023-02-17 10:30:00-04:00
+2023-04-26 16:10:00,201: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,201: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,211: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,212: root: INFO: Current backtesting datetime 2023-02-18 10:30:00-04:00
+2023-04-26 16:10:00,213: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,214: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,225: root: INFO: Current backtesting datetime 2023-02-18 10:25:00-04:00
+2023-04-26 16:10:00,227: root: INFO: Current backtesting datetime 2023-02-18 10:25:00-04:00
+2023-04-26 16:10:00,227: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:10:00,228: root: INFO: Current backtesting datetime 2023-02-21 09:30:00-04:00
+2023-04-26 16:10:00,229: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:10:00,231: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:10:00,233: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:10:00,235: root: INFO: Current backtesting datetime 2023-02-21 10:30:00-04:00
+2023-04-26 16:10:00,235: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:10:00,237: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,238: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,246: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,247: root: INFO: Current backtesting datetime 2023-02-22 10:30:00-04:00
+2023-04-26 16:10:00,249: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,250: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,259: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,259: root: INFO: Current backtesting datetime 2023-02-23 10:30:00-04:00
+2023-04-26 16:10:00,260: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,261: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,272: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,273: root: INFO: Current backtesting datetime 2023-02-24 10:30:00-04:00
+2023-04-26 16:10:00,274: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,274: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,285: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,285: root: INFO: Current backtesting datetime 2023-02-25 10:30:00-04:00
+2023-04-26 16:10:00,286: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,287: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,295: root: INFO: Current backtesting datetime 2023-02-25 10:25:00-04:00
+2023-04-26 16:10:00,298: root: INFO: Current backtesting datetime 2023-02-25 10:25:00-04:00
+2023-04-26 16:10:00,299: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:10:00,301: root: INFO: Current backtesting datetime 2023-02-27 09:30:00-04:00
+2023-04-26 16:10:00,302: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:10:00,303: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:10:00,304: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:10:00,306: root: INFO: Current backtesting datetime 2023-02-27 10:30:00-04:00
+2023-04-26 16:10:00,306: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:10:00,308: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,308: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,320: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,320: root: INFO: Current backtesting datetime 2023-02-28 10:30:00-04:00
+2023-04-26 16:10:00,322: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,322: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,333: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,334: root: INFO: Current backtesting datetime 2023-03-01 10:30:00-04:00
+2023-04-26 16:10:00,335: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,335: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,343: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,343: root: INFO: Current backtesting datetime 2023-03-02 10:30:00-04:00
+2023-04-26 16:10:00,344: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,344: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,356: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,357: root: INFO: Current backtesting datetime 2023-03-03 10:30:00-04:00
+2023-04-26 16:10:00,358: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,358: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,393: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,427: root: INFO: Current backtesting datetime 2023-03-04 10:30:00-04:00
+2023-04-26 16:10:00,428: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,428: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,442: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:10:00,443: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:10:00,444: root: INFO: [32mFilled Transaction: sell 200 of TSLA at 197.78999329 USD per share[0m
+2023-04-26 16:10:00,444: root: INFO: market order of | 200 TSLA sell | with status unprocessed was filled
+2023-04-26 16:10:00,444: root: INFO: Position 0.000000 shares of TSLA liquidated
+2023-04-26 16:10:00,448: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:10:00,450: root: INFO: [32mFilled Transaction: sell 200 of TSLA at 197.78999329 USD per share[0m
+2023-04-26 16:10:00,450: root: INFO: market order of | 200 TSLA sell | with status unprocessed was filled
+2023-04-26 16:10:00,456: root: INFO: Current backtesting datetime 2023-03-04 10:25:00-04:00
+2023-04-26 16:10:00,459: root: INFO: Current backtesting datetime 2023-03-04 10:25:00-04:00
+2023-04-26 16:10:00,459: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:10:00,459: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:10:00,459: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:10:00,461: root: INFO: Current backtesting datetime 2023-03-06 09:30:00-04:00
+2023-04-26 16:10:00,461: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:10:00,462: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:10:00,466: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:10:00,470: root: INFO: Current backtesting datetime 2023-03-06 10:30:00-04:00
+2023-04-26 16:10:00,470: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:10:00,473: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,473: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,483: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:10:00,484: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:10:00,486: root: INFO: [32mFilled Transaction: buy 200 of TSLA at 193.80999756 USD per share[0m
+2023-04-26 16:10:00,486: root: INFO: market order of | 200 TSLA buy | with status unprocessed was filled
+2023-04-26 16:10:00,486: root: INFO: Position 0.000000 shares of TSLA liquidated
+2023-04-26 16:10:00,488: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:10:00,490: root: INFO: [32mFilled Transaction: sell 200 of TSLA at 193.80999756 USD per share[0m
+2023-04-26 16:10:00,490: root: INFO: market order of | 200 TSLA sell | with status unprocessed was filled
+2023-04-26 16:10:00,493: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,494: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:10:00,494: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:10:00,494: root: INFO: Current backtesting datetime 2023-03-07 10:30:00-04:00
+2023-04-26 16:10:00,495: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,495: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,506: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,507: root: INFO: Current backtesting datetime 2023-03-08 10:30:00-04:00
+2023-04-26 16:10:00,508: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,508: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,519: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,519: root: INFO: Current backtesting datetime 2023-03-09 10:30:00-04:00
+2023-04-26 16:10:00,521: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,521: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,532: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,533: root: INFO: Current backtesting datetime 2023-03-10 10:30:00-04:00
+2023-04-26 16:10:00,534: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,535: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,543: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,544: root: INFO: Current backtesting datetime 2023-03-11 10:30:00-04:00
+2023-04-26 16:10:00,545: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,545: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,559: root: INFO: Current backtesting datetime 2023-03-11 10:25:00-04:00
+2023-04-26 16:10:00,561: root: INFO: Current backtesting datetime 2023-03-11 10:25:00-04:00
+2023-04-26 16:10:00,561: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:10:00,563: root: INFO: Current backtesting datetime 2023-03-13 08:30:00-04:00
+2023-04-26 16:10:00,565: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:10:00,567: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:10:00,568: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:10:00,570: root: INFO: Current backtesting datetime 2023-03-13 09:30:00-04:00
+2023-04-26 16:10:00,570: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:10:00,572: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,573: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,586: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,586: root: INFO: Current backtesting datetime 2023-03-14 09:30:00-04:00
+2023-04-26 16:10:00,588: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,588: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,600: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,601: root: INFO: Current backtesting datetime 2023-03-15 09:30:00-04:00
+2023-04-26 16:10:00,602: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,602: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,611: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,611: root: INFO: Current backtesting datetime 2023-03-16 09:30:00-04:00
+2023-04-26 16:10:00,612: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,612: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,624: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,625: root: INFO: Current backtesting datetime 2023-03-17 09:30:00-04:00
+2023-04-26 16:10:00,626: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,626: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,637: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,637: root: INFO: Current backtesting datetime 2023-03-18 09:30:00-04:00
+2023-04-26 16:10:00,638: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,639: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,651: root: INFO: Current backtesting datetime 2023-03-18 09:25:00-04:00
+2023-04-26 16:10:00,653: root: INFO: Current backtesting datetime 2023-03-18 09:25:00-04:00
+2023-04-26 16:10:00,653: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:10:00,655: root: INFO: Current backtesting datetime 2023-03-20 08:30:00-04:00
+2023-04-26 16:10:00,656: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:10:00,657: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:10:00,658: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:10:00,660: root: INFO: Current backtesting datetime 2023-03-20 09:30:00-04:00
+2023-04-26 16:10:00,660: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:10:00,662: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,662: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,674: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,675: root: INFO: Current backtesting datetime 2023-03-21 09:30:00-04:00
+2023-04-26 16:10:00,676: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,676: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,687: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,688: root: INFO: Current backtesting datetime 2023-03-22 09:30:00-04:00
+2023-04-26 16:10:00,689: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,689: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,700: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,700: root: INFO: Current backtesting datetime 2023-03-23 09:30:00-04:00
+2023-04-26 16:10:00,702: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,702: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,710: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,711: root: INFO: Current backtesting datetime 2023-03-24 09:30:00-04:00
+2023-04-26 16:10:00,712: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,712: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,725: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,725: root: INFO: Current backtesting datetime 2023-03-25 09:30:00-04:00
+2023-04-26 16:10:00,726: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,727: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,742: root: INFO: Current backtesting datetime 2023-03-25 09:25:00-04:00
+2023-04-26 16:10:00,744: root: INFO: Current backtesting datetime 2023-03-25 09:25:00-04:00
+2023-04-26 16:10:00,745: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:10:00,748: root: INFO: Current backtesting datetime 2023-03-27 08:30:00-04:00
+2023-04-26 16:10:00,749: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:10:00,753: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:10:00,754: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:10:00,756: root: INFO: Current backtesting datetime 2023-03-27 09:30:00-04:00
+2023-04-26 16:10:00,757: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:10:00,759: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,759: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,771: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,772: root: INFO: Current backtesting datetime 2023-03-28 09:30:00-04:00
+2023-04-26 16:10:00,773: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,773: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,786: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,786: root: INFO: Current backtesting datetime 2023-03-29 09:30:00-04:00
+2023-04-26 16:10:00,788: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,788: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,799: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:10:00,800: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:10:00,802: root: INFO: [32mFilled Transaction: buy 200 of TSLA at 193.88000488 USD per share[0m
+2023-04-26 16:10:00,802: root: INFO: market order of | 200 TSLA buy | with status unprocessed was filled
+2023-04-26 16:10:00,802: root: INFO: Position 0.000000 shares of TSLA liquidated
+2023-04-26 16:10:00,804: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:10:00,806: root: INFO: [32mFilled Transaction: buy 200 of TSLA at 193.88000488 USD per share[0m
+2023-04-26 16:10:00,806: root: INFO: market order of | 200 TSLA buy | with status unprocessed was filled
+2023-04-26 16:10:00,809: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,810: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:10:00,810: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:10:00,810: root: INFO: Current backtesting datetime 2023-03-30 09:30:00-04:00
+2023-04-26 16:10:00,812: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,812: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,824: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,824: root: INFO: Current backtesting datetime 2023-03-31 09:30:00-04:00
+2023-04-26 16:10:00,826: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,826: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,840: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,841: root: INFO: Current backtesting datetime 2023-04-01 09:30:00-04:00
+2023-04-26 16:10:00,843: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,843: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,859: root: INFO: Current backtesting datetime 2023-04-01 09:25:00-04:00
+2023-04-26 16:10:00,861: root: INFO: Current backtesting datetime 2023-04-01 09:25:00-04:00
+2023-04-26 16:10:00,861: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:10:00,862: root: INFO: Current backtesting datetime 2023-04-03 08:30:00-04:00
+2023-04-26 16:10:00,866: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:10:00,867: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:10:00,868: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:10:00,870: root: INFO: Current backtesting datetime 2023-04-03 09:30:00-04:00
+2023-04-26 16:10:00,870: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:10:00,872: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,872: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,882: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,883: root: INFO: Current backtesting datetime 2023-04-04 09:30:00-04:00
+2023-04-26 16:10:00,885: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,885: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,894: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,900: root: INFO: Current backtesting datetime 2023-04-05 09:30:00-04:00
+2023-04-26 16:10:00,902: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,902: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,911: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,912: root: INFO: Current backtesting datetime 2023-04-06 09:30:00-04:00
+2023-04-26 16:10:00,913: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,914: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,926: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,926: root: INFO: Current backtesting datetime 2023-04-07 09:30:00-04:00
+2023-04-26 16:10:00,927: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,928: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,942: root: INFO: Current backtesting datetime 2023-04-07 09:25:00-04:00
+2023-04-26 16:10:00,944: root: INFO: Current backtesting datetime 2023-04-07 09:25:00-04:00
+2023-04-26 16:10:00,944: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:10:00,946: root: INFO: Current backtesting datetime 2023-04-10 08:30:00-04:00
+2023-04-26 16:10:00,950: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:10:00,951: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:10:00,953: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:10:00,954: root: INFO: Current backtesting datetime 2023-04-10 09:30:00-04:00
+2023-04-26 16:10:00,955: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:10:00,957: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,957: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,968: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,969: root: INFO: Current backtesting datetime 2023-04-11 09:30:00-04:00
+2023-04-26 16:10:00,970: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,971: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,984: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,985: root: INFO: Current backtesting datetime 2023-04-12 09:30:00-04:00
+2023-04-26 16:10:00,986: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:00,986: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:00,999: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:00,999: root: INFO: Current backtesting datetime 2023-04-13 09:30:00-04:00
+2023-04-26 16:10:01,002: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:01,002: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:01,015: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:01,018: root: INFO: Current backtesting datetime 2023-04-14 09:30:00-04:00
+2023-04-26 16:10:01,020: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:01,020: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:01,033: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:10:01,033: root: INFO: Current backtesting datetime 2023-04-15 09:30:00-04:00
+2023-04-26 16:10:01,037: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:10:01,037: root: INFO: Getting historical prices for TSLA, 22 bars, day
+2023-04-26 16:10:01,056: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:10:01,056: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:10:01,058: root: INFO: [32mFilled Transaction: sell 200 of TSLA at 185.00000000 USD per share[0m
+2023-04-26 16:10:01,058: root: INFO: market order of | 200 TSLA sell | with status unprocessed was filled
+2023-04-26 16:10:01,058: root: INFO: Position 0.000000 shares of TSLA liquidated
+2023-04-26 16:10:01,061: root: INFO: Getting historical prices for TSLA, 1 bars, 
+2023-04-26 16:10:01,062: root: INFO: [32mFilled Transaction: sell 200 of TSLA at 185.00000000 USD per share[0m
+2023-04-26 16:10:01,062: root: INFO: market order of | 200 TSLA sell | with status unprocessed was filled
+2023-04-26 16:10:01,070: root: INFO: Current backtesting datetime 2023-04-15 09:25:00-04:00
+2023-04-26 16:10:01,076: root: INFO: Current backtesting datetime 2023-04-15 09:25:00-04:00
+2023-04-26 16:10:01,076: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:10:01,076: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:10:01,076: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:10:01,076: root: INFO: Trend : Executing the on_strategy_end lifecycle method
+2023-04-26 16:10:01,111: root: INFO: Trend : --- Trend Strategy Performance  ---
+2023-04-26 16:10:01,170: root: INFO: Trend : Total Return: 41.83%
+2023-04-26 16:10:01,175: root: INFO: Trend : CAGR 42.28%
+2023-04-26 16:10:01,206: root: INFO: Trend : Volatility 25.01%
+2023-04-26 16:10:01,212: root: INFO: Trend : Sharpe 1.49
+2023-04-26 16:10:01,220: root: INFO: Trend : Max Drawdown 15.39% on 2022-12-02
+2023-04-26 16:10:01,253: root: INFO: Trend : RoMaD 274.70%
+2023-04-26 16:10:01,272: root: INFO: Trend : --- SPY Benchmark Performance ---
+2023-04-26 16:10:11,433: root: ERROR: Error while downloading symbol info for SPY, setting info to None for now.
+2023-04-26 16:10:11,434: root: ERROR: yfinance failed to decrypt Yahoo data response
+2023-04-26 16:10:11,465: root: INFO: Trend : Total Return: -4.20%
+2023-04-26 16:10:11,466: root: INFO: Trend : SPY CAGR -4.25%
+2023-04-26 16:10:11,466: root: INFO: Trend : SPY Volatility 23.30%
+2023-04-26 16:10:11,466: root: INFO: Trend : SPY Sharpe -0.40
+2023-04-26 16:10:11,466: root: INFO: Trend : SPY Max Drawdown 19.20% on 2022-10-12
+2023-04-26 16:10:11,467: root: INFO: Trend : SPY RoMaD -22.12%
+2023-04-26 16:10:11,467: backtest_stats: INFO: Backtest took 0:00:24.104870 for a speed of 0.000

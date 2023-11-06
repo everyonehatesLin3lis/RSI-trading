@@ -1,0 +1,495 @@
+2023-04-26 16:33:56,266: root: INFO: Trend : Executing the initialize lifecycle method
+2023-04-26 16:33:56,268: root: INFO: Current backtesting datetime 2023-01-03 08:30:00-05:00
+2023-04-26 16:33:56,269: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:33:56,271: root: INFO: Current backtesting datetime 2023-01-03 09:30:00-05:00
+2023-04-26 16:33:56,271: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:33:56,274: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,278: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,307: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,307: root: INFO: Current backtesting datetime 2023-01-04 09:30:00-05:00
+2023-04-26 16:33:56,307: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,307: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,319: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,320: root: INFO: Current backtesting datetime 2023-01-05 09:30:00-05:00
+2023-04-26 16:33:56,320: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,320: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,331: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,331: root: INFO: Current backtesting datetime 2023-01-06 09:30:00-05:00
+2023-04-26 16:33:56,331: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,331: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,341: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,341: root: INFO: Current backtesting datetime 2023-01-07 09:30:00-05:00
+2023-04-26 16:33:56,342: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,342: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,355: root: INFO: Current backtesting datetime 2023-01-07 09:25:00-05:00
+2023-04-26 16:33:56,357: root: INFO: Current backtesting datetime 2023-01-07 09:25:00-05:00
+2023-04-26 16:33:56,357: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:33:56,359: root: INFO: Current backtesting datetime 2023-01-09 08:30:00-05:00
+2023-04-26 16:33:56,360: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:33:56,363: root: INFO: Current backtesting datetime 2023-01-09 09:30:00-05:00
+2023-04-26 16:33:56,363: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:33:56,365: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,365: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,374: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,374: root: INFO: Current backtesting datetime 2023-01-10 09:30:00-05:00
+2023-04-26 16:33:56,374: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,374: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,385: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,385: root: INFO: Current backtesting datetime 2023-01-11 09:30:00-05:00
+2023-04-26 16:33:56,386: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,386: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,399: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,399: root: INFO: Current backtesting datetime 2023-01-12 09:30:00-05:00
+2023-04-26 16:33:56,399: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,399: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,408: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,408: root: INFO: Current backtesting datetime 2023-01-13 09:30:00-05:00
+2023-04-26 16:33:56,408: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,408: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,419: root: INFO: Getting historical prices for OXY, 1 bars, 
+2023-04-26 16:33:56,421: root: INFO: [32mFilled Transaction: buy 200 of OXY at 65.30999756 USD per share[0m
+2023-04-26 16:33:56,421: root: INFO: market order of | 200 OXY buy | with status unprocessed was filled
+2023-04-26 16:33:56,425: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,426: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:33:56,428: root: INFO: Current backtesting datetime 2023-01-14 09:30:00-05:00
+2023-04-26 16:33:56,430: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,430: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,439: root: INFO: Current backtesting datetime 2023-01-14 09:25:00-05:00
+2023-04-26 16:33:56,442: root: INFO: Current backtesting datetime 2023-01-14 09:25:00-05:00
+2023-04-26 16:33:56,442: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:33:56,444: root: INFO: Current backtesting datetime 2023-01-17 08:30:00-05:00
+2023-04-26 16:33:56,445: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:33:56,446: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:56,447: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:56,449: root: INFO: Current backtesting datetime 2023-01-17 09:30:00-05:00
+2023-04-26 16:33:56,449: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:33:56,451: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,451: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,462: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,463: root: INFO: Current backtesting datetime 2023-01-18 09:30:00-05:00
+2023-04-26 16:33:56,464: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,464: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,473: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,473: root: INFO: Current backtesting datetime 2023-01-19 09:30:00-05:00
+2023-04-26 16:33:56,475: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,475: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,485: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,485: root: INFO: Current backtesting datetime 2023-01-20 09:30:00-05:00
+2023-04-26 16:33:56,488: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,489: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,498: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,498: root: INFO: Current backtesting datetime 2023-01-21 09:30:00-05:00
+2023-04-26 16:33:56,500: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,500: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,511: root: INFO: Current backtesting datetime 2023-01-21 09:25:00-05:00
+2023-04-26 16:33:56,513: root: INFO: Current backtesting datetime 2023-01-21 09:25:00-05:00
+2023-04-26 16:33:56,513: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:33:56,515: root: INFO: Current backtesting datetime 2023-01-23 08:30:00-05:00
+2023-04-26 16:33:56,515: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:33:56,516: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:56,517: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:56,521: root: INFO: Current backtesting datetime 2023-01-23 09:30:00-05:00
+2023-04-26 16:33:56,521: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:33:56,523: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,523: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,533: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,534: root: INFO: Current backtesting datetime 2023-01-24 09:30:00-05:00
+2023-04-26 16:33:56,536: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,536: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,545: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,545: root: INFO: Current backtesting datetime 2023-01-25 09:30:00-05:00
+2023-04-26 16:33:56,547: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,547: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,556: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,557: root: INFO: Current backtesting datetime 2023-01-26 09:30:00-05:00
+2023-04-26 16:33:56,559: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,560: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,570: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,571: root: INFO: Current backtesting datetime 2023-01-27 09:30:00-05:00
+2023-04-26 16:33:56,572: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,572: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,583: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,584: root: INFO: Current backtesting datetime 2023-01-28 09:30:00-05:00
+2023-04-26 16:33:56,585: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,586: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,598: root: INFO: Current backtesting datetime 2023-01-28 09:25:00-05:00
+2023-04-26 16:33:56,600: root: INFO: Current backtesting datetime 2023-01-28 09:25:00-05:00
+2023-04-26 16:33:56,600: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:33:56,602: root: INFO: Current backtesting datetime 2023-01-30 08:30:00-05:00
+2023-04-26 16:33:56,602: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:33:56,603: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:56,605: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:56,607: root: INFO: Current backtesting datetime 2023-01-30 09:30:00-05:00
+2023-04-26 16:33:56,607: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:33:56,609: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,609: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,619: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,619: root: INFO: Current backtesting datetime 2023-01-31 09:30:00-05:00
+2023-04-26 16:33:56,621: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,621: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,632: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,633: root: INFO: Current backtesting datetime 2023-02-01 09:30:00-05:00
+2023-04-26 16:33:56,634: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,634: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,643: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,644: root: INFO: Current backtesting datetime 2023-02-02 09:30:00-05:00
+2023-04-26 16:33:56,646: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,646: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,654: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,655: root: INFO: Current backtesting datetime 2023-02-03 09:30:00-05:00
+2023-04-26 16:33:56,656: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,656: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,667: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,667: root: INFO: Current backtesting datetime 2023-02-04 09:30:00-05:00
+2023-04-26 16:33:56,669: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,669: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,677: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:33:56,678: root: INFO: Getting historical prices for OXY, 1 bars, 
+2023-04-26 16:33:56,680: root: INFO: [32mFilled Transaction: sell 200 of OXY at 61.24000168 USD per share[0m
+2023-04-26 16:33:56,681: root: INFO: market order of | 200 OXY sell | with status unprocessed was filled
+2023-04-26 16:33:56,681: root: INFO: Position 0.000000 shares of OXY liquidated
+2023-04-26 16:33:56,683: root: INFO: Getting historical prices for OXY, 1 bars, 
+2023-04-26 16:33:56,685: root: INFO: [32mFilled Transaction: sell 200 of OXY at 61.24000168 USD per share[0m
+2023-04-26 16:33:56,685: root: INFO: market order of | 200 OXY sell | with status unprocessed was filled
+2023-04-26 16:33:56,690: root: INFO: Current backtesting datetime 2023-02-04 09:25:00-05:00
+2023-04-26 16:33:56,692: root: INFO: Current backtesting datetime 2023-02-04 09:25:00-05:00
+2023-04-26 16:33:56,692: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:33:56,692: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:33:56,692: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:33:56,694: root: INFO: Current backtesting datetime 2023-02-06 08:30:00-05:00
+2023-04-26 16:33:56,695: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:33:56,696: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:56,698: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:56,700: root: INFO: Current backtesting datetime 2023-02-06 09:30:00-05:00
+2023-04-26 16:33:56,700: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:33:56,702: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,702: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,711: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:33:56,712: root: INFO: Getting historical prices for OXY, 1 bars, 
+2023-04-26 16:33:56,714: root: INFO: [32mFilled Transaction: sell 200 of OXY at 61.54999924 USD per share[0m
+2023-04-26 16:33:56,714: root: INFO: market order of | 200 OXY sell | with status unprocessed was filled
+2023-04-26 16:33:56,717: root: INFO: Getting historical prices for OXY, 1 bars, 
+2023-04-26 16:33:56,720: root: INFO: [32mFilled Transaction: buy 200 of OXY at 61.54999924 USD per share[0m
+2023-04-26 16:33:56,720: root: INFO: market order of | 200 OXY buy | with status unprocessed was filled
+2023-04-26 16:33:56,723: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,723: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:33:56,724: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:33:56,724: root: INFO: Current backtesting datetime 2023-02-07 09:30:00-05:00
+2023-04-26 16:33:56,726: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,726: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,736: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,736: root: INFO: Current backtesting datetime 2023-02-08 09:30:00-05:00
+2023-04-26 16:33:56,738: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,738: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,747: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,747: root: INFO: Current backtesting datetime 2023-02-09 09:30:00-05:00
+2023-04-26 16:33:56,750: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,750: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,758: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,758: root: INFO: Current backtesting datetime 2023-02-10 09:30:00-05:00
+2023-04-26 16:33:56,760: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,760: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,770: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,770: root: INFO: Current backtesting datetime 2023-02-11 09:30:00-05:00
+2023-04-26 16:33:56,772: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,772: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,784: root: INFO: Current backtesting datetime 2023-02-11 09:25:00-05:00
+2023-04-26 16:33:56,787: root: INFO: Current backtesting datetime 2023-02-11 09:25:00-05:00
+2023-04-26 16:33:56,787: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:33:56,788: root: INFO: Current backtesting datetime 2023-02-13 08:30:00-05:00
+2023-04-26 16:33:56,789: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:33:56,789: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:56,791: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:56,793: root: INFO: Current backtesting datetime 2023-02-13 09:30:00-05:00
+2023-04-26 16:33:56,793: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:33:56,797: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,797: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,805: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,805: root: INFO: Current backtesting datetime 2023-02-14 09:30:00-05:00
+2023-04-26 16:33:56,807: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,807: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,817: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,818: root: INFO: Current backtesting datetime 2023-02-15 09:30:00-05:00
+2023-04-26 16:33:56,820: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,820: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,830: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,830: root: INFO: Current backtesting datetime 2023-02-16 09:30:00-05:00
+2023-04-26 16:33:56,832: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,832: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,840: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,840: root: INFO: Current backtesting datetime 2023-02-17 09:30:00-05:00
+2023-04-26 16:33:56,842: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,843: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,852: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,853: root: INFO: Current backtesting datetime 2023-02-18 09:30:00-05:00
+2023-04-26 16:33:56,860: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,862: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,872: root: INFO: Current backtesting datetime 2023-02-18 09:25:00-05:00
+2023-04-26 16:33:56,875: root: INFO: Current backtesting datetime 2023-02-18 09:25:00-05:00
+2023-04-26 16:33:56,875: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:33:56,879: root: INFO: Current backtesting datetime 2023-02-21 08:30:00-05:00
+2023-04-26 16:33:56,880: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:33:56,881: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:56,883: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:56,885: root: INFO: Current backtesting datetime 2023-02-21 09:30:00-05:00
+2023-04-26 16:33:56,885: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:33:56,887: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,887: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,898: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,898: root: INFO: Current backtesting datetime 2023-02-22 09:30:00-05:00
+2023-04-26 16:33:56,900: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,900: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,909: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,909: root: INFO: Current backtesting datetime 2023-02-23 09:30:00-05:00
+2023-04-26 16:33:56,911: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,911: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,920: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,920: root: INFO: Current backtesting datetime 2023-02-24 09:30:00-05:00
+2023-04-26 16:33:56,923: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,923: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,932: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,933: root: INFO: Current backtesting datetime 2023-02-25 09:30:00-05:00
+2023-04-26 16:33:56,935: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,935: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,946: root: INFO: Current backtesting datetime 2023-02-25 09:25:00-05:00
+2023-04-26 16:33:56,948: root: INFO: Current backtesting datetime 2023-02-25 09:25:00-05:00
+2023-04-26 16:33:56,948: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:33:56,950: root: INFO: Current backtesting datetime 2023-02-27 08:30:00-05:00
+2023-04-26 16:33:56,951: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:33:56,951: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:56,954: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:56,956: root: INFO: Current backtesting datetime 2023-02-27 09:30:00-05:00
+2023-04-26 16:33:56,956: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:33:56,959: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,959: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,970: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,971: root: INFO: Current backtesting datetime 2023-02-28 09:30:00-05:00
+2023-04-26 16:33:56,973: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,973: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,984: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,984: root: INFO: Current backtesting datetime 2023-03-01 09:30:00-05:00
+2023-04-26 16:33:56,986: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,986: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:56,995: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:56,996: root: INFO: Current backtesting datetime 2023-03-02 09:30:00-05:00
+2023-04-26 16:33:56,998: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:56,998: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,006: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,007: root: INFO: Current backtesting datetime 2023-03-03 09:30:00-05:00
+2023-04-26 16:33:57,008: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,008: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,019: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,019: root: INFO: Current backtesting datetime 2023-03-04 09:30:00-05:00
+2023-04-26 16:33:57,022: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,022: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,033: root: INFO: Current backtesting datetime 2023-03-04 09:25:00-05:00
+2023-04-26 16:33:57,035: root: INFO: Current backtesting datetime 2023-03-04 09:25:00-05:00
+2023-04-26 16:33:57,035: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:33:57,037: root: INFO: Current backtesting datetime 2023-03-06 08:30:00-05:00
+2023-04-26 16:33:57,037: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:33:57,038: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:57,040: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:57,042: root: INFO: Current backtesting datetime 2023-03-06 09:30:00-05:00
+2023-04-26 16:33:57,042: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:33:57,046: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,046: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,054: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,055: root: INFO: Current backtesting datetime 2023-03-07 09:30:00-05:00
+2023-04-26 16:33:57,057: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,057: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,067: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,067: root: INFO: Current backtesting datetime 2023-03-08 09:30:00-05:00
+2023-04-26 16:33:57,069: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,069: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,079: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,079: root: INFO: Current backtesting datetime 2023-03-09 09:30:00-05:00
+2023-04-26 16:33:57,081: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,082: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,089: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,090: root: INFO: Current backtesting datetime 2023-03-10 09:30:00-05:00
+2023-04-26 16:33:57,093: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,093: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,103: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,103: root: INFO: Current backtesting datetime 2023-03-11 09:30:00-05:00
+2023-04-26 16:33:57,106: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,106: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,117: root: INFO: Current backtesting datetime 2023-03-11 09:25:00-05:00
+2023-04-26 16:33:57,119: root: INFO: Current backtesting datetime 2023-03-11 09:25:00-05:00
+2023-04-26 16:33:57,119: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:33:57,120: root: INFO: Current backtesting datetime 2023-03-13 07:30:00-05:00
+2023-04-26 16:33:57,122: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:33:57,122: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:57,124: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:57,126: root: INFO: Current backtesting datetime 2023-03-13 08:30:00-05:00
+2023-04-26 16:33:57,126: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:33:57,129: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,129: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,138: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,139: root: INFO: Current backtesting datetime 2023-03-14 08:30:00-05:00
+2023-04-26 16:33:57,141: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,141: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,150: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,150: root: INFO: Current backtesting datetime 2023-03-15 08:30:00-05:00
+2023-04-26 16:33:57,152: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,153: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,162: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,163: root: INFO: Current backtesting datetime 2023-03-16 08:30:00-05:00
+2023-04-26 16:33:57,165: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,165: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,175: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,176: root: INFO: Current backtesting datetime 2023-03-17 08:30:00-05:00
+2023-04-26 16:33:57,178: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,178: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,188: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,189: root: INFO: Current backtesting datetime 2023-03-18 08:30:00-05:00
+2023-04-26 16:33:57,191: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,191: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,203: root: INFO: Current backtesting datetime 2023-03-18 08:25:00-05:00
+2023-04-26 16:33:57,205: root: INFO: Current backtesting datetime 2023-03-18 08:25:00-05:00
+2023-04-26 16:33:57,205: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:33:57,206: root: INFO: Current backtesting datetime 2023-03-20 07:30:00-05:00
+2023-04-26 16:33:57,207: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:33:57,208: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:57,210: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:57,213: root: INFO: Current backtesting datetime 2023-03-20 08:30:00-05:00
+2023-04-26 16:33:57,213: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:33:57,216: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,216: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,225: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,226: root: INFO: Current backtesting datetime 2023-03-21 08:30:00-05:00
+2023-04-26 16:33:57,228: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,228: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,239: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,240: root: INFO: Current backtesting datetime 2023-03-22 08:30:00-05:00
+2023-04-26 16:33:57,242: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,242: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,253: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,253: root: INFO: Current backtesting datetime 2023-03-23 08:30:00-05:00
+2023-04-26 16:33:57,255: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,255: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,266: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,267: root: INFO: Current backtesting datetime 2023-03-24 08:30:00-05:00
+2023-04-26 16:33:57,269: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,269: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,284: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,291: root: INFO: Current backtesting datetime 2023-03-25 08:30:00-05:00
+2023-04-26 16:33:57,293: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,294: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,308: root: INFO: Current backtesting datetime 2023-03-25 08:25:00-05:00
+2023-04-26 16:33:57,312: root: INFO: Current backtesting datetime 2023-03-25 08:25:00-05:00
+2023-04-26 16:33:57,312: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:33:57,314: root: INFO: Current backtesting datetime 2023-03-27 07:30:00-05:00
+2023-04-26 16:33:57,315: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:33:57,316: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:57,318: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:57,320: root: INFO: Current backtesting datetime 2023-03-27 08:30:00-05:00
+2023-04-26 16:33:57,320: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:33:57,322: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,322: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,333: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,333: root: INFO: Current backtesting datetime 2023-03-28 08:30:00-05:00
+2023-04-26 16:33:57,334: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,334: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,345: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,345: root: INFO: Current backtesting datetime 2023-03-29 08:30:00-05:00
+2023-04-26 16:33:57,347: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,348: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,359: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,359: root: INFO: Current backtesting datetime 2023-03-30 08:30:00-05:00
+2023-04-26 16:33:57,362: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,362: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,372: root: WARNING: Strategy Trend: sell all
+2023-04-26 16:33:57,372: root: INFO: Getting historical prices for OXY, 1 bars, 
+2023-04-26 16:33:57,375: root: INFO: [32mFilled Transaction: buy 200 of OXY at 62.43000031 USD per share[0m
+2023-04-26 16:33:57,375: root: INFO: market order of | 200 OXY buy | with status unprocessed was filled
+2023-04-26 16:33:57,375: root: INFO: Position 0.000000 shares of OXY liquidated
+2023-04-26 16:33:57,378: root: INFO: Getting historical prices for OXY, 1 bars, 
+2023-04-26 16:33:57,380: root: INFO: [32mFilled Transaction: buy 200 of OXY at 62.43000031 USD per share[0m
+2023-04-26 16:33:57,380: root: INFO: market order of | 200 OXY buy | with status unprocessed was filled
+2023-04-26 16:33:57,384: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,384: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:33:57,384: root: INFO: Trend : Executing the on_filled_order event method
+2023-04-26 16:33:57,385: root: INFO: Current backtesting datetime 2023-03-31 08:30:00-05:00
+2023-04-26 16:33:57,387: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,387: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,397: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,398: root: INFO: Current backtesting datetime 2023-04-01 08:30:00-05:00
+2023-04-26 16:33:57,399: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,399: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,408: root: INFO: Current backtesting datetime 2023-04-01 08:25:00-05:00
+2023-04-26 16:33:57,411: root: INFO: Current backtesting datetime 2023-04-01 08:25:00-05:00
+2023-04-26 16:33:57,411: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:33:57,413: root: INFO: Current backtesting datetime 2023-04-03 07:30:00-05:00
+2023-04-26 16:33:57,414: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:33:57,415: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:57,416: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:57,418: root: INFO: Current backtesting datetime 2023-04-03 08:30:00-05:00
+2023-04-26 16:33:57,418: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:33:57,420: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,420: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,431: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,432: root: INFO: Current backtesting datetime 2023-04-04 08:30:00-05:00
+2023-04-26 16:33:57,433: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,433: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,441: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,441: root: INFO: Current backtesting datetime 2023-04-05 08:30:00-05:00
+2023-04-26 16:33:57,444: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,444: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,452: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,453: root: INFO: Current backtesting datetime 2023-04-06 08:30:00-05:00
+2023-04-26 16:33:57,454: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,455: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,465: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,465: root: INFO: Current backtesting datetime 2023-04-07 08:30:00-05:00
+2023-04-26 16:33:57,467: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,467: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,479: root: INFO: Current backtesting datetime 2023-04-07 08:25:00-05:00
+2023-04-26 16:33:57,481: root: INFO: Current backtesting datetime 2023-04-07 08:25:00-05:00
+2023-04-26 16:33:57,481: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:33:57,482: root: INFO: Current backtesting datetime 2023-04-10 07:30:00-05:00
+2023-04-26 16:33:57,483: root: INFO: Trend : Executing the before_market_opens lifecycle method
+2023-04-26 16:33:57,484: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:57,485: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2023-04-26 16:33:57,487: root: INFO: Current backtesting datetime 2023-04-10 08:30:00-05:00
+2023-04-26 16:33:57,487: root: INFO: Trend : Executing the before_starting_trading lifecycle method
+2023-04-26 16:33:57,490: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,490: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,500: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,501: root: INFO: Current backtesting datetime 2023-04-11 08:30:00-05:00
+2023-04-26 16:33:57,503: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,503: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,517: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,517: root: INFO: Current backtesting datetime 2023-04-12 08:30:00-05:00
+2023-04-26 16:33:57,519: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,520: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,530: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,530: root: INFO: Current backtesting datetime 2023-04-13 08:30:00-05:00
+2023-04-26 16:33:57,532: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,532: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,541: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,542: root: INFO: Current backtesting datetime 2023-04-14 08:30:00-05:00
+2023-04-26 16:33:57,544: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,545: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,554: root: INFO: Trend : [34mSleeping for 86400 seconds[0m
+2023-04-26 16:33:57,555: root: INFO: Current backtesting datetime 2023-04-15 08:30:00-05:00
+2023-04-26 16:33:57,557: root: INFO: Trend : Executing the on_trading_iteration lifecycle method
+2023-04-26 16:33:57,557: root: INFO: Getting historical prices for OXY, 22 bars, day
+2023-04-26 16:33:57,570: root: INFO: Current backtesting datetime 2023-04-15 08:25:00-05:00
+2023-04-26 16:33:57,572: root: INFO: Current backtesting datetime 2023-04-15 08:25:00-05:00
+2023-04-26 16:33:57,572: root: INFO: Trend : Executing the after_market_closes lifecycle method
+2023-04-26 16:33:57,572: root: INFO: Trend : Executing the on_strategy_end lifecycle method
+2023-04-26 16:33:57,585: root: INFO: Trend : --- Trend Strategy Performance  ---
+2023-04-26 16:33:57,597: root: INFO: Trend : Total Return: -0.59%
+2023-04-26 16:33:57,598: root: INFO: Trend : CAGR -2.12%
+2023-04-26 16:33:57,599: root: INFO: Trend : Volatility 4.06%
+2023-04-26 16:33:57,600: root: INFO: Trend : Sharpe -1.75
+2023-04-26 16:33:57,601: root: INFO: Trend : Max Drawdown 2.03% on 2023-02-16
+2023-04-26 16:33:57,601: root: INFO: Trend : RoMaD -104.41%
+2023-04-26 16:33:57,601: root: INFO: Trend : --- SPY Benchmark Performance ---
+2023-04-26 16:33:57,621: root: INFO: Trend : Total Return: 8.73%
+2023-04-26 16:33:57,622: root: INFO: Trend : SPY CAGR 35.77%
+2023-04-26 16:33:57,622: root: INFO: Trend : SPY Volatility 16.23%
+2023-04-26 16:33:57,622: root: INFO: Trend : SPY Sharpe 1.90
+2023-04-26 16:33:57,623: root: INFO: Trend : SPY Max Drawdown 7.54% on 2023-03-13
+2023-04-26 16:33:57,623: root: INFO: Trend : SPY RoMaD 474.52%
+2023-04-26 16:33:57,623: backtest_stats: INFO: Backtest took 0:00:01.366070 for a speed of 0.000
